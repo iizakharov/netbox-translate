@@ -1,0 +1,2886 @@
+# Translation of NetBox in Russian language
+# This file is distributed under the same license as the NetBox package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-18 23:14:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: ru_RU\n"
+"Project-Id-Version: NetBox\n"
+
+msgid "Added {} {}"
+msgstr "Agregado {} {}"
+
+msgid ">{}</a>"
+msgstr ""
+
+msgid "Enter object data in JSON or YAML format."
+msgstr "Ingresa los datos del objeto en formato JSON o YAML."
+
+msgid "Regenerate slug"
+msgstr "Regenerar el slug"
+
+msgid "Default format"
+msgstr "Formato predeterminado"
+
+msgid "Clone"
+msgstr "Clonar"
+
+msgid "manage.py collectstatic"
+msgstr ""
+
+msgid "Static Media Failure - NetBox"
+msgstr "Falla de los medios estáticos - NetBox"
+
+msgid "Static Media Failure"
+msgstr "Falla de medios estáticos"
+
+msgid "Click <a href=\"/\">here</a> to attempt loading NetBox again."
+msgstr "Haz clic <a href=\"/\">aquí</a> para intentar cargar NerBox de nuevo."
+
+msgid "Check the following:"
+msgstr "Revisa lo siguiente:"
+
+msgid "here"
+msgstr "aquí"
+
+msgid "Electrical panels receiving utility power"
+msgstr "Paneles eléctricos recibiendo energía de la red pública"
+
+msgid "Upgrade instructions"
+msgstr "Actualizar instrucciones"
+
+msgid "Submit and Import Another"
+msgstr "Enviar e importar otro"
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Hide available"
+msgstr "Esconder los disponibles"
+
+msgid "Show available"
+msgstr "Mostrar disponibles"
+
+msgid "Logging"
+msgstr "Registro"
+
+msgid "Device Components"
+msgstr "Componentes del dispositivo"
+
+msgid "No scripts found."
+msgstr "No se encuentran las secuencias de comandos."
+
+msgid "Scripts should be saved to <code>{{ settings.SCRIPTS_ROOT }}</code>. (This path can be changed by setting <code>SCRIPTS_ROOT</code> in NetBox's configuration.)"
+msgstr "Las secuencias de comando deberían guardarse en <code>{{ settings.SCRIPTS_ROOT }}</code>. Se puede cambiar esta ruta modificando el valor de <code>SCRIPTS_ROOT</code> en la configuración de NetBox."
+
+msgid "Script Data"
+msgstr "Datos de la secuencia de comandos"
+
+msgid "Script Log"
+msgstr "Registro de secuencias de comandos"
+
+msgid "<i class=\"fa fa-play\"></i> Run Script"
+msgstr ""
+
+msgid "Line"
+msgstr "Línea"
+
+msgid "Source"
+msgstr "Fuente"
+
+msgid "Output"
+msgstr "Salida"
+
+msgid "Run"
+msgstr "Ejecutar"
+
+msgid "Scripts"
+msgstr "Secuencias de comandos"
+
+msgid "Difference"
+msgstr "Diferencia"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Units {{ rackreservation.unit_list }}"
+msgstr "Unidades {{ rackreservation.unit_list }}"
+
+msgid "Reservation Details"
+msgstr "Detalles de la reserva"
+
+msgid "Show Images"
+msgstr "Mostrar imágenes"
+
+msgid "Create {{ component_type }}"
+msgstr "Crear {{ component_type }}"
+
+msgid "Rack Images"
+msgstr "Imágenes del armario"
+
+msgid "Rear Image"
+msgstr "Imagen trasera"
+
+msgid "Front Image"
+msgstr "Imagen frontal"
+
+msgid "RegEx-enabled"
+msgstr "Expresiones regulares habilitadas"
+
+msgid "Filter"
+msgstr "Filtrar"
+
+msgid "Change Log"
+msgstr "Registro de cambios"
+
+msgid "Background Tasks"
+msgstr "Tareas en segundo plano"
+
+msgid "OpenSSH line format is not supported. Please ensure that your public is in PEM (base64) format."
+msgstr "El formato de línea de OpenSSH no está soportado. Por favor asegúrate de que tu clave pública esté en formato PEM (base64)."
+
+msgid "Assigned to an interface"
+msgstr "Asignado a una interfaz"
+
+msgid "IP protocol"
+msgstr "Protocolo IP"
+
+msgid "Is assigned to an interface"
+msgstr "Está asignado a una interfaz"
+
+msgid "MIME type"
+msgstr "Tipo MIME"
+
+msgid "CA File Path"
+msgstr "Ruta del archivo CA"
+
+msgid "HTTP method"
+msgstr "Método HTTP"
+
+msgid "Extension to append to the rendered filename"
+msgstr "Extensión para agregar al nombre de archivo desplegado"
+
+msgid "Defaults to <code>text/plain</code>"
+msgstr "Predetermina en <code>text/plain</code>"
+
+msgid "The list of objects being exported is passed as a context variable named <code>queryset</code>."
+msgstr "La lista de objetos siendo exportada se pasó como una variable de contexto llamada <code>queryset</code>."
+
+msgid "The specific CA certificate file to use for SSL verification. "
+msgstr "El archivo específico del certificado de la autoridad certificadora para usarse en la verificación SSL."
+
+msgid "Jinja2 template for a custom request body. If blank, a JSON object representing the change will be "
+msgstr ""
+
+msgid "User-supplied HTTP headers to be sent with the request in addition to the HTTP content type. "
+msgstr "Encabezados HTTP entregados por el usuario a enviarse con la petición además del tipo de contenido HTTP."
+
+msgid "The complete list of official content types is available "
+msgstr "La lista de tipos de contenido oficial está disponible"
+
+msgid "Commit changes"
+msgstr "Confirmar cambios"
+
+msgid "Commit changes to the database (uncheck for a dry-run)"
+msgstr "Confirmar cambios a la base de datos (desmarca para una simular una ejecución)"
+
+msgid "Has local config context data"
+msgstr "Tiene datos de contexto de configuración locales"
+
+msgid "Tag (slug)"
+msgstr "Etiqueta (slug)"
+
+msgid "Cluster group"
+msgstr "Grupo de clústeres"
+
+msgid "Name or ID of Rear Port"
+msgstr "Nombre o ID del puerto trasero"
+
+msgid "Name or ID of LAG interface"
+msgstr "Nombre o ID de la interfaz LAG"
+
+msgid "Name or ID of virtual machine"
+msgstr "Nombre o ID de máquina virtual"
+
+msgid "Name or ID of Power Port"
+msgstr "Nombre o ID del enchufe eléctrico"
+
+msgid "Name or ID of device"
+msgstr "Nombre o ID del dispositivo"
+
+msgid "Comma-separated list of individual unit numbers"
+msgstr "Lista de valores separados por coma de números de unidad individuales"
+
+msgid "Rack's group (if any)"
+msgstr "Grupo del armario (si aplica)"
+
+msgid "Has device bays"
+msgstr "Tiene bahías de dispositivos"
+
+msgid "Maximum power draw (watts)"
+msgstr "Consumo de energía máximo (en vatios)"
+
+msgid "Cryptographically secured secret data"
+msgstr "Datos secretos asegurados criptográficamente"
+
+msgid "Electrical circuits delivering power from panels"
+msgstr "Circuitos eléctricos entregando energía desde los tableros"
+
+msgid "Physical hardware models by manufacturer"
+msgstr "Modelos de hardware físico por fabricante"
+
+msgid "Feed"
+msgstr "Alimentación"
+
+msgid "Panel"
+msgstr "Tablero"
+
+msgid "Search power panels"
+msgstr "Buscar tableros eléctricos"
+
+msgid "Power Panels"
+msgstr "Tableros eléctricos"
+
+msgid "Characteristics"
+msgstr "Características"
+
+msgid "Electrical Characteristics"
+msgstr "Características eléctricas"
+
+msgid "Search power feeds"
+msgstr "Buscar alimentaciones eléctricas"
+
+msgid "Max Utilization"
+msgstr "Utilización máxima"
+
+msgid "Phase"
+msgstr "Fase"
+
+msgid "Amperage"
+msgstr "Amperaje"
+
+msgid "Voltage"
+msgstr "Voltaje"
+
+msgid "Supply"
+msgstr "Insumo"
+
+msgid "Connected Device"
+msgstr "Dispositivo conectado"
+
+msgid "Power Utilization"
+msgstr "Consumo eléctrico"
+
+msgid "&mdash;"
+msgstr "&mdash;"
+
+msgid "Input/Leg"
+msgstr "Entrada o pierna"
+
+msgid "Allocated"
+msgstr "Asignado"
+
+msgid "Outlets"
+msgstr "Salidas"
+
+msgid "Input"
+msgstr "Entrada"
+
+msgid "Connect {{ termination_a.device }} {{ termination_a }} to {{ termination_b_type|bettertitle }}"
+msgstr "Conectar {{ termination_a.device }} {{ termination_a }} a {{ termination_b_type|bettertitle }}"
+
+msgid "Power Feed"
+msgstr "Alimentación eléctrica"
+
+msgid "Power Outlet"
+msgstr "Enchufe eléctrico"
+
+msgid "Circuit Termination"
+msgstr "Terminación de circuito"
+
+msgid "Console Server Port"
+msgstr "Puerto del servidor de consola"
+
+msgid "Front Port"
+msgstr "Puerto frontal"
+
+msgid "Power Feeds"
+msgstr "Alimentaciones eléctricas"
+
+msgid "DNS Name"
+msgstr "Nombre de DNS"
+
+msgid "Hostname or FQDN (not case-sensitive)"
+msgstr "Nombre de host o FQDN (no es sensible a mayúsculas ni minúsculas)"
+
+msgid "Force link to open in a new window"
+msgstr "Forzar el enlace para abrir en una nueva ventana"
+
+msgid "The class of the first link in a group will be used for the dropdown button"
+msgstr "La clase del primer enlace del grupo se usará para el botón desplegable"
+
+msgid "Links with the same group will appear as a dropdown menu"
+msgstr "Los enlaces del mismo grupo aparecerán como un menú desplegable"
+
+msgid "Jinja2 template code for link URL"
+msgstr "Código de la plantilla de Jinja2 para la URL del enlace"
+
+msgid "Jinja2 template code for link text"
+msgstr "Código de la plantilla de Jinja2 para el texto del enlace"
+
+msgid "Feeds"
+msgstr "Alimentaciones"
+
+msgid "Space"
+msgstr "Espacio"
+
+msgid "Maximum permissible draw (percentage)"
+msgstr "Extracción máxima permitida (porcentaje)"
+
+msgid "Phase (for three-phase feeds)"
+msgstr "Fase (para alimentación trifásica)"
+
+msgid "Allocated power draw (watts)"
+msgstr "Consumo de energía asignado (en vatios)"
+
+msgid "Power panel"
+msgstr "Tablero eléctrico"
+
+msgid "Power Panel"
+msgstr "Tablero eléctrico"
+
+msgid "Rack Group"
+msgstr "Grupo de armarios"
+
+msgid "Virtual chassis member"
+msgstr "Miembro de chasis virtual"
+
+msgid "Single or three-phase"
+msgstr "Mono o trifásico"
+
+msgid "AC/DC"
+msgstr "CA/CC"
+
+msgid "Primary or redundant"
+msgstr "Primario o redundante"
+
+msgid "Rack name (optional)"
+msgstr "Nombre de armario (opcional)"
+
+msgid "Name of upstream power panel"
+msgstr "Nombre del tablero eléctrico de subida"
+
+msgid "Rack group name (optional)"
+msgstr "Nombre del grupo de armarios (opcional)"
+
+msgid "Allocated draw in watts"
+msgstr "Extracción asignada en vatios"
+
+msgid "Maximum draw in watts"
+msgstr "Extracción máxima en vatios"
+
+msgid "Power panel (ID)"
+msgstr "Tablero eléctrico (ID)"
+
+msgid "Kind of interface"
+msgstr "Tipo de interfaz"
+
+msgid "Is a virtual chassis member"
+msgstr "Es un miembro de chasis virtual"
+
+msgid "Tenant Group (slug)"
+msgstr "Grupo de inquilinos (slug)"
+
+msgid "Tenant Group (ID)"
+msgstr "Grupo de inquilinos (ID)"
+
+msgid "Use regular expressions"
+msgstr "Usa expresiones regulares"
+
+msgid "Route distinguisher of parent VRF (or {ID})"
+msgstr "Distintivo de ruta del VRF padre (o {ID})"
+
+msgid "Delete this tag"
+msgstr "Eliminar esta etiqueta"
+
+msgid "Black"
+msgstr "Negro"
+
+msgid "Aqua"
+msgstr "Cian"
+
+msgid "Rose"
+msgstr "Rosado"
+
+msgid "Export"
+msgstr "Exportar"
+
+msgid "{% block title %}Home{% endblock %} - NetBox"
+msgstr "{% block title %}Página de inicio{% endblock %} - NetBox"
+
+msgid "Home"
+msgstr "Inicio"
+
+msgid "<i class=\"fa fa-exclamation-triangle\"></i> Maintenance Mode"
+msgstr "<i class=\"fa fa-exclamation-triangle\"></i> Modo de mantenimiento"
+
+msgid "NetBox is currently in maintenance mode. Functionality may be limited."
+msgstr "NetBox se encuentra en modo de mantenimiento. La funcionalidad podría verse limitada."
+
+msgid "Help"
+msgstr "Ayuda"
+
+msgid "Code"
+msgstr "Código"
+
+msgid "API"
+msgstr "API"
+
+msgid "Docs"
+msgstr "Documentos"
+
+msgid "No results found"
+msgstr "No se encontraron resultados"
+
+msgid "Log In"
+msgstr "Iniciar sesión"
+
+msgid "Import Completed"
+msgstr "Importación completa"
+
+msgid "Import more"
+msgstr "Importar más"
+
+msgid "View All"
+msgstr "Ver todo"
+
+msgid "Organization"
+msgstr "Organización"
+
+msgid "Communication links for Internet transit, peering, and other services"
+msgstr "Enlaces de comunicación para el tránsito de Internet, emparejamiento y otros servicios"
+
+msgid "Organizations which provide circuit connectivity"
+msgstr "Organizaciones que proveen conectividad del circuito"
+
+msgid "Layer two domains, identified by VLAN ID"
+msgstr "Dominios de capa dos, identificados por ID de VLAN"
+
+msgid "Individual IPv4 and IPv6 addresses"
+msgstr "Direcciones IPv4 e IPv6 individuales"
+
+msgid "IPv4 and IPv6 network assignments"
+msgstr "Asignaciones de red IPv4 e IPv6"
+
+msgid "Top-level IP allocations"
+msgstr "Asignaciones de IP de nivel superior"
+
+msgid "Virtual routing and forwarding tables"
+msgstr "Tablas de enrutamiento virtuales"
+
+msgid "Virtual compute instances running inside clusters"
+msgstr "Instancias virtuales de cómputo ejecutándose dentro de clústeres"
+
+msgid "Clusters of physical hosts in which VMs reside"
+msgstr "Clústeres de hosts físicos en donde residen las máquinas virtuales"
+
+msgid "Rack-mounted network equipment, servers, and other devices"
+msgstr "Equipo de red, servidores y otros dispositivos montados en armario"
+
+msgid "Equipment racks, optionally organized by group"
+msgstr "Armarios de equipamiento, opcionalmente organizados por grupo"
+
+msgid "Customers or departments"
+msgstr "Clientes o departamentos"
+
+msgid "Geographic locations"
+msgstr "Ubicaciones geográficas"
+
+msgid "View All Changes"
+msgstr "Ver todos los cambios"
+
+msgid "Server Error"
+msgstr "Error de servidor"
+
+msgid "NetBox mailing list"
+msgstr "Lista de correo de NetBox"
+
+msgid "<i class=\"glyphicon glyphicon-warning-sign\"></i> Page Not Found"
+msgstr "<i class=\"glyphicon glyphicon-warning-sign\"></i> No se pudo encontrar la página"
+
+msgid "Home Page"
+msgstr "Página de inicio"
+
+msgid "Resources"
+msgstr "Recursos"
+
+msgid "Search virtual machines"
+msgstr "Buscar máquinas virtuales"
+
+msgid "&mdash; No interfaces defined &mdash;"
+msgstr "&mdash; Sin interfaces definidas &mdash;"
+
+msgid "Cluster Type"
+msgstr "Tipo de clúster"
+
+msgid "Device Selection"
+msgstr "Selección de dispositivos"
+
+msgid "Add Devices to Cluster {{ cluster }}"
+msgstr "Agregar dispositivos al clúster {{ cluster }}"
+
+msgid "Add Devices"
+msgstr "Agregar dispositivos"
+
+msgid "Host Devices"
+msgstr "Dispositivos anfitrión"
+
+msgid "Add devices"
+msgstr "Agregar dispositivos"
+
+msgid "Remove devices"
+msgstr "Retirar dispositivos"
+
+msgid "Search clusters"
+msgstr "Buscar clústeres"
+
+msgid "all {{ table.rows|length }} {{ table.data.verbose_name_plural }}"
+msgstr "todo {{ table.rows|length }} {{ table.data.verbose_name_plural }}"
+
+msgid "Delete All"
+msgstr "Eliminar todo"
+
+msgid "Edit All"
+msgstr "Editar todo"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "CSV Format"
+msgstr "Formato CSV"
+
+msgid "Required"
+msgstr "Requerido"
+
+msgid "Field"
+msgstr "Campo"
+
+msgid "{% if obj.pk %}Editing {{ obj_type }} {{ obj }}{% else %}Add a new {{ obj_type }}{% endif %}"
+msgstr "{% if obj.pk %}Editando {{ obj_type }} {{ obj }}{% else %}Agregar un nuevo {{ obj_type }}{% endif %}"
+
+msgid "Delete {{ obj_type }}?"
+msgstr "¿Eliminar {{ obj_type }}?"
+
+msgid "Are you sure you want to delete {{ obj_type }} <strong>{{ obj }}</strong>?"
+msgstr "¿Está seguro de que quiere eliminar a {{ obj_type }} <strong>{{ obj }}</strong>?"
+
+msgid "Confirm Bulk Removal"
+msgstr "Confirmar la eliminación masiva"
+
+msgid "Remove {{ table.rows|length }} {{ obj_type_plural|bettertitle }}?"
+msgstr "¿Retirar {{ table.rows|length }} {{ obj_type_plural|bettertitle }}?"
+
+msgid "{% block form_title %}Attributes{% endblock %}"
+msgstr "{% block form_title %}Atributos{% endblock %}"
+
+msgid "Editing {{ table.rows|length }} {{ obj_type_plural|bettertitle }}"
+msgstr "Editando {{ table.rows|length }} {{ obj_type_plural|bettertitle }}"
+
+msgid "Confirm Bulk Deletion"
+msgstr "Confirmar la eliminación masiva"
+
+msgid "Delete {{ table.rows|length }} {{ obj_type_plural|bettertitle }}?"
+msgstr "¿Eliminar {{ table.rows|length }} {{ obj_type_plural|bettertitle }}?"
+
+msgid "Delete these {{ table.rows|length }} {{ obj_type_plural }}"
+msgstr "Eliminar estas {{ table.rows|length }} {{ obj_type_plural }}"
+
+msgid "<strong>Warning:</strong> The following operation will delete {{ table.rows|length }} {{ obj_type_plural }}. Please carefully review the {{ obj_type_plural }} to be deleted and confirm below."
+msgstr "<strong>Advertencia:</strong> La siguiente operación eliminará {{ table.rows|length }} {{ obj_type_plural }}. Por favor revise cuidadosamente el {{ obj_type_plural }} a ser eliminado y confirme más abajo."
+
+msgid "Add {{ model_name|title }}"
+msgstr "Agregar {{ model_name|title }}"
+
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgid "Are you sure?"
+msgstr "¿Está seguro?"
+
+msgid "New Private Key"
+msgstr "Nueva clave privada"
+
+msgid "New Public Key"
+msgstr "Nueva clave pública"
+
+msgid "Warning:"
+msgstr "Advertencia:"
+
+msgid "I have saved my new private key"
+msgstr "He guardado mi nueva clave privada"
+
+msgid "Generate a New Key Pair"
+msgstr "Generar un nuevo par de claves"
+
+msgid "User Key"
+msgstr "Clave de usuario"
+
+msgid "Create a User Key"
+msgstr "Crear una clave de usuario"
+
+msgid "Delete session key"
+msgstr "Eliminar la clave de sesión"
+
+msgid "Edit user key"
+msgstr "Editar la clave de usuario"
+
+msgid "No active session key"
+msgstr "No hay claves de sesión activas"
+
+msgid "You don't have a user key on file."
+msgstr "Usted no tiene una clave de usuario en el archivo."
+
+msgid "Are you sure you want to delete your session key?"
+msgstr "¿Está usted seguro de que quiere eliminar su clave de sesión?"
+
+msgid "User Profile"
+msgstr "Perfil del usuario"
+
+msgid "Password"
+msgstr "Contraseña"
+
+msgid "Change Password"
+msgstr "Cambiar contraseña"
+
+msgid "API Tokens"
+msgstr "Tokens de API"
+
+msgid "Add a token"
+msgstr "Agregar un token"
+
+msgid "You do not have any API tokens."
+msgstr "Usted no tiene tokens de API."
+
+msgid "Rack reservations"
+msgstr "Reservaciones de armarios"
+
+msgid "Current Plaintext"
+msgstr "Texto plano actual"
+
+msgid "{% if secret.pk %}Editing {{ secret }}{% else %}Add a Secret{% endif %}"
+msgstr "{% if secret.pk %}Editando {{ secret }}{% else %}Agregar un secreto{% endif %}"
+
+msgid "Delete secret {{ secret }}?"
+msgstr "¿Eliminar el secreto {{ secret }}?"
+
+msgid "Are you sure you want to delete secret {{ secret }}?"
+msgstr "¿Está usted seguro de que quiere eliminar el secreto {{ secret }}?"
+
+msgid "Secret Data"
+msgstr "Datos secretos"
+
+msgid "Secret Attributes"
+msgstr "Atributos secretos"
+
+msgid "Secret"
+msgstr "Secreto"
+
+msgid "Permission denied"
+msgstr "Permiso denegado"
+
+msgid "********"
+msgstr "********"
+
+msgid "NetBox"
+msgstr "NetBox"
+
+msgid "VRF {{ vrf }}"
+msgstr "VRF {{ vrf }}"
+
+msgid "Search VRFs"
+msgstr "Buscar VRF's"
+
+msgid "Unique IP Space"
+msgstr "Espacio único de direcciones IP"
+
+msgid "Route Distinguisher"
+msgstr "Distintivo de ruta (RD)"
+
+msgid "VLAN {{ vlan.display_name }}"
+msgstr "VLAN {{ vlan.display_name }}"
+
+msgid "Add a prefix"
+msgstr "Agregar un prefijo"
+
+msgid "Search VLANs"
+msgstr "Buscar VLAN's"
+
+msgid "VLAN ID"
+msgstr "ID de VLAN"
+
+msgid "Virtual Machine"
+msgstr "Máquina virtual"
+
+msgid "Service"
+msgstr "Servicio"
+
+msgid "Search Services"
+msgstr "Buscar servicios"
+
+msgid "Protocol"
+msgstr "Protocolo"
+
+msgid "IPv6 Stats"
+msgstr "Estadísticas de IPv6"
+
+msgid "IPv4 Stats"
+msgstr "Estadísticas de IPv4"
+
+msgid "Expand"
+msgstr "Expandir"
+
+msgid "Collapse"
+msgstr "Recoger"
+
+msgid "Site/VLAN Assignment"
+msgstr "Asignación de sitio y VLAN"
+
+msgid "not"
+msgstr "no"
+
+msgid "Note: This will <strong>not</strong> delete any child prefixes or IP addresses."
+msgstr "Nota: Esto <strong>no</strong> eliminará los prefijos hijo o las direcciones IP."
+
+msgid "Add an IP Address"
+msgstr "Agregar una dirección IP"
+
+msgid "Search prefixes"
+msgstr "Buscar prefijos"
+
+msgid "NAT IP (Inside)"
+msgstr "IP de NAT (interna)"
+
+msgid "Interface Assignment"
+msgstr "Asignación de la interfaz"
+
+msgid "By IP"
+msgstr "Por IP"
+
+msgid "By Device"
+msgstr "Por dispositivo"
+
+msgid "Bulk Add IP Addresses"
+msgstr "Agregar direcciones IP masivamente"
+
+msgid "Select IP Address"
+msgstr "Seleccione la dirección IP"
+
+msgid "Search Results"
+msgstr "Resultados de la Búsqueda"
+
+msgid "Assign an IP Address"
+msgstr "Asignar una dirección IP"
+
+msgid "Search IPs"
+msgstr "Buscar IP's"
+
+msgid "<i class=\"fa fa-bar-chart\"></i> Statistics"
+msgstr "<i class=\"fa fa-bar-chart\"></i> Estadísticas"
+
+msgid "Search aggregates"
+msgstr "Buscar agregados"
+
+msgid "Date Added"
+msgstr "Fecha de alta"
+
+msgid "Family"
+msgstr "Familia"
+
+msgid "Aggregate"
+msgstr "Conjunto"
+
+msgid "Edit this VLAN Group"
+msgstr "Editar este grupo de VLAN's"
+
+msgid "Delete service"
+msgstr "Eliminar servicio"
+
+msgid "Edit service"
+msgstr "Editar servicio"
+
+msgid "Bulk Create"
+msgstr "Creación masiva"
+
+msgid "Assign IP"
+msgstr "Asignar IP"
+
+msgid "New IP"
+msgstr "Nueva IP"
+
+msgid "&mdash; {{ table.empty_text }} &mdash;"
+msgstr "&mdash; {{ table.empty_text }} &mdash;"
+
+msgid "Connections"
+msgstr "Conexiones"
+
+msgid "Inventory"
+msgstr "Inventario"
+
+msgid "Miscellaneous"
+msgstr "Misceláneo"
+
+msgid "Import"
+msgstr "Importar"
+
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+msgid "Admin"
+msgstr "Administrador "
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Secret Roles"
+msgstr "Roles secretos"
+
+msgid "Cluster Groups"
+msgstr "Grupos de clúster"
+
+msgid "Cluster Types"
+msgstr "Tipos de clúster"
+
+msgid "VLAN Groups"
+msgstr "Grupos de VLAN's"
+
+msgid "RIRs"
+msgstr "RIR's"
+
+msgid "Prefix/VLAN Roles"
+msgstr "Prefijos y roles de VLAN"
+
+msgid "IP Addresses"
+msgstr "Direcciones IP"
+
+msgid "Elevations"
+msgstr "Elevaciones"
+
+msgid "Delete image"
+msgstr "Eliminar imagen"
+
+msgid "Edit image"
+msgstr "Editar imagen"
+
+msgid "Created"
+msgstr "Creado"
+
+msgid "Size"
+msgstr "Tamaño"
+
+msgid "False"
+msgstr "Falso"
+
+msgid "True"
+msgstr "Verdadero"
+
+msgid "Tag"
+msgstr "Etiqueta"
+
+msgid "Tag: {{ tag }}"
+msgstr "Etiqueta: {{ tag }}"
+
+msgid "Edit this tag"
+msgstr "Editar esta etiqueta"
+
+msgid "Tagged Items"
+msgstr "Elementos etiquetados"
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "No reports found."
+msgstr "No se encontraron informes."
+
+msgid "Reports should be saved to <code>{{ settings.REPORTS_ROOT }}</code>. (This path can be changed by setting <code>REPORTS_ROOT</code> in NetBox's configuration.)"
+msgstr "Los informes se han guardado en <code>{{ settings.REPORTS_ROOT }}</code> (se puede cambiar esta ruta, estableciendo <code>REPORTS_ROOT</code> en la configuración de NetBox)."
+
+msgid "Never"
+msgstr "Nunca"
+
+msgid "Last Run"
+msgstr "Última ejecución"
+
+msgid "Report Results"
+msgstr "Informe de resultados"
+
+msgid "Report Methods"
+msgstr "Métodos de informe"
+
+msgid "<i class=\"fa fa-play\"></i> Run Report"
+msgstr "<i class=\"fa fa-play\"></i> Ejecutar informe"
+
+msgid "Message"
+msgstr "Mensaje"
+
+msgid "Level"
+msgstr "Nivel"
+
+msgid "Reports"
+msgstr "Informes"
+
+msgid "Source Contexts"
+msgstr "Contextos de la fuente"
+
+msgid "Local Context"
+msgstr "Contexto local"
+
+msgid "Rendered Context"
+msgstr "Contexto considerado"
+
+msgid "{% if obj %}{{ obj }}{% else %}{{ block.super }}{% endif %} - Change Log"
+msgstr "{% if obj %}{{ obj }}{% else %}{{ block.super }}{% endif %} - Registro de cambios"
+
+msgid "Object Data"
+msgstr "Datos del objeto"
+
+msgid "Change"
+msgstr "Cambiar"
+
+msgid "Action"
+msgstr "Acción"
+
+msgid "User"
+msgstr "Usuario"
+
+msgid "Time"
+msgstr "Hora"
+
+msgid "See all {{ related_changes_count|add:\"1\" }} changes"
+msgstr "Ver todos los cambios de {{ related_changes_count|add:\"1\" }}"
+
+msgid "Data"
+msgstr "Datos"
+
+msgid "Assignment"
+msgstr "Asignación"
+
+msgid "Edit this config context"
+msgstr "Editar esta configuración de contexto"
+
+msgid "Tenant Groups"
+msgstr "Grupos de inquilinos"
+
+msgid "Roles"
+msgstr "Roles"
+
+msgid "Weight"
+msgstr "Peso"
+
+msgid "Config Contexts"
+msgstr "Contextos de configuración"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Passed"
+msgstr "Pasado"
+
+msgid "Failed"
+msgstr "Fallido"
+
+msgid "Unsupported PostgreSQL version"
+msgstr "Versión de PostgreSQL no soportada"
+
+msgid "Database migrations missing"
+msgstr "No se pudo acceder a las migraciones de la base de datos"
+
+msgid "Insufficient write permission to the media root"
+msgstr "No hay suficientes permisos para acceder a la raíz de los medios"
+
+msgid "WSGI service not restarted after upgrade"
+msgstr "No se inició el servicio WSGI después de la actualización"
+
+msgid "Missing required packages"
+msgstr "No se pudieron encontrar los paquetes requeridos"
+
+msgid "Remove Virtual Chassis Member?"
+msgstr "¿Retirar el miembro del chasis virtual?"
+
+msgid "Are you sure you want to remove <strong>{{ device }}</strong> from virtual chassis {{ device.virtual_chassis }}?"
+msgstr "¿Está usted seguro de que quiere retirar a <strong>{{ device }}</strong> del chasis virtual {{ device.virtual_chassis }}?"
+
+msgid "Members"
+msgstr "Miembros"
+
+msgid "{% if vc_form.instance %}Editing {{ vc_form.instance }}{% else %}New Virtual Chassis{% endif %}"
+msgstr "{% if vc_form.instance %}Editando {{ vc_form.instance }}{% else %}Nuevo chasis virtual{% endif %}"
+
+msgid "Serial"
+msgstr "Serie"
+
+msgid "Rack/Unit"
+msgstr "Armario/Unidad"
+
+msgid "Add New Member"
+msgstr "Agregar nuevo miembro"
+
+msgid "Add New Member to Virtual Chassis {{ virtual_chassis }}"
+msgstr "Agregar nuevo miembro al chasis virtual {{ virtual_chassis }}"
+
+msgid "Add Another"
+msgstr "Agregar otro"
+
+msgid "Stats"
+msgstr "Estadísticas"
+
+msgid "Contact Info"
+msgstr "Información de contacto"
+
+msgid "View elevations"
+msgstr "Ver elevaciones"
+
+msgid "Search sites"
+msgstr "Buscar sitios"
+
+msgid "Contact E-Mail"
+msgstr "Correo electrónico de contacto"
+
+msgid "Contact Phone"
+msgstr "Teléfono de contacto"
+
+msgid "Contact Name"
+msgstr "Nombre de contacto"
+
+msgid "GPS Coordinates"
+msgstr "Coordenadas de GPS"
+
+msgid "Shipping Address"
+msgstr "Dirección de envío"
+
+msgid "Physical Address"
+msgstr "Dirección física"
+
+msgid "Time Zone"
+msgstr "Zona Horaria"
+
+msgid "AS Number"
+msgstr "Número de AS"
+
+msgid "Facility"
+msgstr "Instalaciones"
+
+msgid "Regions"
+msgstr "Regiones"
+
+msgid "Rack Elevations"
+msgstr "Elevaciones de armario"
+
+msgid "No racks found"
+msgstr "No se encontraron armarios"
+
+msgid "Outer dimensions"
+msgstr "Dimensiones exteriores"
+
+msgid "Rack Roles"
+msgstr "Roles de armario"
+
+msgid "Rack Reservations"
+msgstr "Reservaciones de armario"
+
+msgid "Reservations"
+msgstr "Reservaciones"
+
+msgid "Non-Racked Devices"
+msgstr "Dispositivos no montados"
+
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+msgid "Rack {{ rack }}"
+msgstr "Armario {{ rack }}"
+
+msgid "Add a reservation"
+msgstr "Agregar una reservación"
+
+msgid "Add a non-racked device"
+msgstr "Agregar un dispositivo no montado"
+
+msgid "Next Rack"
+msgstr "Armario siguiente"
+
+msgid "Previous Rack"
+msgstr "Armario anterior"
+
+msgid "Rear"
+msgstr "Reverso"
+
+msgid "Front"
+msgstr "Frontal"
+
+msgid "Delete reservation"
+msgstr "Eliminar reservación"
+
+msgid "Edit reservation"
+msgstr "Editar reservación"
+
+msgid "Search racks"
+msgstr "Buscar armarios"
+
+msgid "Outer Depth"
+msgstr "Profundidad externa"
+
+msgid "Outer Width"
+msgstr "Ancho exterior"
+
+msgid "Height"
+msgstr "Altura"
+
+msgid "Units"
+msgstr "Unidades"
+
+msgid "Power Connections"
+msgstr "Conexiones eléctricas"
+
+msgid "Delete power port {{ powerport }}?"
+msgstr "¿Eliminar el enchufe eléctrico {{ powerport }}?"
+
+msgid "Are you sure you want to delete this power port from <strong>{{ powerport.device }}</strong>?"
+msgstr "¿Está usted seguro de que quiere eliminar este enchufe eléctrico de <strong>{{ powerport.device }}</strong>?"
+
+msgid "Delete power outlet {{ poweroutlet }}?"
+msgstr "¿Eliminar el enchufe eléctrico {{ poweroutlet }}?"
+
+msgid "Are you sure you want to delete this power outlet from <strong>{{ poweroutlet.device }}</strong>?"
+msgstr "¿Está usted seguro de que quiere eliminar este enchufe eléctrico de <strong>{{ poweroutlet.device }}</strong>?"
+
+msgid "Platforms"
+msgstr "Plataformas"
+
+msgid "Manufacturers"
+msgstr "Fabricantes"
+
+msgid "Inventory Items"
+msgstr "Artículos de inventario"
+
+msgid "Delete inventory item {{ inventoryitem }}?"
+msgstr "¿Eliminar el elemento del inventario {{ inventoryitem }}?"
+
+msgid "Are you sure you want to delete this inventory item from <strong>{{ inventoryitem.device }}</strong>?"
+msgstr "¿Está usted seguro de que quiere eliminar este artículo de inventario de <strong>{{ inventoryitem.device }}</strong>?"
+
+msgid " This will also delete all child inventory items of those listed."
+msgstr "Esto también eliminará todos los elementos hijo del inventario de esos listados."
+
+msgid "Create and Add Another"
+msgstr "Crear y seguir agregando"
+
+msgid "Update and Continue Editing"
+msgstr "Actualizar y continuar editando"
+
+msgid "Delete interface {{ interface }}?"
+msgstr "¿Eliminar la interfaz {{ interface }}?"
+
+msgid "Are you sure you want to delete this interface from <strong>{{ interface.device }}</strong>?"
+msgstr "¿Está usted seguro de que quiere eliminar esta interfaz de <strong>{{ interface.device }}</strong>?"
+
+msgid "Interface Connections"
+msgstr "Conexiones de interfaz"
+
+msgid "LAG Members"
+msgstr "Miembros de LAG"
+
+msgid "No member interfaces"
+msgstr "Sin interfaces miembro"
+
+msgid "Connection Status"
+msgstr "Estado de la conexión"
+
+msgid "Enabled"
+msgstr "Activo"
+
+msgid "Virtual Machines"
+msgstr "Máquinas virtuales"
+
+msgid "Environment"
+msgstr "Entorno"
+
+msgid "Device Facts"
+msgstr "Hechos del dispositivo"
+
+msgid "Used"
+msgstr "Usado"
+
+msgid "Power"
+msgstr "Energía"
+
+msgid "Fans"
+msgstr "Ventiladores"
+
+msgid "Temperature"
+msgstr "Temperatura"
+
+msgid "Memory"
+msgstr "Memoria"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Uptime"
+msgstr "Tiempo de Funcionamiento"
+
+msgid "OS Version"
+msgstr "Versión de sistema operativo"
+
+msgid "Vendor"
+msgstr "Vendedor"
+
+msgid "FQDN"
+msgstr "FQDN"
+
+msgid "Hostname"
+msgstr "Nombre del host"
+
+msgid "LLDP Interface"
+msgstr "Interfaz LLDP"
+
+msgid "LLDP Device"
+msgstr "Dispositivo LLDP"
+
+msgid "Configured Interface"
+msgstr "Interfaz configurada"
+
+msgid "Configured Device"
+msgstr "Dispositivo configurado"
+
+msgid "Add Inventory Item"
+msgstr "Agregar elemento de inventario"
+
+msgid "Local Config Context Data"
+msgstr "Datos del contexto de configuración local"
+
+msgid "Hardware"
+msgstr "Hardware"
+
+msgid "Parent bay"
+msgstr "Bahía padre"
+
+msgid "Parent device"
+msgstr "Dispositivo padre"
+
+msgid "Device Configuration"
+msgstr "Configuración de dispositivo"
+
+msgid "Candidate"
+msgstr "Candidato"
+
+msgid "Startup"
+msgstr "Puesta en marcha"
+
+msgid "Running"
+msgstr "Ejecutándose"
+
+msgid "Create {{ component_type }} ({{ parent }})"
+msgstr "Crear {{ component_type }} ({{ parent }})"
+
+msgid "Create and Add More"
+msgstr "Crear y seguir agregando"
+
+msgid "New {{ component_type }}"
+msgstr "Nuevo {{ component_type }}"
+
+msgid "Add {{ component_type }} to {{ parent }}"
+msgstr "Agregar {{ component_type }} a {{ parent }}"
+
+msgid "Chassis"
+msgstr "Chasis"
+
+msgid "Child"
+msgstr "Hijo"
+
+msgid "No"
+msgstr "No"
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "Parent/Child"
+msgstr "Padre e hijo"
+
+msgid "Full Depth"
+msgstr "Profundidad total"
+
+msgid "Part Number"
+msgstr "Part Number"
+
+msgid "Model Name"
+msgstr "Nombre de modelo"
+
+msgid "Device Types"
+msgstr "Tipos de dispositivo"
+
+msgid "Device Roles"
+msgstr "Roles de dispositivo"
+
+msgid "Bay"
+msgstr "Bahía"
+
+msgid "Parent Device"
+msgstr "Dispositivo Padre"
+
+msgid "Populate {{ device_bay }}"
+msgstr "Poblar {{ device_bay }}"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid " from <strong>{{ device_bay }}"
+msgstr " de <strong>{{ device_bay }}"
+
+msgid "Remove {{ device_bay.installed_device }} from {{ device_bay }}?"
+msgstr "¿Retirar {{ device_bay.installed_device }} from {{ device_bay }}?"
+
+msgid "Are you sure you want to remove <strong>{{ device_bay.installed_device }}</strong> from <strong>{{ device_bay }}</strong>?"
+msgstr "¿Está usted seguro de que quiere retirar a <strong>{{ device_bay.installed_device }}</strong> de <strong>{{ device_bay }}</strong>?"
+
+msgid "Delete device bay {{ devicebay }}?"
+msgstr "¿Eliminar la bahía del dispositivo {{ devicebay }}?"
+
+msgid "Are you sure you want to delete this device bay from <strong>{{ devicebay.device }}</strong>?"
+msgstr "¿Está usted seguro de que quiere eliminar esta bahía de dispositivo de <strong>{{ devicebay.device }}</strong>?"
+
+msgid "Related Devices"
+msgstr "Dispositivos relacionados"
+
+msgid "Images"
+msgstr "Imágenes"
+
+msgid "Services"
+msgstr "Servicios"
+
+msgid "Console / Power"
+msgstr "Consola y energía"
+
+msgid "Management"
+msgstr "Administración"
+
+msgid "Add rear ports"
+msgstr "Agregar puertos traseros"
+
+msgid "Add front ports"
+msgstr "Agregar puertos frontales"
+
+msgid "Add power outlets"
+msgstr "Agregar enchufes eléctricos"
+
+msgid "Add console server ports"
+msgstr "Agregar puertos del servidor de consola"
+
+msgid "Add interfaces"
+msgstr "Agregar interfaces"
+
+msgid "Add device bays"
+msgstr "Agregar bahías de dispositivo"
+
+msgid "Attach an image"
+msgstr "Adjuntar una imagen"
+
+msgid "Assign service"
+msgstr "Asignar servicio"
+
+msgid "Add secret"
+msgstr "Agregar secreto"
+
+msgid "Add power port"
+msgstr "Agregar puerto eléctrico"
+
+msgid "Add console port"
+msgstr "Agregar puerto de consola"
+
+msgid "Delete Virtual Chassis"
+msgstr "Eliminar chasis virtual"
+
+msgid "Edit Virtual Chassis"
+msgstr "Editar el chasis virtual"
+
+msgid "Add Member"
+msgstr "Agregar miembro"
+
+msgid "Disconnect"
+msgstr "Desconectar"
+
+msgid "Show IPs"
+msgstr "Mostrar IP's"
+
+msgid "Delete selected"
+msgstr "Eliminar seleccionados"
+
+msgid "Toggle all"
+msgstr "Alternar todo"
+
+msgid "Search devices"
+msgstr "Buscar dispositivos"
+
+msgid "&mdash; No device bays defined &mdash;"
+msgstr "&mdash; No hay bahías de dispositivo definidas &mdash;"
+
+msgid "Asset Tag"
+msgstr "Etiqueta del Activo"
+
+msgid "Connection"
+msgstr "Conexión"
+
+msgid "Installed Device"
+msgstr "Dispositivo instalado"
+
+msgid "Positions"
+msgstr "Posiciones"
+
+msgid "Rear Port"
+msgstr "Puerto trasero"
+
+msgid "Mode"
+msgstr "Modo"
+
+msgid "LAG"
+msgstr "LAG"
+
+msgid "Master"
+msgstr "Maestro"
+
+msgid "Config Context"
+msgstr "Contexto de configuración"
+
+msgid "Rear Ports"
+msgstr "Puertos traseros"
+
+msgid "Front Ports"
+msgstr "Puertos frontales"
+
+msgid "Console Connections"
+msgstr "Conexiones de consola"
+
+msgid "Delete console server port {{ consoleserverport }}?"
+msgstr "¿Eliminar el puerto del servidor de consola {{ consoleserverport }}?"
+
+msgid "Are you sure you want to delete this console server port from <strong>{{ consoleserverport.device }}</strong>?"
+msgstr "¿Está usted seguro de que quiere eliminar este puerto de servidor de consola de <strong>{{ consoleserverport.device }}</strong>?"
+
+msgid "Delete console port {{ consoleport }}?"
+msgstr "¿Eliminar el puerto de consola {{ consoleport }}?"
+
+msgid "Are you sure you want to delete this console port from <strong>{{ consoleport.device }}</strong>?"
+msgstr "¿Está usted seguro de que quiere eliminar este puerto de consola de <strong>{{ consoleport.device }}</strong>?"
+
+msgid "Cable Trace for {{ obj }}"
+msgstr "Traza del cable para {{ obj }}"
+
+msgid "No Cable"
+msgstr "Sin cable"
+
+msgid "Far End"
+msgstr "Fin remoto"
+
+msgid "Near End"
+msgstr "Fin local"
+
+msgid "B Side"
+msgstr "Lado B"
+
+msgid "Side"
+msgstr "Lado"
+
+msgid "Select"
+msgstr "Selecciona"
+
+msgid "Cable {{ cable }}"
+msgstr "Cable {{ cable }}"
+
+msgid "Length"
+msgstr "Largo"
+
+msgid "Color"
+msgstr "Color"
+
+msgid "Label"
+msgstr "Etiqueta"
+
+msgid "Cable"
+msgstr "Cable"
+
+msgid "Cables"
+msgstr "Cables"
+
+msgid "Rename"
+msgstr "Renombrar"
+
+msgid "Renaming {{ selected_objects|length }} {{ obj_type_plural|bettertitle }}"
+msgstr "Renombrando {{ selected_objects|length }} {{ obj_type_plural|bettertitle }}"
+
+msgid "Apply"
+msgstr "Aplicar"
+
+msgid "Preview"
+msgstr "Vista previa"
+
+msgid "New Name"
+msgstr "Nuevo nombre"
+
+msgid "Current Name"
+msgstr "Nombre actual"
+
+msgid "Disconnect {{ obj_type_plural|bettertitle }}"
+msgstr "Desconectar {{ obj_type_plural|bettertitle }}"
+
+msgid "Are you sure you want to disconnect these {{ selected_objects|length }} {{ obj_type_plural }}?"
+msgstr "¿Estás seguro de que quieres desconectar estos {{ selected_objects|length }} {{ obj_type_plural }}?"
+
+msgid "Delete outlet"
+msgstr "Eliminar enchufe eléctrico"
+
+msgid "Edit outlet"
+msgstr "Editar enchufe eléctrico"
+
+msgid "Manually created"
+msgstr "Manualmente creado"
+
+msgid "Tagged"
+msgstr "Etiquetado"
+
+msgid "Untagged"
+msgstr "Sin etiquetar"
+
+msgid "VID"
+msgstr "VID"
+
+msgid "Clear All"
+msgstr "Limpiar todo"
+
+msgid "Clear"
+msgstr "Borrar"
+
+msgid "Delete IP address"
+msgstr "Eliminar dirección IP"
+
+msgid "Edit IP address"
+msgstr "Editar dirección IP"
+
+msgid "Delete interface"
+msgstr "Eliminar interfaz"
+
+msgid "Edit interface"
+msgstr "Editar interfaz"
+
+msgid "Add IP address"
+msgstr "Agregar dirección IP"
+
+msgid "Trace"
+msgstr "Traza"
+
+msgid "Wireless interface"
+msgstr "Interfaz inalámbrica"
+
+msgid "Virtual interface"
+msgstr "Interfaz virtual"
+
+msgid "Status/Role"
+msgstr "Estado o rol"
+
+msgid "Create Virtual Chassis"
+msgstr "Crear chasis virtual"
+
+msgid "Device Bays"
+msgstr "Bahías de dispositivo"
+
+msgid "Interfaces"
+msgstr "Interfaces"
+
+msgid "Power Outlets"
+msgstr "Enchufes eléctricos"
+
+msgid "Power Ports"
+msgstr "Enchufes eléctricos"
+
+msgid "Console Server Ports"
+msgstr "Puertos de servidor de consola"
+
+msgid "Console Ports"
+msgstr "Puertos de consola"
+
+msgid "Configuration"
+msgstr "Configuración"
+
+msgid "LLDP Neighbors"
+msgstr "Vecinos LLDP"
+
+msgid "Child Devices"
+msgstr "Dispositivos hijo"
+
+msgid "Racked Devices"
+msgstr "Dispositivos en armario"
+
+msgid "Add {{ title }}"
+msgstr "Agregar {{ title }}"
+
+msgid "Delete Selected"
+msgstr "Eliminar seleccionados"
+
+msgid "Edit Selected"
+msgstr "Editar seleccionados"
+
+msgid "Delete device bay"
+msgstr "Eliminar la bahía del dispositivo"
+
+msgid "Edit device bay"
+msgstr "Editar bahía de dispositivo"
+
+msgid "Install device"
+msgstr "Instalar dispositivo"
+
+msgid "Remove device"
+msgstr "Retirar dispositivo"
+
+msgid "Delete port"
+msgstr "Eliminar puerto"
+
+msgid "Edit port"
+msgstr "Editar puerto"
+
+msgid "Mark installed"
+msgstr "Marcar como instalado"
+
+msgid "Mark planned"
+msgstr "Marcar como planificado"
+
+msgid "Component"
+msgstr "Componente"
+
+msgid "Support Info"
+msgstr "Información de soporte"
+
+msgid "Add circuit"
+msgstr "Agregar circuito"
+
+msgid "Show graphs"
+msgstr "Mostrar gráficos"
+
+msgid "Admin Contact"
+msgstr "Contacto administrativo"
+
+msgid "NOC Contact"
+msgstr "Contacto del NOC"
+
+msgid "Customer Portal"
+msgstr "Portal del cliente"
+
+msgid "Account"
+msgstr "Cuenta"
+
+msgid "Z Side"
+msgstr "Lado Z"
+
+msgid "A Side"
+msgstr "Lado A"
+
+msgid "Z side:"
+msgstr "Lado Z:"
+
+msgid "A side:"
+msgstr "Lado A:"
+
+msgid "Swap Circuit Terminations"
+msgstr "Intercambiar las terminaciones de circuitos"
+
+msgid "Swap these terminations for circuit {{ circuit }}?"
+msgstr "¿Intercambiar estas terminaciones para el circuito {{ circuit }}?"
+
+msgid "Tags"
+msgstr "Etiquetas"
+
+msgid "Custom Fields"
+msgstr "Campos personalizados"
+
+msgid "Circuit Types"
+msgstr "Tipos de circuito"
+
+msgid "Termination Details"
+msgstr "Detalles de terminación"
+
+msgid "Location"
+msgstr "Posición"
+
+msgid "Errors"
+msgstr "Errores"
+
+msgid "Create"
+msgstr "Crear"
+
+msgid "Update"
+msgstr "Actualizar"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Commit Rate"
+msgstr "Tasa de consolidación"
+
+msgid "Install Date"
+msgstr "Fecha de Instalación"
+
+msgid "Change log"
+msgstr "Registro de cambios"
+
+msgid "100 Gbps"
+msgstr "100 Gbps"
+
+msgid "40 Gbps"
+msgstr "40 Gbps"
+
+msgid "25 Gbps"
+msgstr "25 Gbps"
+
+msgid "10 Gbps"
+msgstr "10 Gbps"
+
+msgid "1 Gbps"
+msgstr "1 Gbps"
+
+msgid "100 Mbps"
+msgstr "100 Mbps"
+
+msgid "10 Mbps"
+msgstr "10 Mbps"
+
+msgid "Termination - {{ side }} Side"
+msgstr "Terminación - Lado {{ side }}"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Swap"
+msgstr "Intercambio"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Add"
+msgstr "Agregar"
+
+msgid "Upstream"
+msgstr "Subida (upstream)"
+
+msgid "Downstream"
+msgstr "Descendente (downstream)"
+
+msgid "Connect"
+msgstr "Conectar"
+
+msgid "Remove cable"
+msgstr "Quitar cable"
+
+msgid "Patch Panel/Port"
+msgstr "Panel de conexiones o puerto"
+
+msgid "Cross-Connect"
+msgstr "Marco de conexión (cross-connect)"
+
+msgid "IP Addressing"
+msgstr "Direccionamiento IP"
+
+msgid "Speed"
+msgstr "Velocidad"
+
+msgid "Dark grey"
+msgstr "Gris oscuro"
+
+msgid "Grey"
+msgstr "Gris"
+
+msgid "Light grey"
+msgstr "Gris claro"
+
+msgid "Brown"
+msgstr "Café"
+
+msgid "Dark orange"
+msgstr "Naranja oscuro"
+
+msgid "Orange"
+msgstr "Naranja"
+
+msgid "Amber"
+msgstr "Ámbar"
+
+msgid "Yellow"
+msgstr "Amarillo"
+
+msgid "Lime"
+msgstr "Lima"
+
+msgid "Light green"
+msgstr "Verde claro"
+
+msgid "Green"
+msgstr "Verde"
+
+msgid "Dark green"
+msgstr "Verde oscuro"
+
+msgid "Teal"
+msgstr "Verde azulado"
+
+msgid "Cyan"
+msgstr "Cian"
+
+msgid "Light blue"
+msgstr "Celeste"
+
+msgid "Blue"
+msgstr "Azul"
+
+msgid "Indigo"
+msgstr "Índigo"
+
+msgid "Dark purple"
+msgstr "Púrpura oscuro"
+
+msgid "Purple"
+msgstr "Púrpura"
+
+msgid "Fuschia"
+msgstr "Fucsia"
+
+msgid "Pink"
+msgstr "Rosado"
+
+msgid "Red"
+msgstr "Rojo"
+
+msgid "Dark red"
+msgstr "Rojo oscuro"
+
+msgid "Group not found."
+msgstr "No se encontró el grupo."
+
+msgid "Virtual machines"
+msgstr "Máquinas virtuales"
+
+msgid "Clusters"
+msgstr "Clústeres"
+
+msgid "Tenants"
+msgstr "Inquilinos"
+
+msgid "Aggregates"
+msgstr "Conjuntos"
+
+msgid "VRFs"
+msgstr "VRF's"
+
+msgid "Virtual Chassis"
+msgstr "Chasis virtual"
+
+msgid "Device types"
+msgstr "Tipos de dispositivo"
+
+msgid "Rack Groups"
+msgstr "Grupos de armarios"
+
+msgid "Sites"
+msgstr "Sitios"
+
+msgid "Providers"
+msgstr "Proveedores"
+
+msgid "All Objects"
+msgstr "Todos los objetos"
+
+msgid "Virtualization"
+msgstr "Virtualización"
+
+msgid "Tenancy"
+msgstr "Arrendamiento"
+
+msgid "Secrets"
+msgstr "Secretos"
+
+msgid "Console"
+msgstr "Consola"
+
+msgid "Provider"
+msgstr "Proveedor"
+
+msgid "Interface"
+msgstr "Interfaz"
+
+msgid "Rack name"
+msgstr "Nombre del armario"
+
+msgid "Priority"
+msgstr "Prioridad"
+
+msgid "Position"
+msgstr "Posición"
+
+msgid "802.1Q Mode"
+msgstr "Modo de 802.1Q"
+
+msgid "Parent"
+msgstr "Padre"
+
+msgid "None"
+msgstr "Ninguno"
+
+msgid "Tenant not found."
+msgstr "No se encontró el inquilino."
+
+msgid "Invalid circuit type."
+msgstr "El tipo de circuito no es válido."
+
+msgid "Provider not found."
+msgstr "No se encontró el proveedor."
+
+msgid "Removed {} devices from cluster {}"
+msgstr "Se retiraron {} dispositivos del clúster {}"
+
+msgid "Added {} devices to cluster {}"
+msgstr "Se agregaron {} dispositivos al clúster {}"
+
+msgid "Cluster"
+msgstr "Clúster"
+
+msgid "Disk (GB)"
+msgstr "Disco (GB)"
+
+msgid "Memory (MB)"
+msgstr "Memoria (MB)"
+
+msgid "vCPUs"
+msgstr "vCPU's"
+
+msgid "Name of functional role"
+msgstr "Nombre del rol funcional"
+
+msgid "Name of parent cluster"
+msgstr "Nombre del clúster padre"
+
+msgid "Operational status of device"
+msgstr "Estado operacional del dispositivo"
+
+msgid "Name of assigned site"
+msgstr "Nombre del sitio asignado"
+
+msgid "Name of cluster group"
+msgstr "Nombre del grupo de clústeres"
+
+msgid "Name of cluster type"
+msgstr "Nombre del tipo de clúster"
+
+msgid "Virtual machine"
+msgstr "Máquina virtual"
+
+msgid "Cluster (ID)"
+msgstr "Clúster (ID)"
+
+msgid "Cluster group (slug)"
+msgstr "Grupo de clústeres (slug)"
+
+msgid "Cluster group (ID)"
+msgstr "Grupo de clústeres (ID)"
+
+msgid "Cluster type (slug)"
+msgstr "Tipo de clúster (slug)"
+
+msgid "Cluster type (ID)"
+msgstr "Tipo de clúster (ID)"
+
+msgid "Parent group (slug)"
+msgstr "Grupo padre (slug)"
+
+msgid "Parent group (ID)"
+msgstr "Grupo padre (ID)"
+
+msgid "Added {} {} to {} {}."
+msgstr "Se agregó {} {} a {} {}."
+
+msgid "Comments"
+msgstr "Comentarios"
+
+msgid "Token deleted"
+msgstr "Token eliminado"
+
+msgid "Session key deleted"
+msgstr "Clave de sesión eliminada"
+
+msgid "Your user key has been saved."
+msgstr "Tu clave de usuario ha sido guardada."
+
+msgid "Your password has been changed successfully."
+msgstr "Tu contraseña ha sido cambiada exitosamente."
+
+msgid "You have logged out."
+msgstr "Usted ha cerrado sesión."
+
+msgid "Logged in as {}."
+msgstr "Sesión iniciada como {}."
+
+msgid "Permit create/update/delete operations using this key"
+msgstr "Permitir crear, actualizar y eliminar operaciones usando esta clave"
+
+msgid "If no key is provided, one will be generated automatically."
+msgstr "Si no se entrega una clave, se generará automáticamente."
+
+msgid "Long-form name (optional)"
+msgstr "Nombre largo (opcional)"
+
+msgid "Name of parent group"
+msgstr "Nombre del grupo padre"
+
+msgid "Group (slug)"
+msgstr "Grupo (slug)"
+
+msgid "Modified secret {}."
+msgstr "Secreto modificado {}."
+
+msgid "Added new secret: {}."
+msgstr "Se agregó nuevo secreto: {}."
+
+msgid "RSA public key"
+msgstr "Clave RSA pública"
+
+msgid "Error validating RSA key. Please ensure that your key supports PKCS#1 OAEP."
+msgstr "Hubo un error al intentar validar la clave RSA. Por favor asegúrese de que su clave soporta PKCS#1 OAEP."
+
+msgid "This looks like a private key. Please provide your public RSA key."
+msgstr "Parece ser una clave privada. Por favor provea su clave RSA pública."
+
+msgid "This looks like a public key. Please provide your private RSA key."
+msgstr "Esto parece ser una clave pública. Por favor provea su clave RSA pública."
+
+msgid "Invalid RSA key. Please ensure that your key is in PEM (base64) format."
+msgstr "La clave RSA no es válida. Por favor asegúrese de que su clave esté en formato PEM (base64)."
+
+msgid "Your private key"
+msgstr "Tu clave privada"
+
+msgid "User Keys"
+msgstr "Claves de usuario"
+
+msgid "Plaintext (verify)"
+msgstr "Texto plano (verificar)"
+
+msgid "Plaintext"
+msgstr "Texto plano"
+
+msgid "Plaintext secret data"
+msgstr "Datos secretos en texto plano"
+
+msgid "Prefixes"
+msgstr "Prefijos"
+
+msgid "Utilization"
+msgstr "Utilización"
+
+msgid "Available"
+msgstr "Disponible"
+
+msgid "Deprecated"
+msgstr "Obsoleto"
+
+msgid "Reserved"
+msgstr "Reservado"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "IP addresses"
+msgstr "Direcciones IP"
+
+msgid "Port number"
+msgstr "Número de puerto"
+
+msgid "device"
+msgstr "dispositivo"
+
+msgid "IP address"
+msgstr "Dirección IP"
+
+msgid "NAT (Inside)"
+msgstr "NAT (adentro)"
+
+msgid "Route distinguisher"
+msgstr "Distintivo de ruta (RD)"
+
+msgid "The IP for which this address is the \"outside\" IP"
+msgstr "La IP que es para esta dirección la IP \"externa\""
+
+msgid "The functional role of this IP"
+msgstr "El rol funcional de esta IP"
+
+msgid "The operational status of this IP"
+msgstr "El estado operacional de esta IP"
+
+msgid "IPv4 or IPv6 address (with mask)"
+msgstr "Dirección IPv4 o IPv6 (con máscara)"
+
+msgid "All IP addresses within this prefix are considered usable"
+msgstr "Todas las direcciones IP dentro de este prefijo están consideradas como usables"
+
+msgid "The primary function of this prefix"
+msgstr "La función primaria de este prefijo"
+
+msgid "Operational status of this prefix"
+msgstr "Estado operacional de este prefijo"
+
+msgid "IPv4 or IPv6 network with mask"
+msgstr "Red IPv4 o IPv6 con máscara"
+
+msgid "IP space managed by this RIR is considered private"
+msgstr "El espacio de IP administrador por este RIR se considera privada"
+
+msgid "Prevent duplicate prefixes/IP addresses within this VRF"
+msgstr "Prevenir duplicados de prefijos o direcciones IP dentro de este VRF"
+
+msgid "No device or virtual machine specified; cannot set as primary IP"
+msgstr "No se especificó el dispositivo ni máquina virtual; no se puede establecer como IP primaria"
+
+msgid "Parent Prefix"
+msgstr "Prefijo padre"
+
+msgid "Address pattern"
+msgstr "Patrón de dirección"
+
+msgid "Make this the primary IP for the device/VM"
+msgstr "Definir esta dirección como primaria para el dispositivo o VM"
+
+msgid "Expand prefix hierarchy"
+msgstr "Expandir la jerarquía del prefijo"
+
+msgid "Search within"
+msgstr "Buscar dentro de"
+
+msgid "Is a pool"
+msgstr "Es una piscina"
+
+msgid "VLAN"
+msgstr "VLAN"
+
+msgid "VLAN group"
+msgstr "Grupo de VLAN's"
+
+msgid "Address family"
+msgstr "Familia de direcciones"
+
+msgid "RIR"
+msgstr "RIR"
+
+msgid "Private"
+msgstr "Privado"
+
+msgid "Enforce unique space"
+msgstr "Forzar espacio único"
+
+msgid "Name of VLAN group"
+msgstr "Nombre del grupo de VLAN's"
+
+msgid "Make this the primary IP for the assigned device"
+msgstr "Hacer que esta sea la IP primaria para el dispositivo asignado"
+
+msgid "Name of assigned interface"
+msgstr "Nombre de la interfaz asignada"
+
+msgid "Name of assigned virtual machine"
+msgstr "Nombre de la máquina virtual asignada"
+
+msgid "Name or ID of assigned device"
+msgstr "Nombre o ID del dispositivo asignado"
+
+msgid "Name of the assigned tenant"
+msgstr "Nombre del inquilino asignado"
+
+msgid "Functional role"
+msgstr "Rol funcional"
+
+msgid "Numeric ID of assigned VLAN"
+msgstr "ID numérico de la VLAN asignada"
+
+msgid "Group name of assigned VLAN"
+msgstr "Nombre del grupo de VLAN's asignadas"
+
+msgid "Name of parent RIR"
+msgstr "Número del RIR padre"
+
+msgid "Interface (ID)"
+msgstr "Interfaz (ID)"
+
+msgid "Virtual machine (name)"
+msgstr "Máquina virtual (nombre)"
+
+msgid "Virtual machine (ID)"
+msgstr "Máquina virtual (ID)"
+
+msgid "Address"
+msgstr "Dirección"
+
+msgid "Parent prefix"
+msgstr "Prefijo padre"
+
+msgid "VLAN number (1-4095)"
+msgstr "Número de VLAN (1-4095)"
+
+msgid "VLAN (ID)"
+msgstr "VLAN (ID)"
+
+msgid "VRF (RD)"
+msgstr "VRF (RD)"
+
+msgid "VRF"
+msgstr "VRF"
+
+msgid "Mask length"
+msgstr "Largo de la máscara"
+
+msgid "Prefixes which contain this prefix or IP"
+msgstr "Prefijos que contienen este prefijo o IP"
+
+msgid "Within and including prefix"
+msgstr "Dentro e incluyendo los prefijos"
+
+msgid "Within prefix"
+msgstr "Dentro del prefijo"
+
+msgid "Prefix"
+msgstr "Prefijo"
+
+msgid "RIR (slug)"
+msgstr "RIR (slug)"
+
+msgid "RIR (ID)"
+msgstr "RIR (ID)"
+
+msgid "IPAM"
+msgstr "IPAM"
+
+msgid "Request ID"
+msgstr "ID de solicitud"
+
+msgid "Active"
+msgstr "Activos"
+
+msgid "Object"
+msgstr "Objecto"
+
+msgid "Link URL"
+msgstr "URL de enlace"
+
+msgid "Source URL"
+msgstr "URL de fuente"
+
+msgid "Object(s)"
+msgstr "Objeto(s)"
+
+msgid "SSL verification"
+msgstr "Verificación de SSL"
+
+msgid "HTTP content type"
+msgstr "Tipo de contenido HTTP"
+
+msgid "Object types"
+msgstr "Tipos de objeto"
+
+msgid "Higher weights appear lower in the list"
+msgstr "El peso mayor aparece más abajo en la lista"
+
+msgid "Fields with higher weights appear lower in a form."
+msgstr "Campos con pesos más altos aparecen más abajo en un formulario."
+
+msgid "Default value for the field. Use \"true\" or \"false\" for booleans."
+msgstr "Valor predeterminado para el campo. Use \"true\" o \"false\" para booleanos."
+
+msgid "Loose matches any instance of a given string; exact "
+msgstr "Perder coincidencias de cualquier instancia de una cadena dada; exacto "
+
+msgid "If true, this field is required when creating new objects "
+msgstr "Si es verdadero, este campo se requerirá cuando se creen nuevos objetos "
+
+msgid "Name of the field as displayed to users (if not provided, "
+msgstr "Nombre del campo como se muestra a los usuarios (si no se provee, "
+
+msgid "The object(s) to which this field applies."
+msgstr "Los objetos a los que este campo se aplica."
+
+msgid "Enable SSL certificate verification. Disable with caution!"
+msgstr "Habilitar la verificación de certificado SSL. ¡Desactívelo con cuidado!"
+
+msgid "When provided, the request will include a 'X-Hook-Signature' "
+msgstr "Cuando se provea, la solicitud incluirá 'X-Hook-Signature'"
+
+msgid "A POST will be sent to this URL when the webhook is called."
+msgstr "Se enviará una solicitud POST a esta URL al llamar al webhook."
+
+msgid "Call this webhook when a matching object is deleted."
+msgstr "Llamar a este webhook cuando se elimine un objeto coincidente."
+
+msgid "Call this webhook when a matching object is updated."
+msgstr "Llamar a este webhook cuando se actualice un objeto coincidente."
+
+msgid "Call this webhook when a matching object is created."
+msgstr "Llamar a este webhook cuando se cree un objeto coincidente."
+
+msgid "The object(s) to which this Webhook applies."
+msgstr "El o los objetos a los que el webhook aplica."
+
+msgid "Object Type"
+msgstr "Tipo de objeto"
+
+msgid "Before"
+msgstr "Antes"
+
+msgid "After"
+msgstr "Después"
+
+msgid "Tenant"
+msgstr "Inquilino"
+
+msgid "Tenant group (slug)"
+msgstr "Grupo de inquilinos (slug)"
+
+msgid "Tenant group"
+msgstr "Grupo de inquilino"
+
+msgid "Platform"
+msgstr "Plataforma"
+
+msgid "Region"
+msgstr "Región"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "{} has been removed from {}."
+msgstr "{} se ha retirado de {}."
+
+msgid "Added {} to {}."
+msgstr "Se agregó {} a {}."
+
+msgid "Disconnected {} {}"
+msgstr "Desconectado {} {}"
+
+msgid "Renamed {} {}"
+msgstr "Se renombró {} {}"
+
+msgid "Interface B"
+msgstr "Interfaz B"
+
+msgid "Device B"
+msgstr "Dispositivo B"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Interface A"
+msgstr "Interfaz A"
+
+msgid "Device A"
+msgstr "Dispositivo A"
+
+msgid "Power Port"
+msgstr "Enchufe eléctrico"
+
+msgid "Outlet"
+msgstr "Enchufe"
+
+msgid "PDU"
+msgstr "PDU"
+
+msgid "Console Port"
+msgstr "Puerto de consola"
+
+msgid "Port"
+msgstr "Puerto"
+
+msgid "Console Server"
+msgstr "Servidor de consola"
+
+msgid "Termination B"
+msgstr "Terminación B"
+
+msgid "Termination A"
+msgstr "Terminación A"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IP Address"
+msgstr "Dirección IP"
+
+msgid "VMs"
+msgstr "VM's"
+
+msgid "Instances"
+msgstr "Instancias"
+
+msgid "Device Type"
+msgstr "Tipo de Dispositivo"
+
+msgid "Devices"
+msgstr "Dispositivos"
+
+msgid "Racks"
+msgstr "Armarios"
+
+msgid "Discovered"
+msgstr "Descubierto"
+
+msgid "Tagged VLANs"
+msgstr "VLAN's etiquetadas"
+
+msgid "Untagged VLAN"
+msgstr "VLAN sin etiquetar"
+
+msgid "OOB Management"
+msgstr "Administración de OOB"
+
+msgid "Primary IPv6"
+msgstr "IPv6 primario"
+
+msgid "Primary IPv4"
+msgstr "IPv4 primario"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Rack face"
+msgstr "Cara del armario"
+
+msgid "Position (U)"
+msgstr "Posición (U)"
+
+msgid "NAPALM arguments"
+msgstr "Argumentos del NAPALM"
+
+msgid "NAPALM driver"
+msgstr "controlador del NAPALM"
+
+msgid "VM Role"
+msgstr "Rol de VM"
+
+msgid "Width"
+msgstr "Ancho"
+
+msgid "Asset tag"
+msgstr "Etiqueta de activo"
+
+msgid "Serial number"
+msgstr "Número de serie"
+
+msgid "Facility ID"
+msgstr "ID de instalaciones"
+
+msgid "Contact E-mail"
+msgstr "Correo electrónico de contacto"
+
+msgid "A unique tag used to identify this item"
+msgstr "Una etiqueta única usada para identificar este artículo"
+
+msgid "A unique tag used to identify this device"
+msgstr "Una etiqueta única que se usa para identificar este dispositivo"
+
+msgid "Additional arguments to pass when initiating the NAPALM driver (JSON format)"
+msgstr "Argumentos adicionales para pasar cuando se inicia el controlador del NAPALM (formato JSON)"
+
+msgid "The name of the NAPALM driver to use when interacting with devices"
+msgstr "El nombre del controlador del NAPALM para usar cuando se interactúa con dispositivos"
+
+msgid "Optionally limit this platform to devices of a certain manufacturer"
+msgstr "Opcionalmente, limitar esta plataformas a dispositivos de cierto fabricante"
+
+msgid "Virtual machines may be assigned to this role"
+msgstr "A las máquinas virtuales se les puede asignar este rol"
+
+msgid "Parent devices house child devices in device bays. Leave blank "
+msgstr "Los dispositivos padre alojan a los dispositivos hijo en las bahías de los dispositivos. Déjalo en blanco"
+
+msgid "Device consumes both front and rear rack faces"
+msgstr "El dispositivo consume la cara frontal y trasera del armario"
+
+msgid "Discrete part number (optional)"
+msgstr "Número discreto de parte (opcional)"
+
+msgid "Units are numbered top-to-bottom"
+msgstr "Las unidades se numeran de arriba a abajo"
+
+msgid "Rail-to-rail width"
+msgstr "Ancho entre rieles"
+
+msgid "A unique tag used to identify this rack"
+msgstr "Una etiqueta única que se usa para identificar este armario"
+
+msgid "Part ID"
+msgstr "ID de parte"
+
+msgid "Child Device"
+msgstr "Dispositivo hijo"
+
+msgid "MAC Address"
+msgstr "Dirección MAC"
+
+msgid "Parent LAG"
+msgstr "LAG padre"
+
+msgid "VLANs"
+msgstr "VLAN's"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "Model"
+msgstr "Modelo"
+
+msgid "Manufacturer"
+msgstr "Fabricante"
+
+msgid "Rack"
+msgstr "Rack"
+
+msgid "Role"
+msgstr "Rol"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Rear ports"
+msgstr "Puertos traseros"
+
+msgid "Management only"
+msgstr "Solo administración"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Rack group"
+msgstr "Grupo de armarios"
+
+msgid "Descending units"
+msgstr "Unidades descendientes"
+
+msgid "Height (U)"
+msgstr "Altura (U)"
+
+msgid "Serial Number"
+msgstr "Número de Serie"
+
+msgid "Device name or ID"
+msgstr "Nombre o ID del dispositivo"
+
+msgid "Child devices must first be created and assigned to the site/rack of the parent device."
+msgstr "Los dispositivos hijo deben primero crearse y asignarse al sitio o armario del dispositivo padre."
+
+msgid "Length unit"
+msgstr "Unidad de longitud"
+
+msgid "Cable type"
+msgstr "Tipo de cable"
+
+msgid "Connection status"
+msgstr "Estado de la conexión"
+
+msgid "Side B component"
+msgstr "Componente del lado B"
+
+msgid "Side B type"
+msgstr "Tipo del lado B"
+
+msgid "Side B device name or ID"
+msgstr "Nombre o ID del dispositivo del lado B"
+
+msgid "Side A component"
+msgstr "Componente del lado A"
+
+msgid "Side A type"
+msgstr "Tipo del lado A"
+
+msgid "Side A device name or ID"
+msgstr "Nombre o ID del dispositivo del lado A"
+
+msgid "This interface is used only for out-of-band management"
+msgstr "Esta interfaz solo se usa para administración fuera de banda"
+
+msgid "Name of device bay"
+msgstr "Nombre de la bahía de dispositivo"
+
+msgid "Name or ID of parent device"
+msgstr "Nombre o ID del dispositivo padre"
+
+msgid "Virtualization cluster"
+msgstr "Clúster de virtualización"
+
+msgid "Mounted rack face"
+msgstr "Cara del armario montada"
+
+msgid "Name of parent rack"
+msgstr "Nombre del armario padre"
+
+msgid "Parent rack's group (if any)"
+msgstr "Grupo del armario padre (si aplica)"
+
+msgid "Name of assigned platform"
+msgstr "Nombre de la plataforma asignada"
+
+msgid "Device type model name"
+msgstr "Nombre del tipo de modelo del dispositivo"
+
+msgid "Device type manufacturer"
+msgstr "Tipo de fabricante del dispositivo"
+
+msgid "The lowest-numbered unit occupied by the device"
+msgstr "La menor unidad numerada ocupada por el dispositivo"
+
+msgid "The number of front ports which may be mapped to each rear port"
+msgstr "El número de los puertos frontales que podrían mapearse a cada puerto trasero"
+
+msgid "Select one rear port assignment for each front port being created."
+msgstr "Selecciona una asignación de puerto trasero para cada puerto frontal que se cree."
+
+msgid "Parent/child status"
+msgstr "Estado de padre o hijo"
+
+msgid "Manufacturer name"
+msgstr "Nombre del fabricante"
+
+msgid "Unit for outer dimensions"
+msgstr "Unidad para las dimensiones externas"
+
+msgid "Rail-to-rail width (in inches)"
+msgstr "Ancho entre rieles (pulgadas)"
+
+msgid "Rack type"
+msgstr "Tipo de armario"
+
+msgid "Name of assigned role"
+msgstr "Nombre del rol asignado"
+
+msgid "Name of rack group"
+msgstr "Nombre del grupo de armarios"
+
+msgid "Name of parent site"
+msgstr "Nombre del sitio padre"
+
+msgid "Name of assigned region"
+msgstr "Nombre de la región asignada"
+
+msgid "Name of parent region"
+msgstr "Nombre de la región padre"
+
+msgid "Parent inventory item (ID)"
+msgstr "Artículo del inventario padre (ID)"
+
+msgid "Assigned VID"
+msgstr "VID asignado"
+
+msgid "Assigned VLAN"
+msgstr "VLAN asignada"
+
+msgid "LAG interface (ID)"
+msgstr "Interfaz LAG (ID)"
+
+msgid "Device"
+msgstr "Dispositivo"
+
+msgid "Device (name)"
+msgstr "Dispositivo (nombre)"
+
+msgid "Device (ID)"
+msgstr "Dispositivo (ID)"
+
+msgid "Virtual chassis (ID)"
+msgstr "Chasis virtual (ID)"
+
+msgid "Has a primary IP"
+msgstr "Tiene IP primaria"
+
+msgid "MAC address"
+msgstr "Dirección MAC"
+
+msgid "Is full depth"
+msgstr "Es de profundidad total"
+
+msgid "Device model (slug)"
+msgstr "Modelo del dispositivo (slug)"
+
+msgid "VM cluster (ID)"
+msgstr "Clúster de VM's (ID)"
+
+msgid "Rack group (ID)"
+msgstr "Grupo de armarios (ID)"
+
+msgid "Site name (slug)"
+msgstr "Nombre del sitio (slug)"
+
+msgid "Platform (slug)"
+msgstr "Plataforma (slug)"
+
+msgid "Platform (ID)"
+msgstr "Plataforma (ID)"
+
+msgid "Device type (ID)"
+msgstr "Tipo de dispositivo (ID)"
+
+msgid "Has pass-through ports"
+msgstr "Tiene puertos de paso"
+
+msgid "Has interfaces"
+msgstr "Tiene interfaces"
+
+msgid "Has power outlets"
+msgstr "Tiene enchufes eléctricos"
+
+msgid "Has power ports"
+msgstr "Tiene enchufes eléctricos"
+
+msgid "Has console server ports"
+msgstr "Tiene puertos de servidor de consola"
+
+msgid "Has console ports"
+msgstr "Tiene puertos de consola"
+
+msgid "Manufacturer (slug)"
+msgstr "Fabricante (slug)"
+
+msgid "Manufacturer (ID)"
+msgstr "Fabricante (ID)"
+
+msgid "User (name)"
+msgstr "Usuario (nombre)"
+
+msgid "User (ID)"
+msgstr "Usuario (ID)"
+
+msgid "Rack (ID)"
+msgstr "Armario (ID)"
+
+msgid "Role (slug)"
+msgstr "Rol (slug)"
+
+msgid "Role (ID)"
+msgstr "Rol (ID)"
+
+msgid "Group"
+msgstr "Grupo"
+
+msgid "Group (ID)"
+msgstr "Grupo (ID)"
+
+msgid "Region (slug)"
+msgstr "Región (slug)"
+
+msgid "Region (ID)"
+msgstr "Región (ID)"
+
+msgid "Parent region (slug)"
+msgstr "Región padre (slug)"
+
+msgid "Parent region (ID)"
+msgstr "Región padre (ID)"
+
+msgid "DCIM"
+msgstr "DCIM"
+
+msgid "Swapped terminations for circuit {}."
+msgstr "Terminaciones intercambiadas para el circuito {}."
+
+msgid "Patch panel/port(s)"
+msgstr "Panel de conexiones o puertos"
+
+msgid "Cross-connect ID"
+msgstr "ID de conexión cruzada"
+
+msgid "Upstream speed (Kbps)"
+msgstr "Velocidad de subida (Kbps)"
+
+msgid "Port speed (Kbps)"
+msgstr "Velocidad del puerto (Kbps)"
+
+msgid "Termination"
+msgstr "Terminación"
+
+msgid "Date installed"
+msgstr "Fecha de instalación"
+
+msgid "Circuit ID"
+msgstr "ID de circuito"
+
+msgid "Upstream speed, if different from port speed"
+msgstr "Velocidad de subida, si es diferente de la velocidad del puerto"
+
+msgid "Commit rate (Kbps)"
+msgstr "Tasa de envío (Kbps)"
+
+msgid "Admin contact"
+msgstr "Contacto administrativo"
+
+msgid "NOC contact"
+msgstr "Contacto del NOC"
+
+msgid "Portal"
+msgstr "Portal"
+
+msgid "Account number"
+msgstr "Número de cuenta"
+
+msgid "ASN"
+msgstr "ASN"
+
+msgid "Name of assigned tenant"
+msgstr "Nombre del inquilino asignado"
+
+msgid "Operational status"
+msgstr "Estado operacional"
+
+msgid "Type of circuit"
+msgstr "Tipo de circuito"
+
+msgid "Name of parent provider"
+msgstr "Nombre del proveedor padre"
+
+msgid "Circuit"
+msgstr "Circuito"
+
+msgid "Site (ID)"
+msgstr "Sitio (ID)"
+
+msgid "Tenant (slug)"
+msgstr "Inquilino (slug)"
+
+msgid "Tenant (ID)"
+msgstr "Inquilino (ID)"
+
+msgid "Circuit type (slug)"
+msgstr "Tipo de circuito (slug)"
+
+msgid "Circuit type (ID)"
+msgstr "Tipo de circuito (ID)"
+
+msgid "Provider (slug)"
+msgstr "Proveedor (slug)"
+
+msgid "Provider (ID)"
+msgstr "Proveedor (ID)"
+
+msgid "Site (slug)"
+msgstr "Sitio (slug)"
+
+msgid "Site"
+msgstr "Sitio"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Circuits"
+msgstr "Circuitos"

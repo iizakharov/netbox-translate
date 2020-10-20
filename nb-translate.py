@@ -19,15 +19,13 @@ else:
 	print('Usage:')
 	print(str(sys.argv[0]), ' <script_name>')
 	print(str(sys.argv[0]), ' <script_name> <translation_source>')
-	print()
-	print('To get some more information, please visit: https://github.com/burbuja/bbl.')
 	sys.exit(1)
 
 '''
 Validate if project name is supported
 '''
 projects = [
-	'digitalocean/netbox',
+	'netbox-community/netbox',
 ]
 project = sys.argv[1]
 if project not in projects:
