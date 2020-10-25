@@ -15,6 +15,8 @@ For generating dictionaries files use method generate_dictionary_file
 ```bash
 python3 test.py
 ```
+Script download latest version of the Netbox. Unzip files into netbox+version directory.
+Replace phrases from dictionaries and copy translated files to the netbox+version-translated directory.
 ## Dependences
 python3, lxml, re
 
