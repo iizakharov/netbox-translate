@@ -1,16 +1,22 @@
 # nb-translate.py - A simple script that helps you create translations for Netbox
+## Description
+This script translate netbox-community/netbox to the russian language
+
+test.py - main script
+
+fields.dict - phrases from models .py files
+phrases.dict - phrases from all .py files, for verbose_name, help_text and other params 
+html.dict - all phrases from html templates
+class.dict - phrases from models files only for Classes
+
+For generating dictionaries files use method generate_dictionary_file
+
 ## Usage
 ```bash
-nb-translate.py  <script_name>
-nb-translate.py  <script_name> <translation_source>
-```
-## Example
-```bash
-bbl.py  netbox-community/netbox
-bbl.py  netbox-community/netbox your_local_file.po
+python3 test.py
 ```
 ## Dependences
-lxml
+python3, lxml, re
 
 ## Warning
 The main goal is to show that NetBox can be translated, but this script may break the database. Please don't use it under production environments!
