@@ -333,7 +333,7 @@ msgid "amperage"
 msgstr "сила тока"
 
 msgid "max_utilization"
-msgstr "макисмальная нагрузка"
+msgstr "максимальная нагрузка"
 
 msgid "available_power"
 msgstr "доступная нагрузка"
