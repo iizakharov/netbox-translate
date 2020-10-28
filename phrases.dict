@@ -1,3 +1,6 @@
+# Translation of NetBox in Russian language
+# This file is distributed under the same license as the NetBox package.
+# Phrases in this file added from Netbox models from params: verbose_name, verbose_name_plural, help_text, lable
 
 msgid "Search"
 msgstr "Поиск"
