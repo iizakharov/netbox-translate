@@ -1,0 +1,1296 @@
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Primary IPv4"
+msgstr "Первичный IPv4 адрес"
+
+msgid "Primary IPv6"
+msgstr "Первичный IPv6 адрес"
+
+msgid "vCPUs"
+msgstr "Виртульный CPU"
+
+msgid "Memory (MB)"
+msgstr "Память (ГБ)"
+
+msgid "Disk (GB)"
+msgstr "Диск ГБ"
+
+msgid "Untagged VLAN"
+msgstr "Нетегированный VLAN"
+
+msgid "Tagged VLANs"
+msgstr "Тегированный VLAN"
+
+msgid "interface"
+msgstr "интерфейс"
+
+msgid "Type of cluster"
+msgstr "Тип кластера"
+
+msgid "Assigned cluster group"
+msgstr "Назначаемая группа кластеров"
+
+msgid "Assigned site"
+msgstr "Назначаемый адрес"
+
+msgid "Assigned tenant"
+msgstr "Назначаемое учреждение"
+
+msgid "Comments"
+msgstr "Комментарии"
+
+msgid "Operational status of device"
+msgstr "Рабочее состояние устройства"
+
+msgid "Assigned cluster"
+msgstr "Назначаемый кластер"
+
+msgid "Functional role"
+msgstr "Функциональная роль"
+
+msgid "Assigned platform"
+msgstr "Привязанная платформа"
+
+msgid "Cluster"
+msgstr "Кластер"
+
+msgid "MAC address"
+msgstr "MAC адрес"
+
+msgid "Has a primary IP"
+msgstr "Имеет первичный IP"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "MAC Address"
+msgstr "MAC адрес"
+
+msgid "IEEE 802.1Q operational mode (for L2 interfaces)"
+msgstr "IEEE 802.1Q режим работы (для L2 интерфейсов)"
+
+msgid "Virtual machine"
+msgstr "Виртуальная машина"
+
+msgid "Clusters"
+msgstr "Кластеры"
+
+msgid "Devices"
+msgstr "Устройства"
+
+msgid "VMs"
+msgstr "Виртуальные машины"
+
+msgid "IPv4 Address"
+msgstr "IPv4 адрес"
+
+msgid "IPv6 Address"
+msgstr "IPv6 адрес"
+
+msgid "IP Address"
+msgstr "IP адрес"
+
+msgid "Region (ID)"
+msgstr "Регион (ID)"
+
+msgid "Region (slug)"
+msgstr "Регион (slug)"
+
+msgid "Site (ID)"
+msgstr "Адрес (ID)"
+
+msgid "Site (slug)"
+msgstr "Адрес (slug)"
+
+msgid "Parent group (ID)"
+msgstr "Вышестоящая группа (ID)"
+
+msgid "Parent group (slug)"
+msgstr "Вышестоящая шруппа (slug)"
+
+msgid "Cluster type (ID)"
+msgstr "Тип кластера (ID)"
+
+msgid "Cluster type (slug)"
+msgstr "Тип кластера (slug)"
+
+msgid "Cluster group (ID)"
+msgstr "Группа кластеров (ID)"
+
+msgid "Cluster group (slug)"
+msgstr "Группа кластеров (slug)"
+
+msgid "Cluster (ID)"
+msgstr "Кластер (ID)"
+
+msgid "Role (ID)"
+msgstr "Роль (ID)"
+
+msgid "Role (slug)"
+msgstr "Роль (slug)""
+
+msgid "Platform (ID)"
+msgstr "Платформа (ID)"
+
+msgid "Platform (slug)"
+msgstr "Платформа (slug)"
+
+msgid "Virtual machine (ID)"
+msgstr "Виртуальная машина (ID)"
+
+msgid "32-bit autonomous system number"
+msgstr "32-битный номер автономной системы"
+
+msgid "Account number"
+msgstr "Номер счета"
+
+msgid "Portal URL"
+msgstr "URL портала"
+
+msgid "NOC contact"
+msgstr "Контакты управляющего сетью"
+
+msgid "Admin contact"
+msgstr "Контакты администратора"
+
+msgid "Circuit ID"
+msgstr "Внешний канал (ID)"
+
+msgid "Date installed"
+msgstr "Дата установки"
+
+msgid "Commit rate (Kbps)"
+msgstr "Скорость Мбит/с"
+
+msgid "Termination"
+msgstr "Подключения"
+
+msgid "Port speed (Kbps)"
+msgstr "Скорость порта (Мбит/с)"
+
+msgid "Upstream speed (Kbps)"
+msgstr "Скорость потока (Мбит/с)"
+
+msgid "Upstream speed, if different from port speed"
+msgstr "Указывается скорость потока если отличается от скорости порта"
+
+msgid "Cross-connect ID"
+msgstr "Кросс-соединение ID"
+
+msgid "Patch panel/port(s)"
+msgstr "Патч панель/порты"
+
+msgid "Circuits"
+msgstr "Внешние каналы"
+
+msgid "Portal"
+msgstr "Портал"
+
+msgid "Assigned provider"
+msgstr "Назначенный поставщик услуг"
+
+msgid "Type of circuit"
+msgstr "Тип внешнего канала"
+
+msgid "Operational status"
+msgstr "Рабочий режим"
+
+msgid "A Side"
+msgstr "Точка поставщика"
+
+msgid "Z Side"
+msgstr "Точка клиента"
+
+msgid "Site"
+msgstr "Адрес"
+
+msgid "Provider (ID)"
+msgstr "Поставщик услуг (ID)"
+
+msgid "Provider (slug)"
+msgstr "Поставщик услуг (slug)"
+
+msgid "Circuit type (ID)"
+msgstr "Тип внешнего канала (ID)"
+
+msgid "Circuit type (slug)"
+msgstr "Тип внешнего канала (slug)"
+
+msgid "Circuit"
+msgstr "Внешний канал"
+
+msgid "Parent group"
+msgstr "Вышестоящая группа"
+
+msgid "Assigned group"
+msgstr "Назначенная группа"
+
+msgid "Tenants"
+msgstr "Учреждения"
+
+msgid "Tenant group (ID)"
+msgstr "Группа учреждений (ID)"
+
+msgid "Tenant group group (slug)"
+msgstr "Группа группы учреждений (slug)"
+
+msgid "Tenant group (slug)"
+msgstr "Группа учреждений (slug)"
+
+msgid "Tenant Group (ID)"
+msgstr "Группа учреждений (ID)"
+
+msgid "Tenant Group (slug)"
+msgstr "Группа учреждений (slug)"
+
+msgid "Tenant (ID)"
+msgstr "Учреждение (ID)"
+
+msgid "Tenant (slug)"
+msgstr "Учреждение (slug)"
+
+msgid "RSA public key"
+msgstr "RSA публичный ключ"
+
+msgid "Plaintext"
+msgstr "Незашифрованный текст"
+
+msgid "Plaintext (verify)"
+msgstr "Незашифрованный текст (проверка)"
+
+msgid "Assigned device"
+msgstr "Назначенное устройство"
+
+msgid "Assigned role"
+msgstr "Назначенная роль"
+
+msgid "Plaintext secret data"
+msgstr "Незашифрованный закрытые данные"
+
+msgid "User Keys"
+msgstr "Ключи пользователя"
+
+msgid "Your private key"
+msgstr "Ваш закрытый ключ"
+
+msgid "Secrets"
+msgstr "Ключи"
+
+msgid "Device (ID)"
+msgstr "Устройство (ID)"
+
+msgid "Device (name)"
+msgstr "Устройство (Название)"
+
+msgid "Physical label"
+msgstr "Маркировка"
+
+msgid "Maximum power draw (watts)"
+msgstr "Максимальная потребляемая мощность(Вт)"
+
+msgid "Allocated power draw (watts)"
+msgstr "Выделенная потребляемая мощность(Вт)"
+
+msgid "Phase (for three-phase feeds)"
+msgstr "Фаза (для трехфазного подключения)"
+
+msgid "Management only"
+msgstr "Только управление"
+
+msgid "Physical port type"
+msgstr "Тип физического порта"
+
+msgid "Parent LAG"
+msgstr "Интерфейс агрегации"
+
+msgid "OOB Management"
+msgstr "Выделенное управление"
+
+msgid "This interface is used only for out-of-band management"
+msgstr "Этот интерфейс используется только управления устройством без передачи иных данных"
+
+msgid "Part ID"
+msgstr "Часть ID"
+
+msgid "Manufacturer-assigned part identifier"
+msgstr "Присвоенный производителем идентификатор детали"
+
+msgid "Serial number"
+msgstr "Серийный номер"
+
+msgid "Asset tag"
+msgstr "Уникальный номер"
+
+msgid "A unique tag used to identify this item"
+msgstr "Уникальный номер для идентификации устройства"
+
+msgid "This item was automatically discovered"
+msgstr "Это устройство обнаружено автоматически"
+
+msgid "Local facility ID or description"
+msgstr "Код субъекта"
+
+msgid "GPS coordinate (latitude)"
+msgstr "GPS координаты (широта)"
+
+msgid "GPS coordinate (longitude)"
+msgstr "GPS координаты (долгота)"
+
+msgid "Contact E-mail"
+msgstr "Электронная почта"
+
+msgid "Facility ID"
+msgstr "Код региона"
+
+msgid "Locally-assigned identifier"
+msgstr "Локально-назначенный идентификатор"
+
+msgid "A unique tag used to identify this rack"
+msgstr "Уникальный тэг для идентификации этой стойки"
+
+msgid "Width"
+msgstr "Ширина"
+
+msgid "Rail-to-rail width"
+msgstr "Внутренняя ширина в дюймах"
+
+msgid "Height (U)"
+msgstr "Высота в юнитах"
+
+msgid "Height in rack units"
+msgstr "Высота в стоечных юнитах"
+
+msgid "Descending units"
+msgstr "Нисходящие единицы измерения"
+
+msgid "Units are numbered top-to-bottom"
+msgstr "Единицы измерения пронумерованы сверху вниз"
+
+msgid "Outer dimension of rack (width)"
+msgstr "Наружный размер стойки (ширина)"
+
+msgid "Outer dimension of rack (depth)"
+msgstr "Наружный размер стойки (глубина"
+
+msgid "Discrete part number (optional)"
+msgstr "Дискретный номер детали (опционально)"
+
+msgid "Is full depth"
+msgstr "На всю глубину"
+
+msgid "Device consumes both front and rear rack faces"
+msgstr "Устройство занимает как переднюю, так и заднюю поверхности стойки"
+
+msgid "Parent/child status"
+msgstr "Вышестоящий/дочерний статус"
+
+msgid "Parent devices house child devices in device bays. Leave blank "
+msgstr "Вышестоящий устройства размещают дочерние устройства в отсеках устройств. Оставить незаполненным"
+
+msgid "VM Role"
+msgstr "Роль виртуальной машины"
+
+msgid "Virtual machines may be assigned to this role"
+msgstr "Виртуальной машине может быть назначена эта роль"
+
+msgid "Optionally limit this platform to devices of a certain manufacturer"
+msgstr "Опционально можно ограничить эту платформу устройствами определенного производителя"
+
+msgid "NAPALM driver"
+msgstr "NAPALM драйвер"
+
+msgid "The name of the NAPALM driver to use when interacting with devices"
+msgstr "Название драйвера NAPALM для использования при взаимодействии с устройствами"
+
+msgid "NAPALM arguments"
+msgstr "NAPALM аргументы"
+
+msgid "Additional arguments to pass when initiating the NAPALM driver (JSON format)"
+msgstr "Дополнительные аргументы для передачи при инициализации драйвера NAPALM (формат JSON)"
+
+msgid "A unique tag used to identify this device"
+msgstr "Уникальный тег, используемый для идентификации этого устройства"
+
+msgid "Position (U)"
+msgstr "Позиция (юнит)"
+
+msgid "The lowest-numbered unit occupied by the device"
+msgstr "Блок с наименьшим номером, занимаемый устройством"
+
+msgid "Rack face"
+msgstr "поверхность стойки"
+
+msgid "virtual chassis"
+msgstr "виртуальные шасси"
+
+msgid "Maximum permissible draw (percentage)"
+msgstr "Максимально допустимая нагрузка в процентах"
+
+msgid "circuits"
+msgstr "внешние каналы"
+
+msgid "dcim"
+msgstr "устройства"
+
+msgid "DCIM"
+msgstr "Устройства"
+
+msgid "Device"
+msgstr "Устройство"
+
+msgid "Label"
+msgstr "Маркировка"
+
+msgid "Alphanumeric ranges are supported. (Must match the number of names being created.)"
+msgstr "Поддерживаются буквенно-цифровые диапазоны. (Должно совпадать с количеством создаваемых имен.)"
+
+msgid "Name of parent region"
+msgstr "Название вышестоящего региона"
+
+msgid "Assigned region"
+msgstr "Привязка к региону"
+
+msgid "Parent rack group"
+msgstr "Вышестоящая группа стоек"
+
+msgid "Name of assigned tenant"
+msgstr "Название учреждения"
+
+msgid "Name of assigned role"
+msgstr "Название назначаемой роли"
+
+msgid "Rack type"
+msgstr "Тип стойки"
+
+msgid "Rail-to-rail width (in inches)"
+msgstr "Внутренняя ширина стойки в дюймах (обычно 19 дюймов)"
+
+msgid "Unit for outer dimensions"
+msgstr "Наружные размеры"
+
+msgid "Serial Number"
+msgstr "Серийный номер"
+
+msgid "Rack group"
+msgstr "Группа стоек"
+
+msgid "Rack"
+msgstr "Стойка"
+
+msgid "Comma-separated list of numeric unit IDs. A range may be specified using a hyphen."
+msgstr "Разделенный запятыми список числовых идентификаторов единиц измерения. Диапазон может быть задан с помощью дефиса."
+
+msgid "Parent site"
+msgstr "Вышестоящий адрес"
+
+msgid "Racks group (if any)"
+msgstr "Группа стоек(если имеется)"
+
+msgid "Comma-separated list of individual unit numbers"
+msgstr "Разделенный запятыми список отдельных номеров единиц измерения"
+
+msgid "Has console ports"
+msgstr "Имеет консольные порты"
+
+msgid "Has console server ports"
+msgstr "Имеет консольные серверные порты"
+
+msgid "Has power ports"
+msgstr "Имеет силовые порты"
+
+msgid "Has power outlets"
+msgstr "Имеет розетки питания"
+
+msgid "Has interfaces"
+msgstr "Имеет интерфейсы"
+
+msgid "Has pass-through ports"
+msgstr "Имеет сквозные порты"
+
+msgid "Rear ports"
+msgstr "Задние порты"
+
+msgid "Select one rear port assignment for each front port being created."
+msgstr "Выберите одно назначение заднего порта для каждого создаваемого переднего порта."
+
+msgid "The number of front ports which may be mapped to each rear port"
+msgstr "Количество передних портов, которые могут быть сопоставлены с каждым задним портом"
+
+msgid "Limit platform assignments to this manufacturer"
+msgstr "Ограничьте назначение платформы этому производителю"
+
+msgid "Device type manufacturer"
+msgstr "Тип устройства производителя"
+
+msgid "Device type model"
+msgstr "Тип устройства модель"
+
+msgid "Virtualization cluster"
+msgstr "Кластер виртуализации"
+
+msgid "Assigned rack"
+msgstr "Назначаемая стойка"
+
+msgid "Mounted rack face"
+msgstr "Устанавливается в сторону стойки"
+
+msgid "Parent device"
+msgstr "Вышестоящее устройство"
+
+msgid "Device bay in which this device is installed"
+msgstr "Отсек устройства, в котором установлено данное устройство"
+
+msgid "Manufacturer"
+msgstr "Производитель"
+
+msgid "Model"
+msgstr "Модель"
+
+msgid "Virtual chassis member"
+msgstr "Входит в состав виртуальных шасси"
+
+msgid "Maximum draw in watts"
+msgstr "Максимальная потребляемая мощность в ваттах"
+
+msgid "Allocated draw in watts"
+msgstr "Выделенная потребляемая мощность в ваттах"
+
+msgid "Local power port which feeds this outlet"
+msgstr "Локальный порт питания, который питает эту розетку"
+
+msgid "Electrical phase (for three-phase circuits)"
+msgstr "Электрическая фаза (для трехфазных цепей)"
+
+msgid "Parent LAG interface"
+msgstr "Интерфейс аггрегации каналов"
+
+msgid "Physical medium"
+msgstr "Физический носитель"
+
+msgid "Corresponding rear port"
+msgstr "Соответствующая задняя часть"
+
+msgid "Physical medium classification"
+msgstr "Классификация физических сред"
+
+msgid "Child Device"
+msgstr "Дочернее устройство"
+
+msgid "Child devices must first be created and assigned to the site/rack of the parent device."
+msgstr "Дочерние устройства сначала должны быть созданы и назначены узлу/стойке родительского устройства."
+
+msgid "Child device installed within this bay"
+msgstr "Дочернее устройство, установленное в этом отсеке"
+
+msgid "Provider"
+msgstr "Поставщик услуг"
+
+msgid "Side"
+msgstr "Сторона"
+
+msgid "Rack Group"
+msgstr "Группа стоек"
+
+msgid "Power Panel"
+msgstr "Силовая панель"
+
+msgid "Side A device"
+msgstr "Название подключаемого устройства"
+
+msgid "Side A type"
+msgstr "Модель подключаемого устройства"
+
+msgid "Side A component name"
+msgstr "Название компонента подключаемого устройства"
+
+msgid "Side B device"
+msgstr "Название второго подключаемого устройства"
+
+msgid "Side B type"
+msgstr "Модель второго подключаемого устройства"
+
+msgid "Side B component name"
+msgstr "Название компонента второго подключаемого устройства"
+
+msgid "Connection status"
+msgstr "Статус подключения"
+
+msgid "Length unit"
+msgstr "Единица измерения длины(обычно метры)"
+
+msgid "Position of the first member device. Increases by one for each additional member."
+msgstr "Положение первого элемента устройства. Увеличивается на единицу для каждого дополнительного члена."
+
+msgid "Master device"
+msgstr "Ведущее устройство"
+
+msgid "Name of parent site"
+msgstr "Название родительского адреса"
+
+msgid "Rack group (ID)"
+msgstr "Группа стоек (ID)"
+
+msgid "Upstream power panel"
+msgstr "Верхняя силовая панель"
+
+msgid "Primary or redundant"
+msgstr "Основоной или резервный"
+
+msgid "Supply type (AC/DC)"
+msgstr "Тип питания (AC/DC)"
+
+msgid "Single or three-phase"
+msgstr "Одно или трехфазное"
+
+msgid "Power panel"
+msgstr "Силовая панель"
+
+msgid "Sites"
+msgstr "Адреса"
+
+msgid "Racks"
+msgstr "Стойки"
+
+msgid "Height"
+msgstr "Высота"
+
+msgid "Space"
+msgstr "место"
+
+msgid "Power"
+msgstr "Электропитание"
+
+msgid "Units"
+msgstr "Юнитов"
+
+msgid "Device Types"
+msgstr "Типы устройств"
+
+msgid "Inventory Items"
+msgstr "Встроенные устройства"
+
+msgid "Platforms"
+msgstr "Платформы"
+
+msgid "Device Type"
+msgstr "Тип устройства"
+
+msgid "Full Depth"
+msgstr "На всю глубину"
+
+msgid "Instances"
+msgstr "Экземпляры"
+
+msgid "Management Only"
+msgstr "Только управление"
+
+msgid "Position"
+msgstr "Позиция"
+
+msgid "Role"
+msgstr "Роль"
+
+msgid "VC Position"
+msgstr "Позиция ВШ"
+
+msgid "VC Priority"
+msgstr "Приоритет ВШ"
+
+msgid "IP Addresses"
+msgstr "IP адреса"
+
+msgid "Side A"
+msgstr "Точка 1"
+
+msgid "Termination A"
+msgstr "Подключение 1"
+
+msgid "Side B"
+msgstr "Точка 2"
+
+msgid "Termination B"
+msgstr "Подключение 2"
+
+msgid "Console Server"
+msgstr "Консольный сервер"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Console Port"
+msgstr "Консольный порт"
+
+msgid "PDU"
+msgstr "БРП"
+
+msgid "Outlet"
+msgstr "Розетка"
+
+msgid "Power Port"
+msgstr "Порт питания"
+
+msgid "Device A"
+msgstr "Устройство 1"
+
+msgid "Interface A"
+msgstr "Интерфейс 1"
+
+msgid "Device B"
+msgstr "Устройство 2"
+
+msgid "Interface B"
+msgstr "Интерфейс 2"
+
+msgid "Members"
+msgstr "Члены"
+
+msgid "Feeds"
+msgstr "Питание"
+
+msgid "Available power (VA)"
+msgstr "Доступное электропитание (VA)"
+
+msgid "Parent region (ID)"
+msgstr "Регион (ID)"
+
+msgid "Parent region (slug)"
+msgstr "Регион (slug)"
+
+msgid "Rack group (slug)"
+msgstr "Группа стоек (slug)"
+
+msgid "Rack (ID)"
+msgstr "Стойка (ID)"
+
+msgid "User (ID)"
+msgstr "Пользователь (ID)"
+
+msgid "User (name)"
+msgstr "Пользователь (имя)"
+
+msgid "Manufacturer (ID)"
+msgstr "Производитель (ID)"
+
+msgid "Manufacturer (slug)"
+msgstr "Производитель (slug)"
+
+msgid "Has device bays"
+msgstr "Имеет отсеки для устройств"
+
+msgid "Device type (ID)"
+msgstr "Тип устройства (ID)"
+
+msgid "Site name (slug)"
+msgstr "Название адреса (slug)"
+
+msgid "VM cluster (ID)"
+msgstr "Виртуальный кластер (ID)"
+
+msgid "Device model (slug)"
+msgstr "Модель устройства (slug)"
+
+msgid "Virtual chassis (ID)"
+msgstr "Виртуальные шасси (ID)"
+
+msgid "Is a virtual chassis member"
+msgstr "Входит в состав виртуального шасси"
+
+msgid "Kind of interface"
+msgstr "Вид интерфейса"
+
+msgid "LAG interface (ID)"
+msgstr "Интерфейс аггрегации (ID)"
+
+msgid "Assigned VLAN"
+msgstr "Назначенный VLAN"
+
+msgid "Assigned VID"
+msgstr "Назначенный VID"
+
+msgid "Parent inventory item (ID)"
+msgstr "Родительский элемент"
+
+msgid "Power panel (ID)"
+msgstr "Силовая панель (ID)"
+
+msgid "Enter the list of column headers followed by one line per record to be imported, using "
+msgstr "Введите список заголовков столбцов, за которыми следует по одной строке на импортируемую запись, используя"
+
+msgid "Specify a numeric range to create multiple IPs.<br />"
+msgstr "Укажите числовой диапазон для создания нескольких IP-адресов.<br />"
+
+msgid "Tags"
+msgstr "Тэги"
+
+msgid "Enter context data in <a href=https://json.org/>JSON</a> format."
+msgstr "Введите данные контекста в в формате JSON."
+
+msgid "Use regular expressions"
+msgstr "Используйте регулярные выражения"
+
+msgid "Enter object data in JSON or YAML format. Note: Only a single object/document is supported."
+msgstr "Введите данные объекта в формате JSON или YAML. Примечание: поддерживается только один объект/документ."
+
+msgid "Use the buttons below to arrange columns in the desired order, then select all columns to display."
+msgstr "Используйте кнопки ниже, чтобы расположить столбцы в нужном порядке, или выберите все столбцы для отображения."
+
+msgid "Group"
+msgstr "Группа"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "User Preferences"
+msgstr "Пользовательские настройки"
+
+msgid "Permit create/update/delete operations using this key"
+msgstr "Разрешить операции создания/обновления/удаления с помощью этого ключа"
+
+msgid "The list of actions granted by this permission"
+msgstr "Перечень действий, предоставляемых данным разрешением"
+
+msgid "Queryset filter matching the applicable objects of the selected type(s)"
+msgstr "Фильтр, соответствующий применимым объектам выбранного типа(ов)"
+
+msgid "permission"
+msgstr "разрешение"
+
+msgid "If no key is provided, one will be generated automatically."
+msgstr "Если ключ не указан, он будет сгенерирован автоматически."
+
+msgid "Permission"
+msgstr "Разрешение"
+
+msgid "Permissions"
+msgstr "Разрешения"
+
+msgid "Preferences"
+msgstr "Настройки"
+
+msgid "Group (name)"
+msgstr "Группа (название)"
+
+msgid "Route distinguisher"
+msgstr "Route distinguisher"
+
+msgid "Unique route distinguisher (as defined in RFC 4364)"
+msgstr "Unique route distinguisher (as defined in RFC 4364)"
+
+msgid "Enforce unique space"
+msgstr "Принудительное использование уникального пространства"
+
+msgid "Prevent duplicate prefixes/IP addresses within this VRF"
+msgstr "Предотвратите дублирование префиксов/IP-адресов в этом VRF"
+
+msgid "VRF"
+msgstr "VRF"
+
+msgid "VRFs"
+msgstr "VRFs"
+
+msgid "Private"
+msgstr "Частный"
+
+msgid "IP space managed by this RIR is considered private"
+msgstr "IP-пространство, управляемое этим RIR, считается частным"
+
+msgid "RIR"
+msgstr "RIR"
+
+msgid "RIRs"
+msgstr "RIRs"
+
+msgid "IPv4 or IPv6 network with mask"
+msgstr "IPv4 или IPv6 сеть с маской"
+
+msgid "VLAN"
+msgstr "VLAN"
+
+msgid "Operational status of this prefix"
+msgstr "Рабочее состояние этого префикса"
+
+msgid "The primary function of this prefix"
+msgstr "Основная функция этого префикса"
+
+msgid "Is a pool"
+msgstr "Это диапазон адресов"
+
+msgid "All IP addresses within this prefix are considered usable"
+msgstr "Все IP-адреса в пределах этой подсети считаются пригодными для использования"
+
+msgid "prefixes"
+msgstr "подсети"
+
+msgid "IPv4 or IPv6 address (with mask)"
+msgstr "IPv4 или IPv6 адрес с маской"
+
+msgid "The operational status of this IP"
+msgstr "Состояние этого IP адреса"
+
+msgid "The functional role of this IP"
+msgstr "Функциональная роль этого IP адреса"
+
+msgid "NAT (Inside)"
+msgstr "NAT (внутри)"
+
+msgid "The IP for which this address is the outside IP"
+msgstr "IP, для которого этот адрес является внешним IP-адресом"
+
+msgid "DNS Name"
+msgstr "DNS имя"
+
+msgid "Hostname or FQDN (not case-sensitive)"
+msgstr "Имя хоста или полное доменное имя (без учета регистра)"
+
+msgid "IP address"
+msgstr "IP адрес"
+
+msgid "IP addresses"
+msgstr "IP адреса"
+
+msgid "VLAN group"
+msgstr "Граппа VLAN"
+
+msgid "VLAN groups"
+msgstr "Группы VLANов"
+
+msgid "VLANs"
+msgstr "VLANы"
+
+msgid "device"
+msgstr "устройство"
+
+msgid "Port number"
+msgstr "Номер порта"
+
+msgid "IPAM"
+msgstr "IP адреса"
+
+msgid "Assigned RIR"
+msgstr "Назначенный RIR"
+
+msgid "Address family"
+msgstr "Семейство IP адресов"
+
+msgid "Global"
+msgstr "Глобальный"
+
+msgid "Assigned VRF"
+msgstr "Назначенный VRF"
+
+msgid "VLANs group (if any)"
+msgstr "Группа VLAN (если имется)"
+
+msgid "Search within"
+msgstr "Поиск в"
+
+msgid "Mask length"
+msgstr "Длина маски"
+
+msgid "Interface"
+msgstr "Интерфейс"
+
+msgid "Virtual Machine"
+msgstr "Виртуальная машина"
+
+msgid "Make this the primary IP for the device/VM"
+msgstr "Назначьте основной IP-адрес для устройства/виртуальной машины"
+
+msgid "Address pattern"
+msgstr "Шаблон адреса"
+
+msgid "Parent device of assigned interface (if any)"
+msgstr "Родительское устройство назначенного интерфейса (если таковое имеется)"
+
+msgid "Parent VM of assigned interface (if any)"
+msgstr "Родительская виртуальная машина назначенного интерфейса (если таковая имеется)"
+
+msgid "Assigned interface"
+msgstr "Назначенный интерфейс"
+
+msgid "Make this the primary IP for the assigned device"
+msgstr "Назначить этот IP-адрес основным для устройства"
+
+msgid "Parent Prefix"
+msgstr "Вышестоящая подсеть"
+
+msgid "Assigned to an interface"
+msgstr "Назначается интерфейсу"
+
+msgid "Assigned VLAN group"
+msgstr "Назначенная VLAN группа"
+
+msgid "Required if not assigned to a VM"
+msgstr "Требуется, если он не назначен виртуальной машине"
+
+msgid "Required if not assigned to a device"
+msgstr "Требуется, если он не назначен устройству"
+
+msgid "IP protocol"
+msgstr "IP протокол"
+
+msgid "RD"
+msgstr "RD"
+
+msgid "Unique"
+msgstr "Уникальный"
+
+msgid "Aggregates"
+msgstr "Сети"
+
+msgid "Total"
+msgstr "Всего"
+
+msgid "Active"
+msgstr "Активный"
+
+msgid "Reserved"
+msgstr "Зарезервированный"
+
+msgid "Deprecated"
+msgstr "Устаревший"
+
+msgid "Available"
+msgstr "Доступный"
+
+msgid "Utilization"
+msgstr "Использование"
+
+msgid "Aggregate"
+msgstr "Сеть"
+
+msgid "Added"
+msgstr "Добавлено"
+
+msgid "Prefixes"
+msgstr "Подсети"
+
+msgid "Pool"
+msgstr "Диапазон"
+
+msgid "Interface Parent"
+msgstr "Родительский интерфейс"
+
+msgid "Assigned"
+msgstr "Назначенный"
+
+msgid "Prefix"
+msgstr "Подсеть"
+
+msgid "RIR (ID)"
+msgstr "RIR (ID)"
+
+msgid "RIR (slug)"
+msgstr "RIR (slug)"
+
+msgid "Within prefix"
+msgstr "Within prefix"
+
+msgid "Within and including prefix"
+msgstr "Внутри и включая подсеть"
+
+msgid "Prefixes which contain this prefix or IP"
+msgstr "Подсети, содержащие эту подсеть или IP-адрес"
+
+msgid "VRF (RD)"
+msgstr "VRF (RD)"
+
+msgid "VLAN (ID)"
+msgstr "VLAN (ID)"
+
+msgid "VLAN number (1-4095)"
+msgstr "Номер VLAN (1-4095)"
+
+msgid "Parent prefix"
+msgstr "Родительская подсеть"
+
+msgid "Address"
+msgstr "IP Адрес"
+
+msgid "Virtual machine (name)"
+msgstr "Виртуальная машина (название)"
+
+msgid "Interface (name)"
+msgstr "Интерфейс (название)"
+
+msgid "Interface (ID)"
+msgstr "Интерфейс (ID)"
+
+msgid "VM interface (name)"
+msgstr "Интерфейс ВМ (имя)"
+
+msgid "VM interface (ID)"
+msgstr "Интерфейс ВМ (ID)"
+
+msgid "Is assigned to an interface"
+msgstr "Привязан к интерфейсу"
+
+msgid "Group (ID)"
+msgstr "Группа (ID)"
+
+msgid "Dummy plugin"
+msgstr "Фиктивный плагин"
+
+msgid "Object types"
+msgstr "Типы объектов"
+
+msgid "The object(s) to which this Webhook applies."
+msgstr "Объект(ы), к которому применяется этот Webhook."
+
+msgid "Call this webhook when a matching object is created."
+msgstr "Вызовите этот webhook при создании соответствующего объекта."
+
+msgid "Call this webhook when a matching object is updated."
+msgstr "Вызвать этот webhook, когда объект обновляется."
+
+msgid "Call this webhook when a matching object is deleted."
+msgstr "Вызвать этот webhook, когда объект удаляется."
+
+msgid "URL"
+msgstr "URL"
+
+msgid "A POST will be sent to this URL when the webhook is called."
+msgstr "Сообщение будет отправлено на этот URL-адрес при вызове webhook."
+
+msgid "HTTP method"
+msgstr "Метод HTTP"
+
+msgid "HTTP content type"
+msgstr "Тип контента HTTP"
+
+msgid "The complete list of official content types is available "
+msgstr "Полный список официальных типов контента доступен здесь "
+
+msgid "User-supplied HTTP headers to be sent with the request in addition to the HTTP content type. "
+msgstr "Предоставленные пользователем HTTP-заголовки,отправляемые вместе с запросом в дополнение к типу содержимого HTTP."
+
+msgid "Jinja2 template for a custom request body. If blank, a JSON object representing the change will be "
+msgstr "Jinja2 шаблон для пользовательского текста запроса. Если он пуст, то будет создан объект JSON, представляющий это изменение "
+
+msgid "When provided, the request will include a X-Hook-Signature "
+msgstr "Когда запрос будет предоставлен, он будет включать в себя X-Hook-Signature "
+
+msgid "SSL verification"
+msgstr "SSL проверка"
+
+msgid "Enable SSL certificate verification. Disable with caution!"
+msgstr "Включите проверку SSL-сертификата. Отключайте с осторожностью!"
+
+msgid "CA File Path"
+msgstr "CA File Path"
+
+msgid "The specific CA certificate file to use for SSL verification. "
+msgstr "Конкретный файл сертификата CA, используемый для проверки SSL"
+
+msgid "Jinja2 template code for link text"
+msgstr "Код шаблона Jinja2 для текста ссылки"
+
+msgid "Jinja2 template code for link URL"
+msgstr "Код шаблонов Jinja2 для URL"
+
+msgid "Links with the same group will appear as a dropdown menu"
+msgstr "Ссылки с одной и той же группой появятся в виде выпадающего меню"
+
+msgid "The class of the first link in a group will be used for the dropdown button"
+msgstr "Класс первой ссылки в группе будет использоваться для выпадающей кнопки"
+
+msgid "Force link to open in a new window"
+msgstr "Принудительное открытие ссылки в новом окне"
+
+msgid "Source URL"
+msgstr "URL источника"
+
+msgid "Link URL"
+msgstr "URL ссылки"
+
+msgid "The list of objects being exported is passed as a context variable named <code>queryset</code>."
+msgstr "Список экспортируемых объектов передается в виде контекстной переменной с именем <code>queryset</code>."
+
+msgid "MIME type"
+msgstr "MIME тип"
+
+msgid "Defaults to <code>text/plain</code>"
+msgstr "По умолчанию <code>text/plain</code>"
+
+msgid "Extension to append to the rendered filename"
+msgstr "Расширение для добавления к отображаемому имени файла"
+
+msgid "The object type to which this job result applies"
+msgstr "Тип объекта, к которому применяется этот результат задания"
+
+msgid "Object(s)"
+msgstr "Объект(ы)"
+
+msgid "The object(s) to which this field applies."
+msgstr "Объект(ы), к которому применяется это поле."
+
+msgid "Name of the field as displayed to users (if not provided, "
+msgstr "Имя поля, отображаемого пользователям (если оно не указано, "
+
+msgid "If true, this field is required when creating new objects "
+msgstr "Если true, то это поле обязательно при создании новых объектов"
+
+msgid "Loose matches any instance of a given string; exact "
+msgstr "Loose matches any instance of a given string; exact "
+
+msgid "Default value for the field. Use true or false for booleans."
+msgstr "Значение по умолчанию для этого поля. Используйте true или false для boolean."
+
+msgid "Fields with higher weights appear lower in a form."
+msgstr "Поля с более высокими весами отображаются ниже в форме."
+
+msgid "Higher weights appear lower in the list"
+msgstr "Более высокие веса появляются ниже в списке"
+
+msgid "Has local config context data"
+msgstr "Имеет локальные данные контекста конфигурации"
+
+msgid "After"
+msgstr "После"
+
+msgid "Before"
+msgstr "До"
+
+msgid "Object Type"
+msgstr "Тип объекта"
+
+msgid "Commit changes"
+msgstr "Фиксация изменений"
+
+msgid "Commit changes to the database (uncheck for a dry-run)"
+msgstr "Зафиксируйте изменения в базе данных (снимите флажок для сухого запуска)"
+
+msgid "Object"
+msgstr "Объект"
+
+msgid "Request ID"
+msgstr "ID запроса"
+
+msgid "Region"
+msgstr "Регион"
+
+msgid "Platform"
+msgstr "Платформа"
+
+msgid "Cluster group"
+msgstr "Группа кластеров"
+
+msgid "Tenant group"
+msgstr "Группа учреждений"
+
+msgid "Tenant"
+msgstr "Учреждение"
+
+msgid "Tag (slug)"
+msgstr "Тэг (slug)"
+
+msgid "User name"
+msgstr "Имя пользователя"
