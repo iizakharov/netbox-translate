@@ -171,6 +171,23 @@ def get_dictionary(dict_file):
     return d
 
 
+'''
+Generate dictionary file. For output file use file_name.dict
+Main dictionaries:
+fields.dict - phrases from models .py files 
+phrases.dict - phrases from all .py files, for verbose_name, help_text and other params 
+html.dict - all phrases from html templates 
+class.dict - phrases from models files only for Classes
+'''
+def generate_dictionary_file(phrases, output_file):
+    dict_rows = ""
+    for phrase in phrases:
+        dict_rows += '\nmsgid "' + phrase + '"\nmsgstr\n'
+    f_d = open(output_file, 'w+')
+    f_d.write(dict_rows)
+    f_d.close()
+
+
 html_patterns = [
     r'<a\s.+?>\s?([^(\n|?:{{|<)].+?[^(?:}}|>|\n)])<\/a>',
     r'<th>\s?([^(\n|?:{{|<)].+?[^(?:}}|>)])</th>',
@@ -243,7 +260,7 @@ for f in files:
 
 all_phrases_from_py = []
 
-# def generate_phrases_fileds_dictionary(files)
+# get all phrases from py
 for f in files:
     fn, fe = os.path.splitext(f)
     if fe == '.py' and not 'migrations' in f:
@@ -255,18 +272,38 @@ for f in files:
         for m in matches:
             m_ph = re.findall(r'[\'\"].+[\'\"]', m)
             for mp in m_ph:
-                print('---------PHRASES-FOR-"' + mp + '"-------')
-                print(f)
-                print(m)
+                mp = mp.replace('\'', '')
+                mp = mp.replace('\"', '')
+                #print('---------PHRASES-FOR-"' + mp + '"-------')
+                #print(f)
+                #print(m)
+
                 if mp not in all_phrases_from_py:
-                    all_phrases_from_py.append(m_ph)
+                    all_phrases_from_py.append(mp)
         o.close()
 
-print(all_phrases_from_py)
+#print(all_phrases_from_py)
 
-dict_rows = ""
-for field in all_fields_from_netbox:
-    dict_rows += '\nmsgid "' + field + '"\nmsgstr\n'
-f_d = open('generated.dict', 'w+')
-f_d.write(dict_rows)
-f_d.close()
+for f in files:
+    fn, fe = os.path.splitext(f)
+    if fe == '.py' and not 'migrations' in f:
+        # print(f)
+        o = open(f, 'r')
+        c = o.read()
+        matches = re.findall(r'verbose_name.+|help_text.+|verbose_name_plural.+|label.+', c)
+        # print(matches)
+        for m in matches:
+            m_ph = re.findall(r'[\'\"].+[\'\"]', m)
+            for mp in m_ph:
+                mp = mp.replace('\'', '')
+                mp = mp.replace('\"', '')
+                #print('---------PHRASES-FOR-"' + mp + '"-------')
+                #print(f)
+                #print(m)
+
+                if mp not in all_phrases_from_py:
+                    all_phrases_from_py.append(mp)
+        o.close()
+
+#generate_dictionary_file(all_phrases_from_py, 'phrases-gen.dict')
+
