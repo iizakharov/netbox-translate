@@ -70,8 +70,6 @@ else:
 '''
 Create a list of the files for translating
 '''
-
-
 def get_files(directory_name):
     fl = []
     for root, dirs, files in os.walk(directory_name, topdown=False):
@@ -83,8 +81,6 @@ def get_files(directory_name):
 '''
 Copy source directory into new translate directory
 '''
-
-
 def copy_files(source_file, source_dir, copy_dir):
     nf = source_file.replace(source_dir, copy_dir)
     os.makedirs(os.path.dirname(nf), exist_ok=True)
@@ -94,8 +90,6 @@ def copy_files(source_file, source_dir, copy_dir):
 '''
 Generate patterns for field name
 '''
-
-
 def generate_fields_patterns(fields):
     gen_fields = {}
     for field in fields:
@@ -123,8 +117,6 @@ def get_all_fields_from_file(file):
 '''
 Check the verbose_name or help_text in row field
 '''
-
-
 def check_field_param(param, field_string):
     if field_string and param:
         return bool(re.search(param, field_string))
@@ -133,8 +125,6 @@ def check_field_param(param, field_string):
 '''
 Create field param in mathes string row
 '''
-
-
 def create_field_param(param_name, param_value, raw_string):
     #print('RAW: ' + raw_string)
     if param_name and param_value and raw_string:
@@ -148,8 +138,6 @@ def create_field_param(param_name, param_value, raw_string):
 '''
 Get translated row from dictionary
 '''
-
-
 def get_translated_field(field_name):
     return False
 
@@ -157,8 +145,6 @@ def get_translated_field(field_name):
 '''
 Get dictionary file and make
 '''
-
-
 def get_dictionary(dict_file):
     po_patterns = [
         r'msgid\s\"(.+)\"\nmsgstr\s\"(.+)\"',
@@ -182,12 +168,14 @@ class.dict - phrases from models files only for Classes
 def generate_dictionary_file(phrases, output_file):
     dict_rows = ""
     for phrase in phrases:
-        dict_rows += '\nmsgid "' + phrase + '"\nmsgstr\n'
+        dict_rows += '\nmsgid "' + phrase + '"\nmsgstr  "' + phrase + '"\n'
     f_d = open(output_file, 'w+')
     f_d.write(dict_rows)
     f_d.close()
 
-
+'''
+Set html patterns
+'''
 html_patterns = [
     r'<a\s.+?>\s?([^(\n|?:{{|<)].+?[^(?:}}|>|\n)])<\/a>',
     r'<th>\s?([^(\n|?:{{|<)].+?[^(?:}}|>)])</th>',
@@ -209,18 +197,73 @@ html_patterns = [
     r'<li(?:.+)?>(?!<a)(?!<span)(?!{{)(.+?[^>])(?!}})</li>',
 ]
 
+# set variables
 source_dir = dn
 translate_dir = dn + '-translated'
-
-files = get_files(source_dir)
-dict_fields = get_dictionary('fields.dict')
-dict_main = get_dictionary('main.dict')
-
 all_fields_from_netbox = []
+all_phrases_from_py = []
+all_phrases_from_html = []
 
+# get files
+files = get_files(source_dir)
+
+# get dictionaries
+dict_fields = get_dictionary('fields.dict')
+dict_phrases = get_dictionary('phrases.dict')
+
+
+'''
+Get phrases from verbose_name, help_text, verbose_name_plural, label
+'''
 for f in files:
     fn, fe = os.path.splitext(f)
-    if (fe == '.py' and '/models/' in f) or ('models.py' in f and not 'migrations' in f):
+    if fe == '.py' and not 'migrations' in f:
+        # print(f)
+        o = open(f, 'r')
+        c = o.read()
+        matches = re.findall(r'verbose_name.+|help_text.+|verbose_name_plural.+|label.+', c)
+        # print(matches)
+        for m in matches:
+            m_ph = re.findall(r'[\'\"].+[\'\"]', m)
+            for mp in m_ph:
+                mp = mp.replace('\'', '')
+                mp = mp.replace('\"', '')
+                #print('---------PHRASES-FOR-"' + mp + '"-------')
+                #print(f)
+                #print(m)
+
+                if mp not in all_phrases_from_py:
+                    all_phrases_from_py.append(mp)
+        o.close()
+
+#print(all_phrases_from_py)
+
+'''
+Get phrases from html templates and html tags
+'''
+for f in files:
+    fn, fe = os.path.splitext(f)
+    if fe == '.html' and not 'jquery-ui-' in fn:
+        o = open(f, 'r')
+        c = o.read()
+        for hp in html_patterns:
+            matches = re.findall(hp, c)
+            for m in matches:
+                print('---------HTML-PHRASES-FOR--------')
+                print(f)
+                print(m)
+                if m not in all_phrases_from_html:
+                    all_phrases_from_html.append(m)
+        o.close()
+
+print(len(all_phrases_from_html))
+
+'''
+Translate files
+'''
+for f in files:
+    fn, fe = os.path.splitext(f)
+    if fe == '.py' and not 'migrations' in f:
         copy_files(f, source_dir, translate_dir)
         o = open(f, 'r')
         c = o.read()
@@ -257,53 +300,14 @@ for f in files:
         w.write(c)
         o.close()
         w.close()
-
-all_phrases_from_py = []
-
-# get all phrases from py
-for f in files:
-    fn, fe = os.path.splitext(f)
-    if fe == '.py' and not 'migrations' in f:
-        # print(f)
+    if fe == '.html' and not 'jquery-ui-' in fn:
         o = open(f, 'r')
         c = o.read()
-        matches = re.findall(r'verbose_name.+|help_text.+|verbose_name_plural.+|label.+', c)
-        # print(matches)
-        for m in matches:
-            m_ph = re.findall(r'[\'\"].+[\'\"]', m)
-            for mp in m_ph:
-                mp = mp.replace('\'', '')
-                mp = mp.replace('\"', '')
-                #print('---------PHRASES-FOR-"' + mp + '"-------')
-                #print(f)
-                #print(m)
+        for hp in html_patterns:
+            matches = re.findall(hp, c)
 
-                if mp not in all_phrases_from_py:
-                    all_phrases_from_py.append(mp)
-        o.close()
 
-#print(all_phrases_from_py)
-
-for f in files:
-    fn, fe = os.path.splitext(f)
-    if fe == '.py' and not 'migrations' in f:
-        # print(f)
-        o = open(f, 'r')
-        c = o.read()
-        matches = re.findall(r'verbose_name.+|help_text.+|verbose_name_plural.+|label.+', c)
-        # print(matches)
-        for m in matches:
-            m_ph = re.findall(r'[\'\"].+[\'\"]', m)
-            for mp in m_ph:
-                mp = mp.replace('\'', '')
-                mp = mp.replace('\"', '')
-                #print('---------PHRASES-FOR-"' + mp + '"-------')
-                #print(f)
-                #print(m)
-
-                if mp not in all_phrases_from_py:
-                    all_phrases_from_py.append(mp)
-        o.close()
-
-#generate_dictionary_file(all_phrases_from_py, 'phrases-gen.dict')
-
+'''
+Generate dictionary file
+'''
+#generate_dictionary_file(all_phrases_from_html, 'html.dict')
