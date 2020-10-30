@@ -119,6 +119,9 @@ msgstr "Группы учреждений"
 msgid "Tags"
 msgstr "Тэги"
 
+msgid "Organization"
+msgstr "Структура"
+
 msgid "Devices"
 msgstr "Устройства"
 
@@ -1793,6 +1796,12 @@ msgstr "            Доступен новый релиз: <a href="{{ new_rele
 msgid "Organization"
 msgstr "Структура"
 
+msgid "Other"
+msgstr "Прочее"
+
+msgid "Add Components "
+msgstr "Добавить компоненты"
+
 msgid "DCIM"
 msgstr "Устройства"
 
@@ -1836,7 +1845,7 @@ msgid "Check the following:"
 msgstr "Проверьте следующее:"
 
 msgid "Click <a href="/">here</a> to attempt loading NetBox again."
-msgstr "Нажмите <a href="/">здесь</a> что попытаться запустить модуль."
+msgstr "Нажмите <a href="/">здесь</a> чтобы попытаться запустить модуль."
 
 msgid "Static Media Failure"
 msgstr "Ошибка статических данных"
@@ -1846,3 +1855,9 @@ msgstr "Static Media Failure - NetBox"
 
 msgid "No results found"
 msgstr "Ничего не найдено"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Reset"
+msgstr "Сброс"
