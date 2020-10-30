@@ -153,6 +153,7 @@ def get_dictionary(dict_file):
     c = o.read()
     for p in po_patterns:
         m = re.findall(p, c)
+    o.close()
     d = dict(m)
     return d
 
@@ -172,6 +173,23 @@ def generate_dictionary_file(phrases, output_file):
     f_d = open(output_file, 'w+')
     f_d.write(dict_rows)
     f_d.close()
+
+
+'''
+Get all classes names from models
+'''
+def get_all_classes_names(file):
+    all_fields = []
+    row_fields = re.findall(r'\w+\s?=\s?models.\w+\(', file)
+    for field in row_fields:
+        filtered_field = re.match(r'^[^_]\w+', field)
+        if filtered_field:
+            filtered_field = filtered_field.group(0)
+            # print(filtered_field)
+            if filtered_field not in all_fields:
+                all_fields.append(filtered_field)
+    return all_fields
+
 
 '''
 Set html patterns
@@ -195,9 +213,19 @@ html_patterns = [
     r'<label\s?.*?>(?!{{)(.+?)(?!}})</label>',
     r'<strong\s?.*?>(?!{{)(.+?[^>])(?!}})</strong>',
     r'<li(?:.+)?>(?!<a)(?!<span)(?!{{)(.+?[^>])(?!}})</li>',
+    r'<input type=\"submit\".+value=\"\s?(\w+)\s?\"\s?/>',
+    r'>\s?(\w+)\s?<span',
+    r'<\/span>\s?([\w\s]+)\s?<span'
 ]
 
-# set variables
+phrases_patterns = [
+    r'verbose_name\s?=\s?[\'\"](.+)[\'\"]',
+    r'help_text\s?=\s?([\'\"](.+)[\'\"])',
+    r'verbose_name_plural\s?=\s?[\'\"](.+)[\'\"]',
+    r'label\s?=\s?[\'\"](.+)[\'\"]'
+]
+
+# set main variables
 source_dir = dn
 translate_dir = dn + '-translated'
 all_fields_from_netbox = []
@@ -210,7 +238,9 @@ files = get_files(source_dir)
 # get dictionaries
 dict_fields = get_dictionary('fields.dict')
 dict_phrases = get_dictionary('phrases.dict')
+dict_html = get_dictionary('html.dict')
 
+print(dict_phrases)
 
 '''
 Get phrases from verbose_name, help_text, verbose_name_plural, label
@@ -243,68 +273,102 @@ Get phrases from html templates and html tags
 '''
 for f in files:
     fn, fe = os.path.splitext(f)
-    if fe == '.html' and not 'jquery-ui-' in fn:
+    if fe == '.html' and 'jquery-ui-' not in fn:
         o = open(f, 'r')
         c = o.read()
         for hp in html_patterns:
             matches = re.findall(hp, c)
             for m in matches:
-                print('---------HTML-PHRASES-FOR--------')
-                print(f)
-                print(m)
+                #print('---------HTML-PHRASES-FOR--------')
+                #print(f)
+                #print(m)
                 if m not in all_phrases_from_html:
                     all_phrases_from_html.append(m)
         o.close()
 
-print(len(all_phrases_from_html))
+#print(len(all_phrases_from_html))
 
 '''
 Translate files
 '''
 for f in files:
     fn, fe = os.path.splitext(f)
-    if fe == '.py' and not 'migrations' in f:
+    if fe == '.py' and 'migrations' not in f:
         copy_files(f, source_dir, translate_dir)
         o = open(f, 'r')
         c = o.read()
-        phrases = []
-        fields = get_all_fields_from_file(c)
-        #print(f)
-        new_fields = get_all_fields_from_file(c)
-        #print(new_fields)
-        for flds in new_fields:
-            if flds not in all_fields_from_netbox:
-                all_fields_from_netbox.append(flds)
-        pattern_fields = generate_fields_patterns(fields)
-        for key in pattern_fields:
-            matches = re.finditer(pattern_fields[key], c)
+        for pp in phrases_patterns:
+            matches = re.finditer(pp, c)
             for m in matches:
                 raw = m.group(0)
-                #print(m)
                 if raw:
-                    original_str = re.findall(pattern_fields[key], raw)[0][0]
-                    #print('-------------------------------')
-                    #print(f)
-                    #print(pattern_fields[key])
-                    #print('++++++++++++++++++++++++++++++++')
-                    #print(original_str)
-                    #print('++++++++++++++++++++++++++++++++')
-                    #print(bool(re.search('verbose_name', original_str)))
-                    if not check_field_param('verbose_name', original_str) and dict_fields.get(key):
-                        new_str = create_field_param('verbose_name', dict_fields.get(key), original_str)
-                        c = c.replace(raw, raw.replace(original_str, new_str))
-                    # else
+                    orig = re.findall(pp, raw)[0]
+                    print('++++++++++++++++++++++++++++++++')
+                    print(f)
+                    print(pp)
+                    print('++++++++++++++++++++++++++++++++')
+                    print(orig)
+                    print('++++++++++++++++++++++++++++++++')
+                    tran = str(dict_phrases.get(orig)).replace('"', '\\"')
+                    print(tran)
+                    if dict_phrases.get(orig):
+                        c = c.replace(raw, raw.replace(orig, tran))
+        # for fields patterns
+        if '/models/' in f or 'models.py' in f:
+            fields = get_all_fields_from_file(c)
+            pattern_fields = generate_fields_patterns(fields)
+            for key in pattern_fields:
+                matches = re.finditer(pattern_fields[key], c)
+                for m in matches:
+                    raw = m.group(0)
+                    #print(m)
+                    if raw:
+                        original_str = re.findall(pattern_fields[key], raw)[0][0]
+                        #print('-------------------------------')
+                        #print(f)
+                        #print(pattern_fields[key])
+                        #print('++++++++++++++++++++++++++++++++')
+                        #print(original_str)
+                        #print('++++++++++++++++++++++++++++++++')
+                        #print(bool(re.search('verbose_name', original_str)))
+                        if not check_field_param('verbose_name', original_str) and dict_fields.get(key):
+                            new_str = create_field_param('verbose_name', dict_fields.get(key), original_str)
+                            c = c.replace(raw, raw.replace(original_str, new_str))
         nf = f.replace(source_dir, translate_dir)
         os.makedirs(os.path.dirname(nf), exist_ok=True)
         w = open(nf, 'w+')
         w.write(c)
         o.close()
         w.close()
-    if fe == '.html' and not 'jquery-ui-' in fn:
+    # for html patterns
+    if fe == '.html' and 'jquery-ui-' not in fn:
         o = open(f, 'r')
         c = o.read()
         for hp in html_patterns:
-            matches = re.findall(hp, c)
+            matches = re.finditer(hp, c)
+            for m in matches:
+                raw = m.group(0)
+                if raw:
+                    orig = re.findall(hp, raw)[0]
+                    #print('++++++++++++++++++++++++++++++++')
+                    #print(f)
+                    #print(hp)
+                    #print('++++++++++++++++++++++++++++++++')
+                    #print(orig)
+                    #print('++++++++++++++++++++++++++++++++')
+                    tran = str(dict_html.get(orig)).replace('"', '\\"')
+                    #print(tran)
+                    if dict_html.get(orig):
+                        c = c.replace(raw, raw.replace(orig, tran))
+        nf = f.replace(source_dir, translate_dir)
+        os.makedirs(os.path.dirname(nf), exist_ok=True)
+        w = open(nf, 'w+')
+        w.write(c)
+        o.close()
+        w.close()
+
+
+#print(all_fields_from_netbox)
 
 
 '''
