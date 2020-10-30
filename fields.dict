@@ -490,3 +490,6 @@ msgstr "поле"
 
 msgid "value"
 msgstr "значение"
+
+msgid "time_zone"
+msgstr "часовой пояс"
