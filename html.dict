@@ -564,10 +564,10 @@ msgid "Swap these terminations for circuit {{ circuit }}?"
 msgstr "Замените эти подключения для внешнего канала {{ circuit }}?"
 
 msgid "A side:"
-msgstr "Точка поставщика: "
+msgstr "Точка клиента: "
 
 msgid "Z side:"
-msgstr "Точка клиента: "
+msgstr "Точка поставщика: "
 
 msgid "Rack reservations"
 msgstr "Резервирование стоек"
@@ -1146,10 +1146,10 @@ msgid "New {{ component_type }}"
 msgstr "Новый {{ component_type }}"
 
 msgid "A Side"
-msgstr "Точка поставщика"
+msgstr "Точка клиента"
 
 msgid "B Side"
-msgstr "Точка клиента"
+msgstr "Точка поставщика"
 
 msgid "Color"
 msgstr "Цвет"

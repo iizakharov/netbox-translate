@@ -207,10 +207,10 @@ msgid "Operational status"
 msgstr "Рабочий режим"
 
 msgid "A Side"
-msgstr "Точка поставщика"
+msgstr "Точка клиента"
 
 msgid "Z Side"
-msgstr "Точка клиента"
+msgstr "Точка поставщика"
 
 msgid "Site"
 msgstr "Адрес"
