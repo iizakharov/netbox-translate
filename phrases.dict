@@ -429,7 +429,7 @@ msgid "The lowest-numbered unit occupied by the device"
 msgstr "Блок с наименьшим номером, занимаемый устройством"
 
 msgid "Rack face"
-msgstr "поверхность стойки"
+msgstr "сторона стойки"
 
 msgid "virtual chassis"
 msgstr "виртуальные шасси"
