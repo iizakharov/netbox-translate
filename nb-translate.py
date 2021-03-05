@@ -87,6 +87,43 @@ def copy_files(source_file, source_dir, copy_dir):
     copyfile(source_file, nf)
 
 
+def add_verbouse_name_if_not_exist(file):
+    """
+    Скрипт принудительного создании имени класса
+    Add verbose_name to class Meta if not exist
+    :param file: path ro file
+    :return: edited file
+    """
+    reg = re.compile('[A-Z]\w+(?=\()')
+    class_reg = re.compile('^class (?=[A-Z])')
+    flag = False
+    with open(file) as f:
+        data = f.readlines()
+        for i in range(len(data)):
+            if ('class ' in data[i]) & (not ('Meta' in data[i])) & (not (class_reg.search(data[i]) == None)):
+                names = reg.search(data[i])
+                class_name = names.group()
+                x = re.findall('[A-Z][^A-Z]+', class_name)
+                class_name = ' '.join(x)
+            if 'class Meta:' in data[i]:
+                try:
+                    for j in data[i:i + 4]:
+                        if not ('verbose_name' in j):
+                            flag = True
+                    if flag:
+                        data[i + 1] += f'        verbose_name = "{class_name}"\n' \
+                                       f'        verbose_name_plural = "{class_name}s"\n'
+                        flag = False
+                except Exception as E:
+                    print('add_verbouse_name_if_not_exist EXCEPTION')
+                    print(E)
+                    print(file)
+                    print(data[i])
+        with open(file, 'w+') as f1:
+            f1.writelines(data)
+    return
+
+
 '''
 Generate patterns for field name
 '''
@@ -292,6 +329,9 @@ for f in files:
 Translate files
 '''
 for f in files:
+    if os.path.basename(f) == 'models.py':
+        add_verbouse_name_if_not_exist(f)
+        print(f'added verbose_name in {f}')
     fn, fe = os.path.splitext(f)
     if fe == '.py' and 'migrations' not in f:
         copy_files(f, source_dir, translate_dir)

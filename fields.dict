@@ -461,11 +461,14 @@ msgstr "группы кластеров"
 msgid "clusters"
 msgstr "кластеры"
 
-msgid "tenant_groups"
+msgid "tenant group"
+msgstr "группа учреждений"
+
+msgid "tenant groups"
 msgstr "группы учреждений"
 
-msgid "tenants"
-msgstr "учреждения"
+msgid "tenant_groups"
+msgstr "группы учреждений"
 
 msgid "tags"
 msgstr "тэги"
