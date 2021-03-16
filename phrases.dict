@@ -35,6 +35,12 @@ msgstr "Тегированный VLAN"
 msgid "interface"
 msgstr "интерфейс"
 
+msgid "Interfaces"
+msgstr "Интерфейсы"
+
+msgid "interfaces"
+msgstr "Интерфейсы"
+
 msgid "Type of cluster"
 msgstr "Тип кластера"
 
@@ -83,11 +89,18 @@ msgstr "IEEE 802.1Q режим работы (для L2 интерфейсов)"
 msgid "Virtual machine"
 msgstr "Виртуальная машина"
 
+msgid "Virtual Machines"
+msgstr "Виртуальные машины"
+
 msgid "Clusters"
 msgstr "Кластеры"
 
 msgid "Devices"
 msgstr "Устройства"
+
+msgid "Device Role"
+msgid_plural "Device Roles"
+msgstr "Роли устройств"
 
 msgid "VMs"
 msgstr "Виртуальные машины"
@@ -554,6 +567,9 @@ msgstr "Отсек устройства, в котором установлен�
 msgid "Manufacturer"
 msgstr "Производитель"
 
+msgid "Manufacturers"
+msgstr "Производители"
+
 msgid "Model"
 msgstr "Модель"
 
@@ -596,14 +612,23 @@ msgstr "Дочернее устройство, установленное в э�
 msgid "Provider"
 msgstr "Поставщик услуг"
 
+msgid "Providers"
+msgstr "Поставщики услуг"
+
 msgid "Side"
 msgstr "Сторона"
 
 msgid "Rack Group"
 msgstr "Группа стоек"
 
+msgid "Rack Groups"
+msgstr "Группы стоек"
+
 msgid "Power Panel"
 msgstr "Силовая панель"
+
+msgid "Power Panels"
+msgstr "Силовая панели"
 
 msgid "Side A device"
 msgstr "Название подключаемого устройства"
@@ -677,6 +702,9 @@ msgstr "Юнитов"
 msgid "Device Types"
 msgstr "Типы устройств"
 
+msgid "Inventory Item"
+msgstr "Встроенное устройство"
+
 msgid "Inventory Items"
 msgstr "Встроенные устройства"
 
@@ -700,6 +728,9 @@ msgstr "Позиция"
 
 msgid "Role"
 msgstr "Роль"
+
+msgid "Roles"
+msgstr "Роли"
 
 msgid "VC Position"
 msgstr "Позиция ВШ"
@@ -725,11 +756,41 @@ msgstr "Подключение 2"
 msgid "Console Server"
 msgstr "Консольный сервер"
 
+msgid "Cable"
+msgstr "Кабель"
+
+msgid "Cables"
+msgstr "Кабели"
+
+msgid "User Key"
+msgstr "Ключ пользователя"
+
+msgid "User Keys"
+msgstr "Ключи пользователя"
+
+msgid "Session Key"
+msgstr "Ключ сессии"
+
+msgid "Session Keys"
+msgstr "Ключи сессии"
+
+msgid "Secret Role"
+msgstr "Роль"
+
+msgid "Secret Roles"
+msgstr "Роли"
+
+msgid "Interface Connections"
+msgstr "Интерфейсы"
+
 msgid "Port"
 msgstr "Порт"
 
 msgid "Console Port"
 msgstr "Консольный порт"
+
+msgid "Console Ports"
+msgstr "Консольные порты"
 
 msgid "PDU"
 msgstr "БРП"
@@ -739,6 +800,9 @@ msgstr "Розетка"
 
 msgid "Power Port"
 msgstr "Порт питания"
+
+msgid "Power Ports"
+msgstr "Порты питания"
 
 msgid "Device A"
 msgstr "Устройство 1"
@@ -848,8 +912,14 @@ msgstr "Используйте кнопки ниже, чтобы располо�
 msgid "Group"
 msgstr "Группа"
 
+msgid "Groups"
+msgstr "Группы"
+
 msgid "User"
 msgstr "Пользователь"
+
+msgid "Users"
+msgstr "Пользователи"
 
 msgid "User Preferences"
 msgstr "Пользовательские настройки"
@@ -865,6 +935,9 @@ msgstr "Фильтр, соответствующий применимым объ
 
 msgid "permission"
 msgstr "разрешение"
+
+msgid "permissions"
+msgstr "разрешения"
 
 msgid "If no key is provided, one will be generated automatically."
 msgstr "Если ключ не указан, он будет сгенерирован автоматически."
@@ -1289,6 +1362,12 @@ msgstr "Группа кластеров"
 msgid "Tenant group"
 msgstr "Группа учреждений"
 
+msgid "Tenant Group"
+msgstr "Группа учреждений"
+
+msgid "Tenant Groups"
+msgstr "Группы учреждений"
+
 msgid "Tenant"
 msgstr "Учреждение"
 
@@ -1297,3 +1376,147 @@ msgstr "Тэг (slug)"
 
 msgid "User name"
 msgstr "Имя пользователя"
+
+msgid "Route Target"
+msgstr "Цель маршрута"
+
+msgid "Route Targets"
+msgstr "Цели маршрута"
+
+msgid "Rack Role"
+msgstr "Роль стойки"
+
+msgid "Rack Roles"
+msgstr "Роли стоек"
+
+msgid "Rack Reservation"
+msgstr "Резервирование"
+
+msgid "Rack Reservations"
+msgstr "Резервирования"
+
+msgid "Rack Elevation"
+msgstr "Загруженность"
+
+msgid "Rack Elevations"
+msgstr "Загруженность"
+
+msgid "Front Port"
+msgstr "Передний порт"
+
+msgid "Front Ports"
+msgstr "Передние порты"
+
+msgid "Base Interface"
+msgstr "Базовый интерфейс"
+
+msgid "Base Interfaces"
+msgstr "Базовые интерфейсы"
+
+msgid "Power Outlet"
+msgstr "Питание"
+
+msgid "Power Outlets"
+msgstr "Питание"
+
+msgid "Console Server Port"
+msgstr "Сервеный порт"
+
+msgid "Console Server Ports"
+msgstr "Серверные порты"
+
+msgid "Path Endpoint"
+msgstr "Конечная точка"
+
+msgid "Path Endpoints"
+msgstr "Конечные точки"
+
+msgid "Cable Termination"
+msgstr "Окончание кабеля"
+
+msgid "Cable Terminations"
+msgstr "Окончание кабеля"
+
+msgid "Component Model"
+msgstr "Компонентная модель"
+
+msgid "Component Models"
+msgstr "Компонентные модели"
+
+msgid "Rear Port"
+msgstr "Задний порт"
+
+msgid "Rear Ports"
+msgstr "Задние порты"
+
+msgid "Device Bay"
+msgstr "Отсек"
+
+msgid "Device Bays"
+msgstr "Отсеки"
+
+msgid "Service"
+msgstr "Сервис"
+
+msgid "Services"
+msgstr "Сервисы"
+
+msgid "Cluster Group"
+msgstr "Группа кластеров"
+
+msgid "Cluster Groups"
+msgstr "Группы кластеров"
+
+msgid "Cluster Type"
+msgstr "Тип кластеров"
+
+msgid "Cluster Types"
+msgstr "Типы кластеров"
+
+msgid "Circuit Type"
+msgstr "Тип цепи"
+
+msgid "Circuit Types"
+msgstr "Типы цепи"
+
+msgid "Circuit Termination"
+msgstr "Схема"
+
+msgid "Circuit Terminations"
+msgstr "Схемы"
+
+msgid "Power Feed"
+msgstr "Подача питания"
+
+msgid "Power Feeds"
+msgstr "Подача питания"
+
+msgid "Change Logged Model"
+msgstr "Изменение журнала"
+
+msgid "Change Logged Models"
+msgstr "Изменение журналоd"
+
+msgid "Object Change"
+msgstr "Изменение объекта"
+
+msgid "Object Changes"
+msgstr "Изменение объектов"
+
+msgid "Config Context"
+msgstr "Контекст конфигурации"
+
+msgid "Config Contexts"
+msgstr "Контексты конфигурации"
+
+msgid "Script"
+msgstr "Скрипт"
+
+msgid "Scripts"
+msgstr "Скрипты"
+
+msgid "Report"
+msgstr "Отчет"
+
+msgid "Reportss"
+msgstr "Отчеты"

@@ -11,6 +11,9 @@ msgstr "Пожалуйста, <strong>просмотрите</strong> и <strong
 msgid " Reload Page"
 msgstr " перезагрузить страницу"
 
+msgid "Refine search"
+msgstr "Обновить поиск"
+
 msgid "Grav Problems"
 msgstr "Серьезные проблемы"
 
@@ -112,6 +115,9 @@ msgstr "Загруженность"
 
 msgid "Tenants"
 msgstr "Учреждения"
+
+msgid "Tenant Group"
+msgstr "Группа учреждений"
 
 msgid "Tenant Groups"
 msgstr "Группы учреждений"
@@ -1629,7 +1635,10 @@ msgid "Reports should be saved to <code>{{ settings.REPORTS_ROOT }}</code>. (Thi
 msgstr "Отчет сохранен в <code>{{ settings.REPORTS_ROOT }}</code>. (Данный путь может быть изменен в настройках конфигурации <code>REPORTS_ROOT</code>.)"
 
 msgid "No reports found."
-msgstr "No reports found."
+msgstr "Сообщений не найдено."
+
+msgid "None found"
+msgstr "Не найдено"
 
 msgid "Never"
 msgstr "Никогда"
@@ -1861,3 +1870,20 @@ msgstr "Сохранить"
 
 msgid "Reset"
 msgstr "Сброс"
+
+msgid "Route Targets"
+msgstr "Цели маршрута"
+
+msgid "Add a new"
+msgstr "Добавить"
+
+msgid "Editing"
+msgstr "Редактировать"
+
+msgid " Configure"
+msgstr " Настроить"
+
+msgid "Rack Elevations"
+msgstr " Высота стойки"
+
+
