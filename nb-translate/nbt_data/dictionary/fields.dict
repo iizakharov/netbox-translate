@@ -29,6 +29,9 @@ msgstr "группа"
 msgid "tenant"
 msgstr "учреждение"
 
+msgid "tenants"
+msgstr "учреждения"
+
 msgid "site"
 msgstr "адрес"
 
@@ -102,7 +105,7 @@ msgid "term_side"
 msgstr "подключение"
 
 msgid "connected_endpoint"
-msgstr "оконечная точка"
+msgstr "конечная точка"
 
 msgid "connection_status"
 msgstr "статус подключения"
@@ -434,9 +437,6 @@ msgstr "MIME тип"
 msgid "file_extension"
 msgstr "расширение"
 
-msgid "object_id"
-msgstr
-
 msgid "image"
 msgstr "изображение"
 
@@ -464,9 +464,6 @@ msgstr "кластеры"
 msgid "tenant_groups"
 msgstr "группы учреждений"
 
-msgid "tenants"
-msgstr "учреждения"
-
 msgid "tags"
 msgstr "тэги"
 
@@ -493,3 +490,8 @@ msgstr "значение"
 
 msgid "time_zone"
 msgstr "часовой пояс"
+
+msgid "Tenant_Group"
+msgstr "группы учреждений"
+msgid "tenant_groups"
+msgstr "группы учреждений"
