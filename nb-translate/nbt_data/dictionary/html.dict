@@ -1,0 +1,1962 @@
+
+msgid "Reload Page"
+msgstr "Перезагрузить страницу"
+
+msgid "Issues Found"
+msgstr "Найдены проблемы"
+
+msgid "Please <strong>Review</strong> and <strong>Resolve</strong> before continuing..."
+msgstr "Пожалуйста, <strong>просмотрите</strong> и <strong>решите</strong>, прежде чем продолжить..."
+
+msgid " Reload Page"
+msgstr " перезагрузить страницу"
+
+msgid "Refine search"
+msgstr "Обновить поиск"
+
+msgid "Grav Problems"
+msgstr "Серьезные проблемы"
+
+msgid "Review"
+msgstr "Обзор"
+
+msgid "Resolve"
+msgstr "Разрешить"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Add "
+msgstr "Добавить"
+
+msgid " Add"
+msgstr "Добавить"
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Clone"
+msgstr "Копировать"
+
+msgid "Import"
+msgstr "Импортировать"
+
+msgid "Default format"
+msgstr "Формат по умолчанию"
+
+msgid "Export"
+msgstr "Экспорт"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Regenerate slug"
+msgstr "Перегенерировать slug"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Clear"
+msgstr "Очистить"
+
+msgid "Move up"
+msgstr "Поднять вверх"
+
+msgid "Move down"
+msgstr "Опусть вниз"
+
+msgid "Select all"
+msgstr "Выделить все"
+
+msgid "Table Configuration"
+msgstr "Настройки таблицы"
+
+msgid "True"
+msgstr "True"
+
+msgid "False"
+msgstr "False"
+
+msgid "Custom Fields"
+msgstr "Дополнительные поля"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Created"
+msgstr "Создано"
+
+msgid "Edit image"
+msgstr "Изменить изображение"
+
+msgid "Delete image"
+msgstr "Удалить изображение"
+
+msgid "Sites"
+msgstr "Адреса"
+
+msgid "Regions"
+msgstr "Регионы"
+
+msgid "Racks"
+msgstr "Стойки"
+
+msgid "Rack Groups"
+msgstr "Группы стоек"
+
+msgid "Rack Roles"
+msgstr "Роли стоек"
+
+msgid "Reservations"
+msgstr "Резервирование"
+
+msgid "Elevations"
+msgstr "Загруженность"
+
+msgid "Tenants"
+msgstr "Учреждения"
+
+msgid "Tenant Group"
+msgstr "Группа учреждений"
+
+msgid "Tenant Groups"
+msgstr "Группы учреждений"
+
+msgid "Tenant group"
+msgstr "Группа учреждений"
+
+msgid "Tags"
+msgstr "Тэги"
+
+msgid "Organization"
+msgstr "Структура"
+
+msgid "Devices"
+msgstr "Устройства"
+
+msgid "Device Roles"
+msgstr "Роли устройств"
+
+msgid "Platforms"
+msgstr "Платформы"
+
+msgid "Virtual Chassis"
+msgstr "Виртуальные шасси"
+
+msgid "Device Types"
+msgstr "Типы устройств"
+
+msgid "Manufacturers"
+msgstr "Производители"
+
+msgid "Cables"
+msgstr "Кабели"
+
+msgid "Console Connections"
+msgstr "Консольные соединения"
+
+msgid "Power Connections"
+msgstr "Подключение питания"
+
+msgid "Interface Connections"
+msgstr "Интерфейсные соединения"
+
+msgid "Interfaces"
+msgstr "Интерфейсы"
+
+msgid "Front Ports"
+msgstr "Передние порты"
+
+msgid "Rear Ports"
+msgstr "Задние порты"
+
+msgid "Console Ports"
+msgstr "Консольные порты"
+
+msgid "Console Server Ports"
+msgstr "Консольные серверные порты"
+
+msgid "Power Ports"
+msgstr "Порты питания"
+
+msgid "Power Outlets"
+msgstr "Розетки питания"
+
+msgid "Device Bays"
+msgstr "Отсеки устройств"
+
+msgid "Inventory Items"
+msgstr "Части устройств"
+
+msgid "IP Addresses"
+msgstr "IP адреса"
+
+msgid "Prefixes"
+msgstr "Подсети"
+
+msgid "Prefix/VLAN Roles"
+msgstr "Роли подсетей/VLAN"
+
+msgid "Aggregates"
+msgstr "Сети"
+
+msgid "RIRs"
+msgstr "RIRs"
+
+msgid "VRFs"
+msgstr "VRFs"
+
+msgid "VLANs"
+msgstr "VLANы"
+
+msgid "VLAN Groups"
+msgstr "Группы VLAN"
+
+msgid "Services"
+msgstr "Сервисы"
+
+msgid "Virtual Machines"
+msgstr "Виртуальные машины"
+
+msgid "Clusters"
+msgstr "Кластеры"
+
+msgid "Cluster Types"
+msgstr "Типы кластеров"
+
+msgid "Cluster Groups"
+msgstr "Группы кластеров"
+
+msgid "Circuits"
+msgstr "Внешние каналы"
+
+msgid "Circuit Types"
+msgstr "Типы каналов"
+
+msgid "Providers"
+msgstr "Поставщики услуг"
+
+msgid "Power Feeds"
+msgstr "Электропитание"
+
+msgid "Power Panels"
+msgstr "Силовые панели"
+
+msgid "Secrets"
+msgstr "Ключи"
+
+msgid "Secret Roles"
+msgstr "Роли ключей"
+
+msgid "Change Log"
+msgstr "Журнал изменений"
+
+msgid "Config Contexts"
+msgstr "Контексты конфигураций"
+
+msgid "Scripts"
+msgstr "Скрипты"
+
+msgid "Reports"
+msgstr "Отчеты"
+
+msgid "Profile"
+msgstr "Профиль"
+
+msgid "Admin"
+msgstr "Администрирование"
+
+msgid "Log out"
+msgstr "Выйти"
+
+msgid "Log in"
+msgstr "Войти"
+
+msgid "Tenancy"
+msgstr "Учреждения"
+
+msgid "Connections"
+msgstr "Подключения"
+
+msgid "Device Components"
+msgstr "Компоненты устройств"
+
+msgid "Power"
+msgstr "Электропитание"
+
+msgid "Logging"
+msgstr "Логи"
+
+msgid "Miscellaneous"
+msgstr "Прочее"
+
+msgid "IP Address"
+msgstr "IP адрес"
+
+msgid "Status/Role"
+msgstr "Статус/роль"
+
+msgid "VRF"
+msgstr "VRF"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Show graphs"
+msgstr "Показать графики"
+
+msgid "Add IP address"
+msgstr "Добавить IP адрес"
+
+msgid "Edit interface"
+msgstr "Редактировать интерфейс"
+
+msgid "Delete interface"
+msgstr "Удалить интерфейс"
+
+msgid "Edit IP address"
+msgstr "Редактировать IP адрес"
+
+msgid "Delete IP address"
+msgstr "Удалить IP адрес"
+
+msgid "Virtual Machine"
+msgstr "Виртуальная машина"
+
+msgid "Config Context"
+msgstr "Контекст конфигурации"
+
+msgid "MAC Address"
+msgstr "MAC адрес"
+
+msgid "MTU"
+msgstr "MTU"
+
+msgid "Mode"
+msgstr "Режим"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Role"
+msgstr "Роль"
+
+msgid "Platform"
+msgstr "Платформа"
+
+msgid "Tenant"
+msgstr "Учреждение"
+
+msgid "Primary IPv4"
+msgstr "Основной IPv4"
+
+msgid "Primary IPv6"
+msgstr "Основной IPv6"
+
+msgid "Cluster"
+msgstr "Кластер"
+
+msgid "Cluster Type"
+msgstr "Тип кластера"
+
+msgid "&mdash; No interfaces defined &mdash;"
+msgstr "&mdash; Интерфейсы не определены &mdash;"
+
+msgid "Search virtual machines"
+msgstr "Найти виртуальную машину"
+
+msgid "Filter"
+msgstr "Фильтр"
+
+msgid "RegEx-enabled"
+msgstr "RegEx-enabled"
+
+msgid "Toggle all"
+msgstr "Переключить все"
+
+msgid "Show IPs"
+msgstr "Показать IP"
+
+msgid "Rename"
+msgstr "Переименовать"
+
+msgid "Add Interfaces"
+msgstr "Добавить интерфейс"
+
+msgid "Assign service"
+msgstr "Привязать сервис"
+
+msgid "Add interfaces"
+msgstr "Добавить интерфейсы"
+
+msgid "Comments"
+msgstr "Комментарии"
+
+msgid "Resources"
+msgstr "Ресурсы"
+
+msgid "Interface"
+msgstr "Интерфейс"
+
+msgid "Enabled"
+msgstr "Включен"
+
+msgid "802.1Q Mode"
+msgstr "802.1Q режим"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Add Devices"
+msgstr "Добавить устройство"
+
+msgid "Errors"
+msgstr "Ошибки"
+
+msgid "Device Selection"
+msgstr "Выбор устройства"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Group"
+msgstr "Группа"
+
+msgid "Site"
+msgstr "Адрес"
+
+msgid "Search clusters"
+msgstr "Найти кластеры"
+
+msgid "Remove devices"
+msgstr "Удалить устройства"
+
+msgid "Add devices"
+msgstr "Добавить устройства"
+
+msgid "Host Devices"
+msgstr "Хост устройства"
+
+msgid "Create"
+msgstr "Создать"
+
+msgid "Create and Add More"
+msgstr "Создать и добавить еще"
+
+msgid "Management"
+msgstr "Управление"
+
+msgid "Local Config Context Data"
+msgstr "Локальные данные контекста кофигурации"
+
+msgid "Update"
+msgstr "Обновить"
+
+msgid "Update and Continue Editing"
+msgstr "Обновить и продолжить редактирование"
+
+msgid "Create and Add Another"
+msgstr "Создать и добавить еще"
+
+msgid "802.1Q Switching"
+msgstr "802.1Q коммутация"
+
+msgid "10 Mbps"
+msgstr "10 Мбит/с"
+
+msgid "100 Mbps"
+msgstr "100 Мбит/с"
+
+msgid "1 Gbps"
+msgstr "1 Гбит/с"
+
+msgid "10 Gbps"
+msgstr "10 Гбит/с"
+
+msgid "25 Gbps"
+msgstr "25 Гбит/с"
+
+msgid "40 Gbps"
+msgstr "40 Гбит/с"
+
+msgid "100 Gbps"
+msgstr "100 Гбит/с"
+
+msgid "Front Port"
+msgstr "Передний порт"
+
+msgid "Rear Port"
+msgstr "Задний порт"
+
+msgid "Circuit Termination"
+msgstr "Внешние подключения"
+
+msgid "Termination"
+msgstr "подключения"
+
+msgid "Speed"
+msgstr "Скорость"
+
+msgid "IP Addressing"
+msgstr "IP адресация"
+
+msgid "Cross-Connect"
+msgstr "Кросс-коммутация"
+
+msgid "Patch Panel/Port"
+msgstr "Патч панель/порт"
+
+msgid "Remove cable"
+msgstr "Удалить кабель"
+
+msgid "Trace"
+msgstr "Трассировка"
+
+msgid "Downstream"
+msgstr "Нисходящий"
+
+msgid "Upstream"
+msgstr "Восходящий"
+
+msgid "Connect"
+msgstr "Подключить"
+
+msgid "Swap"
+msgstr "Менять"
+
+msgid "Termination - {{ side }} Side"
+msgstr "Подключение - сторона {{ side }}"
+
+msgid "Circuit"
+msgstr "Внешнее подключение"
+
+msgid "Provider"
+msgstr "Поставщик услуг"
+
+msgid "Circuit ID"
+msgstr "Внешнее подключение ID"
+
+msgid "Install Date"
+msgstr "Дата установки"
+
+msgid "Commit Rate"
+msgstr "Скорость канала"
+
+msgid "Support Info"
+msgstr "Информация о техподдержке"
+
+msgid "ASN"
+msgstr "ASN"
+
+msgid "Account"
+msgstr "Аккаунт"
+
+msgid "Customer Portal"
+msgstr "Клиентский портал"
+
+msgid "NOC Contact"
+msgstr "Контакт ответственного за сеть"
+
+msgid "Admin Contact"
+msgstr "Контакт администратора"
+
+msgid "Add circuit"
+msgstr "Добавить внешний канал"
+
+msgid "Location"
+msgstr "Расположение"
+
+msgid "Termination Details"
+msgstr "Детали подключения"
+
+msgid "Swap these terminations for circuit {{ circuit }}?"
+msgstr "Замените эти подключения для внешнего канала {{ circuit }}?"
+
+msgid "A side:"
+msgstr "Точка клиента: "
+
+msgid "Z side:"
+msgstr "Точка поставщика: "
+
+msgid "Rack reservations"
+msgstr "Резервирование стоек"
+
+msgid "IP addresses"
+msgstr "IP адреса"
+
+msgid "Virtual machines"
+msgstr "Виртуальные машины"
+
+msgid "Stats"
+msgstr "Статистика"
+
+msgid "Secret"
+msgstr "Ключ"
+
+msgid "Device"
+msgstr "Устройство"
+
+msgid "Secret Attributes"
+msgstr "Атрибуты ключа"
+
+msgid "Secret Data"
+msgstr "Данные ключа"
+
+msgid "Current Plaintext"
+msgstr "Текущий Plaintext"
+
+msgid "Are you sure you want to delete secret {{ secret }}?"
+msgstr "Вы уверены, что хотите удалить ключ {{ secret }}?"
+
+msgid "Background Tasks"
+msgstr "Фоновые задачи"
+
+msgid "Installed plugins"
+msgstr "Установленные дополнения"
+
+msgid "Missing required packages"
+msgstr "Отсутсвуют требуемые пакеты"
+
+msgid "WSGI service not restarted after upgrade"
+msgstr "WSGI сервис не перезагруже после обновления"
+
+msgid "Insufficient write permission to the media root"
+msgstr "Недостаточное разрешение на запись в корень носителя"
+
+msgid "Database migrations missing"
+msgstr "Отсутствуют миграции баз данных"
+
+msgid "Unsupported PostgreSQL version"
+msgstr "Неподдерживаемая версия PostgreSQL"
+
+msgid "Disconnect"
+msgstr "Отключить"
+
+msgid "Add console port"
+msgstr "Добавить консольный порт"
+
+msgid "LLDP Neighbors"
+msgstr "LLDP Neighbors"
+
+msgid "Configuration"
+msgstr "Конфигурация"
+
+msgid "Remove device"
+msgstr "Удалить устройство"
+
+msgid "Install device"
+msgstr "Установить устройство"
+
+msgid "Edit device bay"
+msgstr "Редактировать отсек устройства"
+
+msgid "Delete device bay"
+msgstr "Удалить отсек устройства"
+
+msgid "Virtual interface"
+msgstr "Виртуальный интерфейс"
+
+msgid "Wireless interface"
+msgstr "Беспроводной интерфейс"
+
+msgid "Clear All"
+msgstr "Очитсить все"
+
+msgid "VID"
+msgstr "VID"
+
+msgid "Untagged"
+msgstr "Нетегированный"
+
+msgid "Tagged"
+msgstr "Тегированный"
+
+msgid "Edit outlet"
+msgstr "Редактировать розетку"
+
+msgid "Delete outlet"
+msgstr "Удалить розетку"
+
+msgid "Racked Devices"
+msgstr "Стеллажные устройства"
+
+msgid "Child Devices"
+msgstr "Дочерние устройства"
+
+msgid "Power Outlet"
+msgstr "Силовая розетка"
+
+msgid "Power Feed"
+msgstr "Электропитание"
+
+msgid "Edit port"
+msgstr "Редактировать порт"
+
+msgid "Delete port"
+msgstr "Удалить порт"
+
+msgid "Console Server Port"
+msgstr "Консольный серверный порт"
+
+msgid "Console Port"
+msgstr "Консольный порт"
+
+msgid " Save SVG"
+msgstr " Сохранить SVG"
+
+msgid "Add {{ title }}"
+msgstr "Добавить {{ title }}"
+
+msgid "Cable"
+msgstr "Кабель"
+
+msgid "Mark planned"
+msgstr "Пометить запланированным"
+
+msgid "Mark installed"
+msgstr "Пометить установленным"
+
+msgid "Component"
+msgstr "Компонент"
+
+msgid "Running"
+msgstr "Запущенный"
+
+msgid "Startup"
+msgstr "Запуск"
+
+msgid "Candidate"
+msgstr "Кандидат"
+
+msgid "Device Configuration"
+msgstr "Конфигурация устройства"
+
+msgid "Device Type"
+msgstr "Тип устройства"
+
+msgid "Manufacturer"
+msgstr "Производитель"
+
+msgid "Model Name"
+msgstr "Название модели"
+
+msgid "Part Number"
+msgstr "Номер партии"
+
+msgid "Full Depth"
+msgstr "На полную глубину"
+
+msgid "Parent/Child"
+msgstr "Вышестоящий/Дочерний"
+
+msgid "Front Image"
+msgstr "Вид спереди"
+
+msgid "Rear Image"
+msgstr "Вид сзади"
+
+msgid "Instances"
+msgstr "Экзеспляры"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Chassis"
+msgstr "Шасси"
+
+msgid "Are you sure you want to remove <strong>{{ device }}</strong> from virtual chassis {{ device.virtual_chassis }}?"
+msgstr "Вы действительно хотите удалить <strong>{{ device }}</strong> из виртуального шасси {{ device.virtual_chassis }}?"
+
+msgid "Label"
+msgstr "Маркировка"
+
+msgid "Device Bay"
+msgstr "Отсек устройства"
+
+msgid "Installed Device"
+msgstr "Установленное устройство"
+
+msgid "Rack Reservation"
+msgstr "Резервирование стойки"
+
+msgid "Tenant Assignment"
+msgstr "Назначение учреждения"
+
+msgid "Power Panel"
+msgstr "Силовая панель"
+
+msgid "Rack"
+msgstr "Стойка"
+
+msgid "Connected Device"
+msgstr "Подключенное устройство"
+
+msgid "Supply"
+msgstr "Поставка"
+
+msgid "Voltage"
+msgstr "Напряжение"
+
+msgid "Amperage"
+msgstr "Ток"
+
+msgid "Phase"
+msgstr "Фаза"
+
+msgid "Max Utilization"
+msgstr "Максимальное использование"
+
+msgid "N/A"
+msgstr "Не доступно"
+
+msgid "Search power feeds"
+msgstr "Поиск электропитания"
+
+msgid "Electrical Characteristics"
+msgstr "Электрические характеристики"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Parent Device"
+msgstr "Вышестоящее устройство"
+
+msgid "Bay"
+msgstr "Отсек"
+
+msgid "Characteristics"
+msgstr "Характеристики"
+
+msgid "Front"
+msgstr "Спереди"
+
+msgid "Rear"
+msgstr "Сзади"
+
+msgid "Normal"
+msgstr "Нормальный"
+
+msgid "Reversed"
+msgstr "Зарезервированный"
+
+msgid "No racks found"
+msgstr "Стойки не обнаружены"
+
+msgid "Show Images"
+msgstr "Показать изображения"
+
+msgid "Parent"
+msgstr "Вышестоящий"
+
+msgid "LAG"
+msgstr "Аггрегация"
+
+msgid "Side"
+msgstr "Сторона"
+
+msgid "Connection Status"
+msgstr "Статус подключения"
+
+msgid "No member interfaces"
+msgstr "Не в составе интерфейсов"
+
+msgid "Connection"
+msgstr "Подключение"
+
+msgid "LAG Members"
+msgstr "В составе аггрегации"
+
+msgid "Outer dimensions"
+msgstr "Внешние размеры"
+
+msgid "Dimensions"
+msgstr "Размеры"
+
+msgid "Are you sure you want to delete this inventory item from <strong>{{ inventoryitem.device }}</strong>?"
+msgstr "Вы уверены, что хотите удалить эту часть устройства из <strong>{{ inventoryitem.device }}</strong>?"
+
+msgid "Are you sure you want to delete this console port from <strong>{{ consoleport.device }}</strong>?"
+msgstr "Вы уверены, что хотите удалить этот консольный порт из <strong>{{ consoleport.device }}</strong>?"
+
+msgid "Power Port"
+msgstr "Порт питания"
+
+msgid "Feed Leg"
+msgstr "Feed Leg"
+
+msgid "Member Devices"
+msgstr "Устройства в составе"
+
+msgid "Are you sure you want to delete this console server port from <strong>{{ consoleserverport.device }}</strong>?"
+msgstr "Вы уверены, что хотите удалить этот порт консольного сервера из <strong>{{ consoleserverport.device }}</strong>?"
+
+msgid "Add Another"
+msgstr "Добавить еще"
+
+msgid "Add New Member"
+msgstr "Добавить новый"
+
+msgid "Are you sure you want to delete this device bay from <strong>{{ devicebay.device }}</strong>?"
+msgstr "Вы уверены, что хотите удалить этот отсек устройства из <strong>{{ devicebay.device }}</strong>?"
+
+msgid "Maximum Draw"
+msgstr "Максимальная нагрузка"
+
+msgid "Allocated Draw"
+msgstr "Выделенная нагрузка"
+
+msgid "Rack/Unit"
+msgstr "Стойка/Юнит"
+
+msgid "Serial"
+msgstr "Серийный"
+
+msgid "Position"
+msgstr "Позиция"
+
+msgid "Priority"
+msgstr "Приоритет"
+
+msgid "Members"
+msgstr "Элементы"
+
+msgid "Are you sure you want to delete this power outlet from <strong>{{ poweroutlet.device }}</strong>?"
+msgstr "Вы уверены, что хотите удалить эту розетку из <strong>{{ poweroutlet.device }}</strong>?"
+
+msgid "Panel"
+msgstr "Панель"
+
+msgid "Feed"
+msgstr "Питание"
+
+msgid "Utilization"
+msgstr "Использование"
+
+msgid "Units"
+msgstr "Юниты"
+
+msgid "Facility ID"
+msgstr "Facility ID"
+
+msgid "Serial Number"
+msgstr "Серийный номер"
+
+msgid "Asset Tag"
+msgstr "Asset Tag"
+
+msgid "Width"
+msgstr "Ширина"
+
+msgid "Height"
+msgstr "Высота"
+
+msgid "Outer Width"
+msgstr "Наружная ширина"
+
+msgid "Outer Depth"
+msgstr "Наружная глубина"
+
+msgid "Search racks"
+msgstr "Поиск стоек"
+
+msgid "Edit reservation"
+msgstr "Редактировать резервирование"
+
+msgid "Delete reservation"
+msgstr "Удалить резервирование"
+
+msgid "Previous Rack"
+msgstr "Предыдущая стойка"
+
+msgid "Next Rack"
+msgstr "Следующая стойка"
+
+msgid "Attach an image"
+msgstr "Прикрепить изображение"
+
+msgid "Add a reservation"
+msgstr "Добавить резервирование"
+
+msgid "Add a non-racked device"
+msgstr "Добавить устройство без стойки"
+
+msgid "Images"
+msgstr "Изображения"
+
+msgid "Non-Racked Devices"
+msgstr "Устройства без стоек"
+
+msgid "Rear Port Position"
+msgstr "Позиция заднего порта"
+
+msgid "Are you sure you want to delete this interface from <strong>{{ interface.device }}</strong>?"
+msgstr "Вы уверены, что хотите удалить этот интерфейс из <strong>{{ interface.device }}</strong>?"
+
+msgid "Configured Device"
+msgstr "Сконфигурированное устройство"
+
+msgid "Configured Interface"
+msgstr "Сконфигурированный интерфейс"
+
+msgid "LLDP Device"
+msgstr "LLDP устройство"
+
+msgid "LLDP Interface"
+msgstr "LLDP интерфейс"
+
+msgid "None"
+msgstr "Нет"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Connected"
+msgstr "Подключенный"
+
+msgid "Near End"
+msgstr "Ближний конец"
+
+msgid "Far End"
+msgstr "Дальний конец"
+
+msgid "No Cable"
+msgstr "Нет кабеля"
+
+msgid "Trace completed!"
+msgstr "Трассировка завершена!"
+
+msgid "<i class="fa fa-warning"></i> Trace Split"
+msgstr "<i class="fa fa-warning"></i> Трассировка не завершена"
+
+msgid " This will also delete all child inventory items of those listed."
+msgstr " Это также приведет к удалению всех дочерних элементов из перечисленных."
+
+msgid "Hostname"
+msgstr "Имя хоста"
+
+msgid "FQDN"
+msgstr "FQDN"
+
+msgid "Vendor"
+msgstr "Производитель"
+
+msgid "Model"
+msgstr "Модель"
+
+msgid "OS Version"
+msgstr "Версия ОС"
+
+msgid "Uptime"
+msgstr "Время работы"
+
+msgid "CPU"
+msgstr "Процессор"
+
+msgid "Memory"
+msgstr "Память"
+
+msgid "Temperature"
+msgstr "Теспература"
+
+msgid "Fans"
+msgstr "Вентиляторы"
+
+msgid "Used"
+msgstr "Используется"
+
+msgid "Available"
+msgstr "Доступно"
+
+msgid "Device Facts"
+msgstr "Об устройстве"
+
+msgid "Environment"
+msgstr "Окружающая среда"
+
+msgid "Master"
+msgstr "Главный"
+
+msgid "Input"
+msgstr "Ввод"
+
+msgid "Outlets"
+msgstr "Выводы"
+
+msgid "Allocated"
+msgstr "Распределенный"
+
+msgid "Positions"
+msgstr "Позиции"
+
+msgid "Draw"
+msgstr "Чертеж"
+
+msgid "Input/Leg"
+msgstr "Вход/Задержка"
+
+msgid "&mdash; No device bays defined &mdash;"
+msgstr "&mdash; Отсеки устройств не определены &mdash;"
+
+msgid "Search devices"
+msgstr "Поиск устройства"
+
+msgid "Filter text (regular expressions supported)"
+msgstr "Фильтр текста (поддерживаются регулярные выражения)"
+
+msgid "Delete selected"
+msgstr "Удалить выделенные"
+
+msgid "View Virtual Chassis"
+msgstr "Просмотр виртуального шасси"
+
+msgid "Add secret"
+msgstr "Добавить ключ"
+
+msgid "Add front ports"
+msgstr "Добавить передние порты"
+
+msgid "Add rear ports"
+msgstr "Добавить задние порты"
+
+msgid "Add console server ports"
+msgstr "Добавить консольные серверные порты"
+
+msgid "Add power port"
+msgstr "Добавить силовой порт"
+
+msgid "Add power outlets"
+msgstr "Добавить силовую розетку"
+
+msgid "Add device bays"
+msgstr "Добавление отсеков устройств"
+
+msgid "Power Utilization"
+msgstr "Использование электроэнергии"
+
+msgid "Related Devices"
+msgstr "Связанные устройства"
+
+msgid "Part ID"
+msgstr "Идентификатор детали"
+
+msgid "Discovered"
+msgstr "Обнаруженный"
+
+msgid "Add Inventory Item"
+msgstr "Добавить часть устройства"
+
+msgid "Are you sure you want to disconnect these {{ selected_objects|length }} {{ obj_type_plural }}?"
+msgstr "Вы уверены, что хотите отключить эти {{ selected_objects|length }} {{ obj_type_plural }}?"
+
+msgid "New {{ component_type }}"
+msgstr "Новый {{ component_type }}"
+
+msgid "A Side"
+msgstr "Точка клиента"
+
+msgid "B Side"
+msgstr "Точка поставщика"
+
+msgid "Color"
+msgstr "Цвет"
+
+msgid "Length"
+msgstr "Длина"
+
+msgid "Termination A"
+msgstr "Подключение поставщика"
+
+msgid "Termination B"
+msgstr "Подключение клиента"
+
+msgid "Rack Reservations"
+msgstr "Резервирование стоек"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Reservation Details"
+msgstr "Подробности резервирования"
+
+msgid "Units {{ rackreservation.unit_list }}"
+msgstr "Юнитов {{ rackreservation.unit_list }}"
+
+msgid "Domain"
+msgstr "Домен"
+
+msgid "Search virtual chassis"
+msgstr "Поиск виртуальных шасси"
+
+msgid "Add Member"
+msgstr "Добавить запись"
+
+msgid "Are you sure you want to remove <strong>{{ device_bay.installed_device }}</strong> from <strong>{{ device_bay }}</strong>?"
+msgstr "Вы уверены что хотите удалить <strong>{{ device_bay.installed_device }}</strong> из <strong>{{ device_bay }}</strong>?"
+
+msgid "Contact Info"
+msgstr "Контактная информация"
+
+msgid " Remove"
+msgstr " Удалить"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Parent device"
+msgstr "Вышестоящее устройство"
+
+msgid "Parent bay"
+msgstr "Вышестоящий отсек"
+
+msgid "Hardware"
+msgstr "Аппаратное обеспечение"
+
+msgid "Virtualization"
+msgstr "Виртуализация"
+
+msgid "Rack Group"
+msgstr "Группа стоек"
+
+msgid "Search power panels"
+msgstr "Поиск силовой панели"
+
+msgid "Region"
+msgstr "Регион"
+
+msgid "Facility"
+msgstr "Объект"
+
+msgid "AS Number"
+msgstr "Под номером"
+
+msgid "Time Zone"
+msgstr "Часовой пояс"
+
+msgid "Physical Address"
+msgstr "Фактический адрес"
+
+msgid "Shipping Address"
+msgstr "Адрес доставки"
+
+msgid "GPS Coordinates"
+msgstr "GPS координаты"
+
+msgid "Contact Name"
+msgstr "ФИО отвественного"
+
+msgid "Contact Phone"
+msgstr "Контактный телефон"
+
+msgid "Contact E-Mail"
+msgstr "Электронная почта"
+
+msgid "Search sites"
+msgstr "Поиск адреса"
+
+msgid "View elevations"
+msgstr "Посмотреть стойки"
+
+msgid " Map it"
+msgstr " На карте"
+
+msgid "Parent Item"
+msgstr "Родительский элемент"
+
+msgid "Inventory Item"
+msgstr "Часть устройства"
+
+msgid "Rack Images"
+msgstr "Изображения стойки"
+
+msgid "Are you sure you want to delete this power port from <strong>{{ powerport.device }}</strong>?"
+msgstr "Вы уверены, что хотите удалить этот порт питания из <strong>{{ powerport.device }}</strong>?"
+
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+msgid "Confirm"
+msgstr "Подтвердить"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "Field"
+msgstr "Поле"
+
+msgid "Required"
+msgstr "Обязательный"
+
+msgid "Accessor"
+msgstr "Дополнительный"
+
+msgid " Choices"
+msgstr " Выбор"
+
+msgid "Submit"
+msgstr "Отправить"
+
+msgid "CSV Field Options"
+msgstr "Опции CSV поля"
+
+msgid "must"
+msgstr "must"
+
+msgid "Submit and Import Another"
+msgstr "Отправить и импортировать еще"
+
+msgid "Configure table"
+msgstr "Настроить таблицу"
+
+msgid "<i class="fa fa-cog"></i> Configure"
+msgstr "<i class="fa fa-cog"></i> Настройки"
+
+msgid "Edit All"
+msgstr "Редактировать все"
+
+msgid "Delete All"
+msgstr "Удалить все"
+
+msgid "Edit Selected"
+msgstr "Редактировать выделенные"
+
+msgid "Delete Selected"
+msgstr "Удалить выделенные"
+
+msgid "all {{ table.rows|length }} {{ table.data.verbose_name_plural }}"
+msgstr "все {{ table.rows|length }} {{ table.data.verbose_name_plural }}"
+
+msgid "Are you sure you want to delete {{ obj_type }} <strong>{{ obj }}</strong>?"
+msgstr "Вы уверены что хотите удалить {{ obj_type }} <strong>{{ obj }}</strong>?"
+
+msgid "{% block form_title %}Attributes{% endblock %}"
+msgstr "{% block form_title %}Свойства{% endblock %}"
+
+msgid "<strong>Warning:</strong> The following operation will delete {{ table.rows|length }} {{ obj_type_plural }}. Please carefully review the {{ obj_type_plural }} to be deleted and confirm below."
+msgstr "<strong>Warning:</strong> Следующая операция удалит {{ table.rows|length }} {{ obj_type_plural }}. Пожалуйста проверьте удаляемые объекты {{ obj_type_plural }} и подтвердите действие."
+
+msgid "Delete these {{ table.rows|length }} {{ obj_type_plural }}"
+msgstr "Удалить эти {{ table.rows|length }} {{ obj_type_plural }}"
+
+msgid "Confirm Bulk Deletion"
+msgstr "Подтвердить массовое удаление"
+
+msgid "Warning:"
+msgstr "Внимание:"
+
+msgid "Current Name"
+msgstr "Текущее название"
+
+msgid "New Name"
+msgstr "Новое название"
+
+msgid "Preview"
+msgstr "Просмотр"
+
+msgid "Confirm Bulk Removal"
+msgstr "Подтвердить массовое удаление"
+
+msgid "NetBox"
+msgstr "Модуль инвентаризации"
+
+msgid "Preference"
+msgstr "Настройка"
+
+msgid "Value"
+msgstr "Значение"
+
+msgid "No preferences found"
+msgstr "Настройки не найдены"
+
+msgid "Clear Selected"
+msgstr "Очистить выделенные"
+
+msgid "Are you sure you want to delete your session key?"
+msgstr "Вы уверены что хотите удалить ваш ключ сессии?"
+
+msgid "Preferences"
+msgstr "Настройки"
+
+msgid "Change Password"
+msgstr "Изменить пароль"
+
+msgid "API Tokens"
+msgstr "API токены"
+
+msgid "User Key"
+msgstr "Ключ пользователя"
+
+msgid "You don't have a user key on file."
+msgstr "В файле отсутсвует пользовательский ключ."
+
+msgid "No active session key"
+msgstr "Нет активной сессии ключа"
+
+msgid "Edit user key"
+msgstr "Редактировать ключ пользователя"
+
+msgid "Delete session key"
+msgstr "Удалить ключ сессии"
+
+msgid "Create a User Key"
+msgstr "Создать пользовательский ключ"
+
+msgid "Your user key is inactive. Ask an administrator to enable it for you."
+msgstr "Ваш пользовательский ключ не активен. Попросите администратора включить его для вас."
+
+msgid "Generate a New Key Pair"
+msgstr "Сгенерировать новые ключевые пары"
+
+msgid "I have saved my new private key"
+msgstr "Я сохранил свой новый закрытый ключ"
+
+msgid "New Public Key"
+msgstr "Новый публичный ключ"
+
+msgid "New Private Key"
+msgstr "Новый закрытый ключ"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Copy"
+msgstr "Копировать"
+
+msgid "You do not have any API tokens."
+msgstr "Вы не имеете ни одного API токена."
+
+msgid "Add a token"
+msgstr "Добавить токен"
+
+msgid "New IP"
+msgstr "Новый IP"
+
+msgid "Assign IP"
+msgstr "Назначить IP"
+
+msgid "Bulk Create"
+msgstr "Массовое создание"
+
+msgid "Show available"
+msgstr "Показать доступные"
+
+msgid "Hide available"
+msgstr "Скрыть доступные"
+
+msgid "Change log"
+msgstr "Журнал изменений"
+
+msgid "Edit service"
+msgstr "Редактировать сервис"
+
+msgid "Delete service"
+msgstr "Удалить сервис"
+
+msgid "Edit this VLAN Group"
+msgstr "Редактировать группу VLAN"
+
+msgid " Add a VLAN"
+msgstr " Добавить VLAN"
+
+msgid "Prefix"
+msgstr "Подсеть"
+
+msgid "Family"
+msgstr "Семейство"
+
+msgid "Aggregate"
+msgstr "Сеть"
+
+msgid "VLAN"
+msgstr "VLAN"
+
+msgid "Is a pool"
+msgstr "Это диапазон"
+
+msgid "Search prefixes"
+msgstr "Поиск подсетей"
+
+msgid "Add an IP Address"
+msgstr "Добавление IP адреса"
+
+msgid " Add Child Prefix"
+msgstr " Добавить дочернюю подсеть"
+
+msgid "Service"
+msgstr "Сервис"
+
+msgid "By Device"
+msgstr "По устройству"
+
+msgid "By VM"
+msgstr "По ВМ"
+
+msgid "By IP"
+msgstr "По IP"
+
+msgid "Interface Assignment"
+msgstr "Назначение интерфейса"
+
+msgid "NAT IP (Inside)"
+msgstr "NAT IP (внутренний)"
+
+msgid "IPv4 Stats"
+msgstr "IPv4 статистика"
+
+msgid "IPv6 Stats"
+msgstr "IPv6 статистика"
+
+msgid "Numbers shown indicate /64 prefixes."
+msgstr "Показанные числа указывают на префиксы /64."
+
+msgid "Note: This will <strong>not</strong> delete any child prefixes or IP addresses."
+msgstr "Примечание: это <strong>не приведет к удалению</strong> всех дочерних подсетей или IP-адресов."
+
+msgid "Site/VLAN Assignment"
+msgstr "Адрес/назначение VLAN"
+
+msgid "RIR"
+msgstr "RIR"
+
+msgid "Date Added"
+msgstr "Дата добавления"
+
+msgid "Search aggregates"
+msgstr "Поиск сетей"
+
+msgid "VLAN ID"
+msgstr "VLAN ID"
+
+msgid "Search VLANs"
+msgstr "Поиск VLANов"
+
+msgid "Add a prefix"
+msgstr "Добавить подсеть"
+
+msgid "{% endif %}"
+msgstr "{% endif %}"
+
+msgid "Assign an IP Address"
+msgstr "Назначить IP адрес"
+
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+msgid "Select IP Address"
+msgstr "Выбрать IP Адрес"
+
+msgid "Route Distinguisher"
+msgstr "Route Distinguisher"
+
+msgid "Unique IP Space"
+msgstr "Уникальное IP пространство"
+
+msgid "Search VRFs"
+msgstr "Поиск VRFs"
+
+msgid "<i class="fa fa-bar-chart"></i> Statistics"
+msgstr "<i class="fa fa-bar-chart"></i> Статистика"
+
+msgid "Protocol"
+msgstr "Протокол"
+
+msgid "Search Services"
+msgstr "Поиск сервисов"
+
+msgid "DNS Name"
+msgstr "DNS имя"
+
+msgid "Assignment"
+msgstr "Назначение"
+
+msgid "Search IPs"
+msgstr "Поиск IP адресов"
+
+msgid "Duplicate IP Addresses"
+msgstr "Дубликаты IP адресов"
+
+msgid "JSON"
+msgstr "JSON"
+
+msgid "YAML"
+msgstr "YAML"
+
+msgid "Failed"
+msgstr "Неудачный"
+
+msgid "Errored"
+msgstr "Ошибочный"
+
+msgid "Pending"
+msgstr "В ожидании"
+
+msgid "Completed"
+msgstr "Завершенный"
+
+msgid "Home"
+msgstr "На главную"
+
+msgid "Installed Plugins"
+msgstr "Установленные дополнения"
+
+msgid "Installed Plugins{{ queue.name }}"
+msgstr "Установленные дополнения {{ queue.name }}"
+
+msgid "Rendered Context"
+msgstr "Rendered Context"
+
+msgid "Local Context"
+msgstr "Local Context"
+
+msgid "Source Contexts"
+msgstr "Source Contexts"
+
+msgid "Log"
+msgstr "Лог"
+
+msgid "Output"
+msgstr "Вывод"
+
+msgid "Source"
+msgstr "Источник"
+
+msgid "Line"
+msgstr "Линия"
+
+msgid "Level"
+msgstr "Уровень"
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Script Log"
+msgstr "Лог скрипта"
+
+msgid "Last Run"
+msgstr "Последний запуск"
+
+msgid "Reports should be saved to <code>{{ settings.REPORTS_ROOT }}</code>. (This path can be changed by setting <code>REPORTS_ROOT</code> in NetBox's configuration.)"
+msgstr "Отчет сохранен в <code>{{ settings.REPORTS_ROOT }}</code>. (Данный путь может быть изменен в настройках конфигурации <code>REPORTS_ROOT</code>.)"
+
+msgid "No reports found."
+msgstr "Сообщений не найдено."
+
+msgid "None found"
+msgstr "Не найдено"
+
+msgid "Never"
+msgstr "Никогда"
+
+msgid "Scripts should be saved to <code>{{ settings.SCRIPTS_ROOT }}</code>. (This path can be changed by setting <code>SCRIPTS_ROOT</code> in NetBox's configuration.)"
+msgstr "Скрипт сохранен в <code>{{ settings.SCRIPTS_ROOT }}</code>. (Данный путь может быть изменен в настройках конфигурации <code>SCRIPTS_ROOT</code>.)"
+
+msgid "No scripts found."
+msgstr "Скрипты не найдены."
+
+msgid "Tag"
+msgstr "Тэг"
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "Tagged Items"
+msgstr "Помеченные элементы"
+
+msgid "Edit this tag"
+msgstr "Редактировать этот тэг"
+
+msgid "Delete this tag"
+msgstr "Удалить этот тэг"
+
+msgid "Time"
+msgstr "Время"
+
+msgid "Object"
+msgstr "Объект"
+
+msgid "Report Methods"
+msgstr "Методы отчетов"
+
+msgid "Report Results"
+msgstr "Результаты отчетов"
+
+msgid "Weight"
+msgstr "Вес"
+
+msgid "Active"
+msgstr "Активный"
+
+msgid "Roles"
+msgstr "Роли"
+
+msgid "Edit this config context"
+msgstr "Редактировать этот контекст конфигурации"
+
+msgid "Data"
+msgstr "Данные"
+
+msgid "See all {{ related_changes_count|add:"1" }} changes"
+msgstr "Смотреть все {{ related_changes_count|add:"1" }} изменения"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "Object Type"
+msgstr "Тип объекта"
+
+msgid "Request ID"
+msgstr "ID запроса"
+
+msgid "Previous"
+msgstr "Предыдущий"
+
+msgid "Change"
+msgstr "Изменить"
+
+msgid "Difference"
+msgstr "Различия"
+
+msgid "Object Data"
+msgstr "Данные объекта"
+
+msgid "Run"
+msgstr "Запустить"
+
+msgid "<i class="fa fa-play"></i> Run Script"
+msgstr "<i class="fa fa-play"></i> Запустить скрипт"
+
+msgid "You do not have permission to run scripts."
+msgstr "Вы не имеете разрешения для запуска скрипта."
+
+msgid "This script does not require any input to run."
+msgstr "Этот сценарий не требует каких-либо входных данных для запуска."
+
+msgid "Script Data"
+msgstr "Данные скрипта"
+
+msgid "View All"
+msgstr "Смотреть все"
+
+msgid "Import more"
+msgstr "Импортировать еще"
+
+msgid "Upgrade instructions"
+msgstr "Инструкции по обновлению"
+
+msgid "Console"
+msgstr "Консоль"
+
+msgid "View All Changes"
+msgstr "Смотреть все изменения"
+
+msgid "Geographic locations"
+msgstr "Географическое расположение"
+
+msgid "Customers or departments"
+msgstr "Отделы или департьаменты"
+
+msgid "Equipment racks, optionally organized by group"
+msgstr "Стойки с оборудованием, дополнительно организованы в группы"
+
+msgid "Physical hardware models by manufacturer"
+msgstr "Физические модели оборудования по производителям"
+
+msgid "Rack-mounted network equipment, servers, and other devices"
+msgstr "Стоечное сетевое оборудование, серверы и другие устройства"
+
+msgid "Electrical circuits delivering power from panels"
+msgstr "Электрические сети, подающие питание от панелей"
+
+msgid "Electrical panels receiving utility power"
+msgstr "Электрические панели, получающие электроэнергию общего назначения"
+
+msgid "Virtual routing and forwarding tables"
+msgstr "Виртуальные таблицы маршрутизации и пересылки"
+
+msgid "Top-level IP allocations"
+msgstr "Распределение IP-адресов верхнего уровня"
+
+msgid "IPv4 and IPv6 network assignments"
+msgstr "Распределение сетей IPv4 and IPv6"
+
+msgid "Individual IPv4 and IPv6 addresses"
+msgstr "Индивидуальные IPv4 и IPv6 адреса"
+
+msgid "Layer two domains, identified by VLAN ID"
+msgstr "Второй уровень сетевой модели, идентифицированный VLAN ID"
+
+msgid "Organizations which provide circuit connectivity"
+msgstr "Организации, обеспечивающие подключение каналов связи"
+
+msgid "Communication links for Internet transit, peering, and other services"
+msgstr "Каналы связи для доступа в Интернет, организации VPN и прочего "
+
+msgid "Clusters of physical hosts in which VMs reside"
+msgstr "Кластеры физических узлов, в которых находятся виртуальные машины"
+
+msgid "Virtual compute instances running inside clusters"
+msgstr "Экземпляры виртуальных машин, работающие внутри кластеров"
+
+msgid "Cryptographically secured secret data"
+msgstr "Криптографически защищенные данные"
+
+msgid "No permission"
+msgstr "Нет доступа"
+
+msgid "            A new release is available: <a href="{{ new_release.url }}">NetBox v{{ new_release.version }}"
+msgstr "            Доступен новый релиз: <a href="{{ new_release.url }}">NetBox v{{ new_release.version }}"
+
+msgid "Organization"
+msgstr "Структура"
+
+msgid "Other"
+msgstr "Прочее"
+
+msgid "Add Components "
+msgstr "Добавить компоненты"
+
+msgid "DCIM"
+msgstr "Устройства"
+
+msgid "IPAM"
+msgstr "IP адреса"
+
+msgid "NetBox is currently in maintenance mode. Functionality may be limited."
+msgstr "В настоящее время модуль находится в режиме технического обслуживания. Функциональность может быть ограничена."
+
+msgid "<i class="fa fa-exclamation-triangle"></i> Maintenance Mode"
+msgstr "<i class="fa fa-exclamation-triangle"></i> Режим обслуживания"
+
+msgid " <a href="http://netbox.readthedocs.io/">Docs"
+msgstr " <a href="http://netbox.readthedocs.io/">Документация"
+
+msgid " <a href="{% url 'api_docs' %}">API"
+msgstr " <a href="{% url 'api_docs' %}">API"
+
+msgid " <a href="https://github.com/netbox-community/netbox">Code"
+msgstr " <a href="https://github.com/netbox-community/netbox">Исходный код"
+
+msgid " <a href="https://github.com/netbox-community/netbox/wiki">Help"
+msgstr " <a href="https://github.com/netbox-community/netbox/wiki">Помощь"
+
+msgid "{% block title %}Home{% endblock %} - NetBox"
+msgstr "{% block title %}Главная{% endblock %} - Модуль инвентаризации"
+
+msgid "NetBox mailing list"
+msgstr "Список рассылки"
+
+msgid "Home Page"
+msgstr "Главная страница"
+
+msgid "Server Error"
+msgstr "Ошибка сервера"
+
+msgid "Log In"
+msgstr "Вход"
+
+msgid "Check the following:"
+msgstr "Проверьте следующее:"
+
+msgid "Click <a href="/">here</a> to attempt loading NetBox again."
+msgstr "Нажмите <a href="/">здесь</a> чтобы попытаться запустить модуль."
+
+msgid "Static Media Failure"
+msgstr "Ошибка статических данных"
+
+msgid "Static Media Failure - NetBox"
+msgstr "Static Media Failure - NetBox"
+
+msgid "No results found"
+msgstr "Ничего не найдено"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Reset"
+msgstr "Сброс"
+
+msgid "Route Targets"
+msgstr "Цели маршрута"
+
+msgid "Add a new"
+msgstr "Добавить"
+
+msgid "Editing"
+msgstr "Редактировать"
+
+msgid " Configure"
+msgstr " Настроить"
+
+msgid "Rack Elevations"
+msgstr " Высота стойки"
+
+msgid "Delete power port"
+msgstr "Удалить порт питания"
+
+msgid "Delete console port"
+msgstr "Удалить консольный порт"
+
+msgid "Delete power outlet"
+msgstr "Удалить розетку"
+
+msgid "Delete inventory item"
+msgstr "Удалить товарный запас"
+
+msgid "Delete interface"
+msgstr "Удалить интерфейс"
+
+msgid "Delete device bay"
+msgstr "Удалить отсек устройства"
+
+msgid "from"
+msgstr "из"
+
+msgid "Populate"
+msgstr "Заполнить"
+
+msgid "?v"
+msgstr "?v"
+
+msgid "Delete console server port"
+msgstr "Удалить порт консольного сервера"
+
+msgid "Cable Trace for"
+msgstr "Кабельная трасса для"
+
+msgid "Route target"
+msgstr "Цель маршрута"
+
+msgid "Renaming"
+msgstr "Переименование"
+
+msgid "Tenant_Group"
+msgstr "группы учреждений"
+
+msgid "Delete secret"
+msgstr "Удалить секрет"
+
+msgid "Delete secret"
+msgstr "Удалить ключи"
+
+msgid "Showing"
+msgstr "Показ"
+
+msgid "per page"
+msgstr "следующая"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""

@@ -1,0 +1,497 @@
+# Translation of NetBox in Russian language
+# This file is distributed under the same license as the NetBox package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-18 23:14:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: ru_RU\n"
+"Project-Id-Version: NetBox\n"
+
+msgid "name"
+msgstr "название"
+
+msgid "description"
+msgstr "описание"
+
+msgid "slug"
+msgstr "короткий URL"
+
+msgid "type"
+msgstr "тип"
+
+msgid "group"
+msgstr "группа"
+
+msgid "tenant"
+msgstr "учреждение"
+
+msgid "tenants"
+msgstr "учреждения"
+
+msgid "site"
+msgstr "адрес"
+
+msgid "comments"
+msgstr "комментарий"
+
+msgid "cluster"
+msgstr "кластер"
+
+msgid "platform"
+msgstr "платформа"
+
+msgid "status"
+msgstr "статус"
+
+msgid "role"
+msgstr "роль"
+
+msgid "primary_ip4"
+msgstr "IPv4 адрес"
+
+msgid "primary_ip6"
+msgstr "IPv6 адрес"
+
+msgid "vcpus"
+msgstr "виртуальный CPU"
+
+msgid "memory"
+msgstr "оперативная память (МБ)"
+
+msgid "disk"
+msgstr "диск (ГБ)"
+
+msgid "virtual_machine"
+msgstr "виртуальная машина"
+
+msgid "untagged_vlan"
+msgstr "нетегированный VLAN"
+
+msgid "tagged_vlans"
+msgstr "Тегированный VLAN"
+
+msgid "account"
+msgstr "Реквизиты аккаунта"
+
+msgid "portal_url"
+msgstr "URL портала техподдержки"
+
+msgid "noc_contact"
+msgstr "Email и телефон"
+
+msgid "admin_contact"
+msgstr "телефон ответственного"
+
+msgid "cid"
+msgstr "уникальный ID канала"
+
+msgid "provider"
+msgstr "поставщик услуг"
+
+msgid "install_date"
+msgstr "дата установки"
+
+msgid "commit_rate"
+msgstr "Скорость канала (Мбит/с)"
+
+msgid "circuit"
+msgstr "внешний канал"
+
+msgid "term_side"
+msgstr "подключение"
+
+msgid "connected_endpoint"
+msgstr "конечная точка"
+
+msgid "connection_status"
+msgstr "статус подключения"
+
+msgid "port_speed"
+msgstr "скорость порта(Мбит/с)"
+
+msgid "upstream_speed"
+msgstr "скорость потока(Мбит/с)"
+
+msgid "xconnect_id"
+msgstr "ID кросс-соединения"
+
+msgid "pp_info"
+msgstr "патч панель/порт(ы)"
+
+msgid "created"
+msgstr "создано"
+
+msgid "last_updated"
+msgstr "обновлено"
+
+msgid "user"
+msgstr "пользователь"
+
+msgid "public_key"
+msgstr "публичный ключ"
+
+msgid "master_key_cipher"
+msgstr "мастер-ключ"
+
+msgid "userkey"
+msgstr "пользовательский ключ"
+
+msgid "cipher"
+msgstr "шифрование"
+
+msgid "hash"
+msgstr "хэш"
+
+msgid "device"
+msgstr "устройство"
+
+msgid "device_type"
+msgstr "тип устройства"
+
+msgid "label"
+msgstr "маркировка"
+
+msgid "maximum_draw"
+msgstr "Максимальная мощность(Вт)"
+
+msgid "allocated_draw"
+msgstr "Выделенная мощность(Вт)"
+
+msgid "power_port"
+msgstr "силовой порт"
+
+msgid "mgmt_only"
+msgstr "только управление"
+
+msgid "rear_port"
+msgstr "задний порт"
+
+msgid "rear_port_position"
+msgstr "позиция"
+
+msgid "positions"
+msgstr "позиции"
+
+msgid "cable"
+msgstr "кабель"
+
+msgid "enabled"
+msgstr "включен"
+
+msgid "mtu"
+msgstr "значение MTU"
+
+msgid "mode"
+msgstr "режим"
+
+msgid "lag"
+msgstr "интерфейс агрегации"
+
+msgid "installed_device"
+msgstr "установленное устройство"
+
+msgid "parent"
+msgstr "вышестоящий"
+
+msgid "manufacturer"
+msgstr "производитель"
+
+msgid "part_id"
+msgstr "номер партии"
+
+msgid "serial"
+msgstr "серийный номер"
+
+msgid "asset_tag"
+msgstr "UUID"
+
+msgid "discovered"
+msgstr "обнаруженный"
+
+msgid "region"
+msgstr "регион"
+
+msgid "facility"
+msgstr "код региона"
+
+msgid "physical_address"
+msgstr "фактический адрес"
+
+msgid "shipping_address"
+msgstr "адрес доставки"
+
+msgid "latitude"
+msgstr "широта"
+
+msgid "longitude"
+msgstr "долгота"
+
+msgid "contact_name"
+msgstr "ФИО ответственного"
+
+msgid "contact_phone"
+msgstr "телефон"
+
+msgid "contact_email"
+msgstr "Email"
+
+msgid "facility_id"
+msgstr "код региона"
+
+msgid "width"
+msgstr "ширина(в дюймах)"
+
+msgid "u_height"
+msgstr "высота (в юнитах)"
+
+msgid "desc_units"
+msgstr "задние юниты"
+
+msgid "outer_width"
+msgstr "наружная ширина"
+
+msgid "outer_depth"
+msgstr "наружная глубина"
+
+msgid "outer_unit"
+msgstr "наружные размеры"
+
+msgid "rack"
+msgstr "стойка"
+
+msgid "model"
+msgstr "модель"
+
+msgid "part_number"
+msgstr "номер партии"
+
+msgid "is_full_depth"
+msgstr "на всю глубину"
+
+msgid "subdevice_role"
+msgstr "роль встроенного устройства"
+
+msgid "front_image"
+msgstr "изображение спереди"
+
+msgid "rear_image"
+msgstr "изображение сзади"
+
+msgid "vm_role"
+msgstr "роль ВМ"
+
+msgid "napalm_driver"
+msgstr "NAPALM драйвер"
+
+msgid "napalm_args"
+msgstr "NAPALM fhuevtyns"
+
+msgid "device_role"
+msgstr "роль устройства"
+
+msgid "position"
+msgstr "позиция (юнит)"
+
+msgid "face"
+msgstr "стойка спереди"
+
+msgid "virtual_chassis"
+msgstr "виртуальное шасси"
+
+msgid "vc_position"
+msgstr "позиция"
+
+msgid "vc_priority"
+msgstr "приоритет"
+
+msgid "length"
+msgstr "длина"
+
+msgid "length_unit"
+msgstr "длина(в юнитах)"
+
+msgid "domain"
+msgstr "домен"
+
+msgid "rack_group"
+msgstr "группа стоек"
+
+msgid "power_panel"
+msgstr "силовая панель"
+
+msgid "supply"
+msgstr "тип питания"
+
+msgid "phase"
+msgstr "фаза"
+
+msgid "voltage"
+msgstr "напряжение"
+
+msgid "amperage"
+msgstr "сила тока"
+
+msgid "max_utilization"
+msgstr "максимальная нагрузка"
+
+msgid "available_power"
+msgstr "доступная нагрузка"
+
+msgid "data"
+msgstr "данные"
+
+msgid "expires"
+msgstr "истекает"
+
+msgid "key"
+msgstr "ключ"
+
+msgid "write_enabled"
+msgstr "запись разрешена"
+
+msgid "object_types"
+msgstr "тип объекта"
+
+msgid "groups"
+msgstr "группы"
+
+msgid "users"
+msgstr "пользователи"
+
+msgid "constraints"
+msgstr "ограничения"
+
+msgid "rd"
+msgstr "уникальный маршрут"
+
+msgid "enforce_unique"
+msgstr "уникальное пространство"
+
+msgid "date_added"
+msgstr "дата добавления"
+
+msgid "weight"
+msgstr "ширина"
+
+msgid "is_pool"
+msgstr "это пул"
+
+msgid "protocol"
+msgstr "протокол"
+
+msgid "port"
+msgstr "порт"
+
+msgid "ipaddresses"
+msgstr "IP адреса"
+
+msgid "number"
+msgstr "номер"
+
+msgid "tag"
+msgstr "тэг"
+
+msgid "obj_type"
+msgstr "тип объекта"
+
+msgid "type_create"
+msgstr "добавление"
+
+msgid "type_update"
+msgstr "обновление"
+
+msgid "type_delete"
+msgstr "удаление"
+
+msgid "additional_headers"
+msgstr "заголовки"
+
+msgid "body_template"
+msgstr "Jinja2 шаблон"
+
+msgid "secret"
+msgstr "секретный ключ"
+
+msgid "group_name"
+msgstr "название группы"
+
+msgid "button_class"
+msgstr "класс"
+
+msgid "new_window"
+msgstr "новое окно"
+
+msgid "source"
+msgstr "источник"
+
+msgid "link"
+msgstr "ссылка"
+
+msgid "mime_type"
+msgstr "MIME тип"
+
+msgid "file_extension"
+msgstr "расширение"
+
+msgid "image"
+msgstr "изображение"
+
+msgid "is_active"
+msgstr "активен"
+
+msgid "regions"
+msgstr "регионы"
+
+msgid "sites"
+msgstr "адреса"
+
+msgid "roles"
+msgstr "роли"
+
+msgid "platforms"
+msgstr "платформы"
+
+msgid "cluster_groups"
+msgstr "группы кластеров"
+
+msgid "clusters"
+msgstr "кластеры"
+
+msgid "tenant_groups"
+msgstr "группы учреждений"
+
+msgid "tags"
+msgstr "тэги"
+
+msgid "time"
+msgstr "время"
+
+msgid "user_name"
+msgstr "имя пользователя"
+
+msgid "action"
+msgstr "действие"
+
+msgid "required"
+msgstr "обязательно"
+
+msgid "default"
+msgstr "по умолчанию"
+
+msgid "field"
+msgstr "поле"
+
+msgid "value"
+msgstr "значение"
+
+msgid "time_zone"
+msgstr "часовой пояс"
+
+msgid "Tenant_Group"
+msgstr "группы учреждений"
+msgid "tenant_groups"
+msgstr "группы учреждений"
