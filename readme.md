@@ -13,7 +13,7 @@ nbt_data - dicts, utils, reg-vocabulary
 The contents of the nb-translator folder must be unpacked to the root folder "netbox" and run the script:
 
 ```bash
-sudo ./translane.py
+./translane.sh
 ```
 Script clones the folder "netbox" in " netbox_old "( for the possibility of recovery) and translates to the contents of the folder " netbox"
 ## Dependences
