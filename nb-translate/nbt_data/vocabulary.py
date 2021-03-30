@@ -1,3 +1,5 @@
+STATISTIC = "http://ipam.mchs.ru/report/statistic"
+
 '''
 Set html patterns
 '''
@@ -36,3 +38,16 @@ phrases_patterns = [
     r'verbose_name_plural\s?=\s?[\'\"](.+)[\'\"]',
     r'label\s?=\s?[\'\"](.+)[\'\"]'
 ]
+
+
+html_dict = {
+    "statistic": {
+        "search": "<a href=\"{% url 'extras:report_list' %}\">Reports</a>",
+        "search_r": "<a href=\"{% url 'extras:report_list' %}\">Отчеты</a>",
+        "swap": "\t\t\t\t\t\t<li class=\"divider\"></li>\n"
+                "\t\t\t\t\t\t<li{% if not perms.extras.view_report %} class=\"disabled\"{%endif %}>\n"
+                f"\t\t\t\t\t\t\t<a href=\"{STATISTIC}\">Статистика</a>\n"
+                "\t\t\t\t\t\t</li>\n"
+
+    }
+}

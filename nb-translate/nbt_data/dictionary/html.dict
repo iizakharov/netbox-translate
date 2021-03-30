@@ -1817,6 +1817,9 @@ msgstr "            Доступен новый релиз: <a href="{{ new_rele
 msgid "Organization"
 msgstr "Структура"
 
+msgid "Plugins"
+msgstr "Плагины"
+
 msgid "Other"
 msgstr "Прочее"
 

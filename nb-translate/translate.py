@@ -9,7 +9,8 @@ from shutil import copyfile
 from nbt_data.vocabulary import html_patterns, phrases_patterns
 from nbt_data.utils import get_files, get_dictionary, add_verbose_name_if_not_exist, set_rus_lang_in_settings, \
     hard_code_translate, search_form_translate, translate_titles, copy_files, get_all_fields_from_file, \
-    generate_fields_patterns, check_field_param, create_field_param, add_verb_name_to_field, add_label_to_field
+    generate_fields_patterns, check_field_param, create_field_param, add_verb_name_to_field, add_label_to_field, \
+    add_link_in_nav_menu
 
 # set main variables
 nb = 'netbox'
@@ -49,7 +50,6 @@ for f in files:
                 #print('---------PHRASES-FOR-"' + mp + '"-------')
                 #print(f)
                 #print(m)
-
                 if mp not in all_phrases_from_py:
                     all_phrases_from_py.append(mp)
         o.close()
@@ -59,6 +59,8 @@ Get phrases from html templates and html tags
 '''
 for f in files:
     fn, fe = os.path.splitext(f)
+    if fe == '.html' and 'inc/nav_menu' in fn:
+        add_link_in_nav_menu(f)
     if fe == '.html' and 'jquery-ui-' not in fn:
         o = open(f, 'r')
         c = o.read()
@@ -80,7 +82,7 @@ for f in files:
     elif os.path.basename(f) == 'object_edit.html':
         hard_code_translate(f)
     fn, fe = os.path.splitext(f)
-    if '/netbox/netbox/forms' in f and fe == '.py':
+    if 'netbox/netbox/forms' in f and fe == '.py':
         search_form_translate(f)
     elif 'netbox/dcim/views' in f and fe == '.py':
         translate_titles(f)

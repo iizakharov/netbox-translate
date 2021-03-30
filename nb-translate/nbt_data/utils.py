@@ -1,5 +1,6 @@
 import os, re
 from shutil import copyfile
+from nbt_data.vocabulary import html_dict
 
 
 def get_files(directory_name):
@@ -60,7 +61,7 @@ def add_verbose_name_if_not_exist(file):
             if 'class Meta:' in data[i]:
                 try:
                     flag = 0
-                    for j in data[i:i + 7]:
+                    for j in data[i:i + 10]:
                         if 'verbose_name' in j and flag != 2:
                             flag = 1
                             verbose_plural = plural_reg.search(j)
@@ -80,7 +81,7 @@ def add_verbose_name_if_not_exist(file):
                     print(file)
                     print(data[i])
             elif 'class MPTTMeta:' in data[i]:
-                print('in MPTTMeta')
+                # print('in MPTTMeta')
                 flag = 0
                 for j in data[i - 10:i]:
                     if 'class Meta:' in j:
@@ -122,7 +123,7 @@ def search_form_translate(file):
     :param file: /netbox/netbox/forms.py
     :return: /netbox/netbox/forms.py with RUS translate
     """
-    search_data = 'translate_data/search_form.py'
+    search_data = 'nbt_data/translate_data/search_form.py'
     with open(search_data) as f:
         data = f.readlines()
         with open(file, 'w') as f1:
@@ -296,6 +297,21 @@ def add_label_to_field(file):
                 if flag == 0:
                     data[i] += f"        label='{class_name}',\n"
                     print(f'Добавлен label {class_name}')
+        with open(file, 'w+') as f1:
+            f1.writelines(data)
+    return
+
+
+def add_link_in_nav_menu(file):
+    with open(file) as f:
+        data = f.readlines()
+        for i in range(len(data)):
+            if html_dict['statistic']['search'] in data[i] or html_dict['statistic']['search_r'] in data[i]:
+                for j in data[i+2:i+5]:
+                    if 'Статистика' in j:
+                        return
+                else:
+                    data[i + 1] += html_dict['statistic']['swap']
         with open(file, 'w+') as f1:
             f1.writelines(data)
     return
